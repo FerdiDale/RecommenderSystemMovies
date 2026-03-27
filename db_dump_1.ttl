@@ -1,0 +1,3343 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/8_Seconds> rdfs:label "8 Seconds" ;
+    dbo:description "1994 film by John G. Avildsen" ;
+    dbo:director <http://dbpedia.org/resource/John_G._Avildsen> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Carrie_Snodgress>,
+        <http://dbpedia.org/resource/Cynthia_Geary>,
+        <http://dbpedia.org/resource/James_Rebhorn>,
+        <http://dbpedia.org/resource/Luke_Perry>,
+        <http://dbpedia.org/resource/Ronnie_Claire_Edwards>,
+        <http://dbpedia.org/resource/Stephen_Baldwin> .
+
+<http://dbpedia.org/resource/A_Bronx_Tale> rdfs:label "A Bronx Tale" ;
+    dbo:description "1993 film directed by Robert De Niro" ;
+    dbo:director <http://dbpedia.org/resource/Robert_De_Niro> ;
+    dbo:runtime 7200.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chazz_Palminteri>,
+        <http://dbpedia.org/resource/Kathrine_Narducci>,
+        <http://dbpedia.org/resource/Lillo_Brancato>,
+        <http://dbpedia.org/resource/Robert_De_Niro>,
+        <http://dbpedia.org/resource/Taral_Hicks> .
+
+<http://dbpedia.org/resource/A_Goofy_Movie> rdfs:label "A Goofy Movie" ;
+    dbo:description "1995 animated film directed by Kevin Lima" ;
+    dbo:director <http://dbpedia.org/resource/Kevin_Lima> ;
+    dbo:runtime 4680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Farmer>,
+        <http://dbpedia.org/resource/Frank_Welker>,
+        <http://dbpedia.org/resource/Jason_Marsden>,
+        <http://dbpedia.org/resource/Jenna_von_Oÿ>,
+        <http://dbpedia.org/resource/Jim_Cummings>,
+        <http://dbpedia.org/resource/Kellie_Martin>,
+        <http://dbpedia.org/resource/Pauly_Shore>,
+        <http://dbpedia.org/resource/Rob_Paulsen>,
+        <http://dbpedia.org/resource/Wallace_Shawn> .
+
+<http://dbpedia.org/resource/A_Kid_in_King_Arthur's_Court> rdfs:label "A Kid in King Arthur's Court" ;
+    dbo:description "1995 film by Michael Gottlieb" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Gottlieb_(director)> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Art_Malik>,
+        <http://dbpedia.org/resource/Joss_Ackland>,
+        <http://dbpedia.org/resource/Thomas_Ian_Nicholas> .
+
+<http://dbpedia.org/resource/A_Low_Down_Dirty_Shame> rdfs:label "A Low Down Dirty Shame" ;
+    dbo:description "1994 film by Keenen Ivory Wayans" ;
+    dbo:director <http://dbpedia.org/resource/Keenen_Ivory_Wayans> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andrew_Divoff>,
+        <http://dbpedia.org/resource/Charles_S._Dutton>,
+        <http://dbpedia.org/resource/Jada_Pinkett_Smith>,
+        <http://dbpedia.org/resource/Keenen_Ivory_Wayans>,
+        <http://dbpedia.org/resource/Salli_Richardson> .
+
+<http://dbpedia.org/resource/A_Man_of_No_Importance_(film)> rdfs:label "A Man of No Importance" ;
+    dbo:description "1994 film by Suri Krishnamma" ;
+    dbo:director <http://dbpedia.org/resource/Suri_Krishnamma> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Albert_Finney>,
+        <http://dbpedia.org/resource/Brenda_Fricker>,
+        <http://dbpedia.org/resource/Michael_Gambon>,
+        <http://dbpedia.org/resource/Patrick_Malahide>,
+        <http://dbpedia.org/resource/Rufus_Sewell>,
+        <http://dbpedia.org/resource/Tara_Fitzgerald> .
+
+<http://dbpedia.org/resource/A_Pyromaniac's_Love_Story> rdfs:label "A Pyromaniac's Love Story" ;
+    dbo:description "1995 film by Joshua Brand" ;
+    dbo:director <http://dbpedia.org/resource/Joshua_Brand> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Armin_Mueller-Stahl>,
+        <http://dbpedia.org/resource/Erika_Eleniak>,
+        <http://dbpedia.org/resource/Joan_Plowright>,
+        <http://dbpedia.org/resource/John_Leguizamo>,
+        <http://dbpedia.org/resource/Michael_Lerner_(actor)>,
+        <http://dbpedia.org/resource/Sadie_Frost>,
+        <http://dbpedia.org/resource/William_Baldwin> .
+
+<http://dbpedia.org/resource/A_Walk_in_the_Clouds> rdfs:label "A Walk in the Clouds" ;
+    dbo:description "1995 film directed by Alfonso Arau" ;
+    dbo:director <http://dbpedia.org/resource/Alfonso_Arau> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aitana_Sánchez-Gijón>,
+        <http://dbpedia.org/resource/Anthony_Quinn>,
+        <http://dbpedia.org/resource/Giancarlo_Giannini>,
+        <http://dbpedia.org/resource/Keanu_Reeves> .
+
+<http://dbpedia.org/resource/Above_the_Rim> rdfs:label "Above the Rim" ;
+    dbo:description "1994 film directed by Jeff Pollack" ;
+    dbo:director <http://dbpedia.org/resource/Jeff_Pollack> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bernie_Mac>,
+        <http://dbpedia.org/resource/Duane_Martin>,
+        <http://dbpedia.org/resource/Leon_Robinson>,
+        <http://dbpedia.org/resource/Marlon_Wayans>,
+        <http://dbpedia.org/resource/Tonya_Pinkins>,
+        <http://dbpedia.org/resource/Tupac_Shakur> .
+
+<http://dbpedia.org/resource/Ace_Ventura:_Pet_Detective> rdfs:label "Ace Ventura: Pet Detective" ;
+    dbo:description "1994 film by Tom Shadyac" ;
+    dbo:director <http://dbpedia.org/resource/Tom_Shadyac> ;
+    dbo:runtime 5160.0 ;
+    dbo:starring <http://dbpedia.org/resource/Courteney_Cox>,
+        <http://dbpedia.org/resource/Dan_Marino>,
+        <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://dbpedia.org/resource/Sean_Young>,
+        <http://dbpedia.org/resource/Tone_Loc> .
+
+<http://dbpedia.org/resource/Ace_Ventura:_When_Nature_Calls> rdfs:label "Ace Ventura: When Nature Calls" ;
+    dbo:description "1995 film directed by Steve Oedekerk" ;
+    dbo:director <http://dbpedia.org/resource/Steve_Oedekerk> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bob_Gunton>,
+        <http://dbpedia.org/resource/Ian_McNeice>,
+        <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://dbpedia.org/resource/Maynard_Eziashi>,
+        <http://dbpedia.org/resource/Simon_Callow> .
+
+<http://dbpedia.org/resource/Addams_Family_Values> rdfs:label "Addams Family Values" ;
+    dbo:description "1993 film directed by Barry Sonnenfeld" ;
+    dbo:director <http://dbpedia.org/resource/Barry_Sonnenfeld> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anjelica_Huston>,
+        <http://dbpedia.org/resource/Carol_Kane>,
+        <http://dbpedia.org/resource/Christina_Ricci>,
+        <http://dbpedia.org/resource/Christopher_Lloyd>,
+        <http://dbpedia.org/resource/Joan_Cusack>,
+        <http://dbpedia.org/resource/Raul_Julia> .
+
+<http://dbpedia.org/resource/Airheads> rdfs:label "Airheads" ;
+    dbo:description "1994 film by Michael Lehmann" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Lehmann> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Adam_Sandler>,
+        <http://dbpedia.org/resource/Brendan_Fraser>,
+        <http://dbpedia.org/resource/Chris_Farley>,
+        <http://dbpedia.org/resource/Joe_Mantegna>,
+        <http://dbpedia.org/resource/Judd_Nelson>,
+        <http://dbpedia.org/resource/Michael_McKean>,
+        <http://dbpedia.org/resource/Michael_Richards>,
+        <http://dbpedia.org/resource/Steve_Buscemi> .
+
+<http://dbpedia.org/resource/Amateur_(1994_film)> rdfs:label "Amateur" ;
+    dbo:description "1994 film by Hal Hartley" ;
+    dbo:director <http://dbpedia.org/resource/Hal_Hartley> ;
+    dbo:runtime 6300.0 .
+
+<http://dbpedia.org/resource/An_Awfully_Big_Adventure> rdfs:label "An Awfully Big Adventure" ;
+    dbo:description "1995 film by Mike Newell" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Newell_(director)> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alan_Rickman>,
+        <http://dbpedia.org/resource/Georgina_Cates>,
+        <http://dbpedia.org/resource/Hugh_Grant> .
+
+<http://dbpedia.org/resource/Angels_and_Insects> rdfs:label "Angels and Insects" ;
+    dbo:description "1995 film by Philip Haas" ;
+    dbo:director <http://dbpedia.org/resource/Philip_Haas> ;
+    dbo:runtime 6960.0 ;
+    dbo:starring <http://dbpedia.org/resource/Kristin_Scott_Thomas>,
+        <http://dbpedia.org/resource/Mark_Rylance>,
+        <http://dbpedia.org/resource/Patsy_Kensit> .
+
+<http://dbpedia.org/resource/Another_Stakeout> rdfs:label "Another Stakeout" ;
+    dbo:description "1993 film by John Badham" ;
+    dbo:director <http://dbpedia.org/resource/John_Badham> ;
+    dbo:runtime 6540.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cathy_Moriarty>,
+        <http://dbpedia.org/resource/Dennis_Farina>,
+        <http://dbpedia.org/resource/Emilio_Estevez>,
+        <http://dbpedia.org/resource/Marcia_Strassman>,
+        <http://dbpedia.org/resource/Richard_Dreyfuss>,
+        <http://dbpedia.org/resource/Rosie_O'Donnell> .
+
+<http://dbpedia.org/resource/Antonia's_Line> rdfs:label "Antonia's Line" ;
+    dbo:description "1995 film by Marleen Gorris" ;
+    dbo:director <http://dbpedia.org/resource/Marleen_Gorris> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Els_Dottermans>,
+        <http://dbpedia.org/resource/Jan_Decleir>,
+        <http://dbpedia.org/resource/Willeke_van_Ammelrooy> .
+
+<http://dbpedia.org/resource/Assassins_(1995_film)> rdfs:label "Assassins (1995)" ;
+    dbo:description "1995 film directed by Richard Donner" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Donner> ;
+    dbo:runtime 7980.0 ;
+    dbo:starring <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://dbpedia.org/resource/Julianne_Moore>,
+        <http://dbpedia.org/resource/Sylvester_Stallone> .
+
+<http://dbpedia.org/resource/Babe_(film)> rdfs:label "Babe",
+        "Babe (1995)" ;
+    dbo:description "1995 film directed by Chris Noonan" ;
+    dbo:director <http://dbpedia.org/resource/Chris_Noonan> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/James_Cromwell>,
+        <http://dbpedia.org/resource/Magda_Szubanski> .
+
+<http://dbpedia.org/resource/Backbeat_(film)> rdfs:label "Backbeat" ;
+    dbo:description "1994 film by Iain Softley" ;
+    dbo:director <http://dbpedia.org/resource/Iain_Softley> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ian_Hart>,
+        <http://dbpedia.org/resource/Sheryl_Lee>,
+        <http://dbpedia.org/resource/Stephen_Dorff> .
+
+<http://dbpedia.org/resource/Bad_Boys_(1983_film)> rdfs:label "Bad Boys" ;
+    dbo:description "1983 film directed by Rick Rosenthal" .
+
+<http://dbpedia.org/resource/Bad_Boys_(1995_film)> rdfs:label "Bad Boys (1995)" ;
+    dbo:description "1995 film directed by Michael Bay" .
+
+<http://dbpedia.org/resource/Bad_Company_(1986_film)> rdfs:label "Bad Company" ;
+    dbo:description "1986 Argentine drama film" ;
+    dbo:director <http://dbpedia.org/resource/José_Santiso> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bárbara_Mujica>,
+        <http://dbpedia.org/resource/Federico_Luppi>,
+        <http://dbpedia.org/resource/Miguel_Ángel_Solá> .
+
+<http://dbpedia.org/resource/Bad_Company_(1995_film)> rdfs:label "Bad Company (1995)" ;
+    dbo:description "1995 film directed by Damian Harris" .
+
+<http://dbpedia.org/resource/Bad_Girls_(1994_film)> rdfs:label "Bad Girls (1994)" ;
+    dbo:description "1994 film directed by Jonathan Kaplan" ;
+    dbo:director <http://dbpedia.org/resource/Jonathan_Kaplan> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andie_MacDowell>,
+        <http://dbpedia.org/resource/Dermot_Mulroney>,
+        <http://dbpedia.org/resource/Drew_Barrymore>,
+        <http://dbpedia.org/resource/James_LeGros>,
+        <http://dbpedia.org/resource/James_Russo>,
+        <http://dbpedia.org/resource/Madeleine_Stowe>,
+        <http://dbpedia.org/resource/Mary_Stuart_Masterson>,
+        <http://dbpedia.org/resource/Robert_Loggia> .
+
+<http://dbpedia.org/resource/Balto_(film)> rdfs:label "Balto" ;
+    dbo:description "1995 film directed by Simon Wells" ;
+    dbo:director <http://dbpedia.org/resource/Simon_Wells> ;
+    dbo:runtime 4680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bob_Hoskins>,
+        <http://dbpedia.org/resource/Bridget_Fonda>,
+        <http://dbpedia.org/resource/Kevin_Bacon>,
+        <http://dbpedia.org/resource/Phil_Collins> .
+
+<http://dbpedia.org/resource/Batman_Forever> rdfs:label "Batman Forever" ;
+    dbo:description "1995 film directed by Joel Schumacher" ;
+    dbo:director <http://dbpedia.org/resource/Joel_Schumacher> ;
+    dbo:runtime 7320.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_O'Donnell>,
+        <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://dbpedia.org/resource/Michael_Gough>,
+        <http://dbpedia.org/resource/Nicole_Kidman>,
+        <http://dbpedia.org/resource/Pat_Hingle>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones>,
+        <http://dbpedia.org/resource/Val_Kilmer> .
+
+<http://dbpedia.org/resource/Beautiful_Girls_(film)> rdfs:label "Beautiful Girls" ;
+    dbo:description "1996 film directed by Ted Demme" ;
+    dbo:director <http://dbpedia.org/resource/Ted_Demme> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annabeth_Gish>,
+        <http://dbpedia.org/resource/Lauren_Holly>,
+        <http://dbpedia.org/resource/Martha_Plimpton>,
+        <http://dbpedia.org/resource/Matt_Dillon>,
+        <http://dbpedia.org/resource/Max_Perlich>,
+        <http://dbpedia.org/resource/Michael_Rapaport>,
+        <http://dbpedia.org/resource/Mira_Sorvino>,
+        <http://dbpedia.org/resource/Natalie_Portman>,
+        <http://dbpedia.org/resource/Noah_Emmerich>,
+        <http://dbpedia.org/resource/Pruitt_Taylor_Vince>,
+        <http://dbpedia.org/resource/Rosie_O'Donnell>,
+        <http://dbpedia.org/resource/Timothy_Hutton>,
+        <http://dbpedia.org/resource/Uma_Thurman> .
+
+<http://dbpedia.org/resource/Before_Sunrise> rdfs:label "Before Sunrise" ;
+    dbo:description "1995 film directed by Richard Linklater" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Linklater> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ethan_Hawke>,
+        <http://dbpedia.org/resource/Julie_Delpy> .
+
+<http://dbpedia.org/resource/Before_the_Rain_(1994_film)> rdfs:label "Before the Rain" ;
+    dbo:description "1994 film by Milcho Manchevski" ;
+    dbo:director <http://dbpedia.org/resource/Milcho_Manchevski> ;
+    dbo:runtime 6780.0 ;
+    dbo:starring <http://dbpedia.org/resource/Grégoire_Colin>,
+        <http://dbpedia.org/resource/Katrin_Cartlidge>,
+        <http://dbpedia.org/resource/Rade_Šerbedžija> .
+
+<http://dbpedia.org/resource/Beverly_Hills_Cop_III> rdfs:label "Beverly Hills Cop III" ;
+    dbo:description "1994 film directed by John Landis" ;
+    dbo:director <http://dbpedia.org/resource/John_Landis> ;
+    dbo:runtime 6240.0 ;
+    dbo:starring <http://dbpedia.org/resource/Eddie_Murphy>,
+        <http://dbpedia.org/resource/Héctor_Elizondo>,
+        <http://dbpedia.org/resource/Judge_Reinhold>,
+        <http://dbpedia.org/resource/Theresa_Randle> .
+
+<http://dbpedia.org/resource/Beyond_Rangoon> rdfs:label "Beyond Rangoon" ;
+    dbo:description "1995 film by John Boorman" ;
+    dbo:director <http://dbpedia.org/resource/John_Boorman> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Frances_McDormand>,
+        <http://dbpedia.org/resource/Patricia_Arquette>,
+        <http://dbpedia.org/resource/Spalding_Gray> .
+
+<http://dbpedia.org/resource/Billy_Madison> rdfs:label "Billy Madison" ;
+    dbo:description "1995 film directed by Tamra Davis" ;
+    dbo:director <http://dbpedia.org/resource/Tamra_Davis> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Adam_Sandler>,
+        <http://dbpedia.org/resource/Bradley_Whitford>,
+        <http://dbpedia.org/resource/Bridgette_Wilson>,
+        <http://dbpedia.org/resource/Darren_McGavin>,
+        <http://dbpedia.org/resource/Josh_Mostel>,
+        <http://dbpedia.org/resource/Norm_Macdonald> .
+
+<http://dbpedia.org/resource/Bio-Dome> rdfs:label "Bio-Dome" ;
+    dbo:description "1996 film by Jason Bloom" ;
+    dbo:director <http://dbpedia.org/resource/Jason_Bloom_(director)> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Joey_Lauren_Adams>,
+        <http://dbpedia.org/resource/Kylie_Minogue>,
+        <http://dbpedia.org/resource/Pauly_Shore>,
+        <http://dbpedia.org/resource/Stephen_Baldwin>,
+        <http://dbpedia.org/resource/William_Atherton> .
+
+<http://dbpedia.org/resource/Bitter_Moon> rdfs:label "Bitter Moon" ;
+    dbo:description "1992 film by Roman Polanski" ;
+    dbo:director <http://dbpedia.org/resource/Roman_Polanski> ;
+    dbo:runtime 8340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Emmanuelle_Seigner>,
+        <http://dbpedia.org/resource/Hugh_Grant>,
+        <http://dbpedia.org/resource/Kristin_Scott_Thomas>,
+        <http://dbpedia.org/resource/Peter_Coyote>,
+        <http://dbpedia.org/resource/Victor_Banerjee> .
+
+<http://dbpedia.org/resource/Black_Beauty_(1994_film)> rdfs:label "Black Beauty (1994)" ;
+    dbo:description "1994 film directed by Caroline Thompson" ;
+    dbo:director <http://dbpedia.org/resource/Caroline_Thompson> ;
+    dbo:runtime 5280.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Thewlis>,
+        <http://dbpedia.org/resource/Sean_Bean> .
+
+<http://dbpedia.org/resource/Black_Sheep_(1996_film)> rdfs:label "Black Sheep (1996)" ;
+    dbo:description "1996 film by Penelope Spheeris" ;
+    dbo:director <http://dbpedia.org/resource/Penelope_Spheeris> ;
+    dbo:runtime 5160.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_Farley>,
+        <http://dbpedia.org/resource/Christine_Ebersole>,
+        <http://dbpedia.org/resource/David_Spade>,
+        <http://dbpedia.org/resource/Gary_Busey>,
+        <http://dbpedia.org/resource/Tim_Matheson> .
+
+<http://dbpedia.org/resource/Black_Sheep_(2018_film)> rdfs:label "Black Sheep" ;
+    dbo:description "2018 film directed by Ed Perkins" ;
+    dbo:runtime 1560.0 .
+
+<http://dbpedia.org/resource/Blink_(1993_film)> rdfs:label "Blink" ;
+    dbo:description "1994 film directed by Michael Apted" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Apted> ;
+    dbo:runtime 6360.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aidan_Quinn>,
+        <http://dbpedia.org/resource/Bruce_A._Young>,
+        <http://dbpedia.org/resource/James_Remar>,
+        <http://dbpedia.org/resource/Laurie_Metcalf>,
+        <http://dbpedia.org/resource/Madeleine_Stowe>,
+        <http://dbpedia.org/resource/Peter_Friedman> .
+
+<http://dbpedia.org/resource/Blown_Away_(1994_film)> rdfs:label "Blown Away" ;
+    dbo:description "1994 film by Stephen Hopkins" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Hopkins_(director)> ;
+    dbo:runtime 7260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Forest_Whitaker>,
+        <http://dbpedia.org/resource/Jeff_Bridges>,
+        <http://dbpedia.org/resource/Lloyd_Bridges>,
+        <http://dbpedia.org/resource/Suzy_Amis_Cameron>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/Blue_Chips> rdfs:label "Blue Chips" ;
+    dbo:description "1994 film by William Friedkin" ;
+    dbo:director <http://dbpedia.org/resource/William_Friedkin> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfre_Woodard>,
+        <http://dbpedia.org/resource/Ed_O'Neill>,
+        <http://dbpedia.org/resource/J._T._Walsh>,
+        <http://dbpedia.org/resource/Mary_McDonnell>,
+        <http://dbpedia.org/resource/Nick_Nolte>,
+        <http://dbpedia.org/resource/Shaquille_O'Neal> .
+
+<http://dbpedia.org/resource/Blue_Sky_(1994_film)> rdfs:label "Blue Sky" ;
+    dbo:description "1994 film by Tony Richardson" ;
+    dbo:director <http://dbpedia.org/resource/Tony_Richardson> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jessica_Lange>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/Blue_in_the_Face> rdfs:label "Blue in the Face" ;
+    dbo:description "1995 film by Paul Auster, Wayne Wang" ;
+    dbo:director <http://dbpedia.org/resource/Paul_Auster>,
+        <http://dbpedia.org/resource/Wayne_Wang> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Giancarlo_Esposito>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/Jim_Jarmusch>,
+        <http://dbpedia.org/resource/Lily_Tomlin>,
+        <http://dbpedia.org/resource/Lou_Reed>,
+        <http://dbpedia.org/resource/Malik_Yoba>,
+        <http://dbpedia.org/resource/Mel_Gorham>,
+        <http://dbpedia.org/resource/Michael_J._Fox>,
+        <http://dbpedia.org/resource/Mira_Sorvino>,
+        <http://dbpedia.org/resource/Roseanne_Barr>,
+        <http://dbpedia.org/resource/Victor_Argo> .
+
+<http://dbpedia.org/resource/Body_Snatchers_(1993_film)> rdfs:label "Body Snatchers" ;
+    dbo:description "1993 American film by Abel Ferrara" ;
+    dbo:director <http://dbpedia.org/resource/Abel_Ferrara> ;
+    dbo:runtime 5220.0 ;
+    dbo:starring <http://dbpedia.org/resource/Billy_Wirth>,
+        <http://dbpedia.org/resource/Forest_Whitaker>,
+        <http://dbpedia.org/resource/Gabrielle_Anwar>,
+        <http://dbpedia.org/resource/Meg_Tilly>,
+        <http://dbpedia.org/resource/Terry_Kinney> .
+
+<http://dbpedia.org/resource/Boomerang_(1992_film)> rdfs:label "Boomerang (1992)" ;
+    dbo:description "1992 film directed by Reginald Hudlin" ;
+    dbo:director <http://dbpedia.org/resource/Reginald_Hudlin> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_Rock>,
+        <http://dbpedia.org/resource/David_Alan_Grier>,
+        <http://dbpedia.org/resource/Eartha_Kitt>,
+        <http://dbpedia.org/resource/Eddie_Murphy>,
+        <http://dbpedia.org/resource/Geoffrey_Holder>,
+        <http://dbpedia.org/resource/Grace_Jones>,
+        <http://dbpedia.org/resource/Halle_Berry>,
+        <http://dbpedia.org/resource/Martin_Lawrence>,
+        <http://dbpedia.org/resource/Robin_Givens> .
+
+<http://dbpedia.org/resource/Bottle_Rocket> rdfs:label "Bottle Rocket" ;
+    dbo:description "1996 film by Wes Anderson" ;
+    dbo:director <http://dbpedia.org/resource/Wes_Anderson> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andrew_Wilson_(actor)>,
+        <http://dbpedia.org/resource/James_Caan>,
+        <http://dbpedia.org/resource/Luke_Wilson>,
+        <http://dbpedia.org/resource/Lumi_Cavazos>,
+        <http://dbpedia.org/resource/Owen_Wilson> .
+
+<http://dbpedia.org/resource/Boxing_Helena> rdfs:label "Boxing Helena" ;
+    dbo:description "1993 film directed by Jennifer Lynch" ;
+    dbo:director <http://dbpedia.org/resource/Jennifer_Lynch> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Art_Garfunkel>,
+        <http://dbpedia.org/resource/Bill_Paxton>,
+        <http://dbpedia.org/resource/Julian_Sands>,
+        <http://dbpedia.org/resource/Kurtwood_Smith>,
+        <http://dbpedia.org/resource/Sherilyn_Fenn> .
+
+<http://dbpedia.org/resource/Boys_on_the_Side> rdfs:label "Boys on the Side" ;
+    dbo:description "1995 film by Herbert Ross" ;
+    dbo:director <http://dbpedia.org/resource/Herbert_Ross> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Drew_Barrymore>,
+        <http://dbpedia.org/resource/Mary-Louise_Parker>,
+        <http://dbpedia.org/resource/Whoopi_Goldberg> .
+
+<http://dbpedia.org/resource/Braveheart> rdfs:label "Braveheart",
+        "Braveheart (1995)" ;
+    dbo:description "1995 film directed by Mel Gibson" ;
+    dbo:director <http://dbpedia.org/resource/Mel_Gibson> ;
+    dbo:runtime 10680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Catherine_McCormack>,
+        <http://dbpedia.org/resource/Mel_Gibson>,
+        <http://dbpedia.org/resource/Patrick_McGoohan>,
+        <http://dbpedia.org/resource/Sophie_Marceau> .
+
+<http://dbpedia.org/resource/Broken_Arrow_(1996_film)> rdfs:label "Broken Arrow (1996)" ;
+    dbo:description "1996 film directed by John Woo" ;
+    dbo:director <http://dbpedia.org/resource/John_Woo> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bob_Gunton>,
+        <http://dbpedia.org/resource/Christian_Slater>,
+        <http://dbpedia.org/resource/Delroy_Lindo>,
+        <http://dbpedia.org/resource/Frank_Whaley>,
+        <http://dbpedia.org/resource/Howie_Long>,
+        <http://dbpedia.org/resource/John_Travolta>,
+        <http://dbpedia.org/resource/Samantha_Mathis> .
+
+<http://dbpedia.org/resource/Bullets_Over_Broadway> rdfs:label "Bullets Over Broadway" ;
+    dbo:description "1994 film by Woody Allen" ;
+    dbo:director <http://dbpedia.org/resource/Woody_Allen> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chazz_Palminteri>,
+        <http://dbpedia.org/resource/Dianne_Wiest>,
+        <http://dbpedia.org/resource/Harvey_Fierstein>,
+        <http://dbpedia.org/resource/Jack_Warden>,
+        <http://dbpedia.org/resource/Jennifer_Tilly>,
+        <http://dbpedia.org/resource/Jim_Broadbent>,
+        <http://dbpedia.org/resource/Joe_Viterelli>,
+        <http://dbpedia.org/resource/John_Cusack>,
+        <http://dbpedia.org/resource/Mary-Louise_Parker>,
+        <http://dbpedia.org/resource/Rob_Reiner>,
+        <http://dbpedia.org/resource/Tracey_Ullman> .
+
+<http://dbpedia.org/resource/Burnt_by_the_Sun> rdfs:label "Burnt by the Sun" ;
+    dbo:description "1994 film by Nikita Mikhalkov" ;
+    dbo:director <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+    dbo:runtime 8100.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ingeborga_Dapkūnaitė>,
+        <http://dbpedia.org/resource/Nadezhda_Mikhalkova>,
+        <http://dbpedia.org/resource/Nikita_Mikhalkov>,
+        <http://dbpedia.org/resource/Oleg_Menshikov> .
+
+<http://dbpedia.org/resource/Cabin_Boy> rdfs:label "Cabin Boy" ;
+    dbo:description "1994 film by Adam Resnick" ;
+    dbo:director <http://dbpedia.org/resource/Adam_Resnick> ;
+    dbo:runtime 4800.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brian_Doyle-Murray>,
+        <http://dbpedia.org/resource/Brion_James>,
+        <http://dbpedia.org/resource/Chris_Elliott>,
+        <http://dbpedia.org/resource/James_Gammon>,
+        <http://dbpedia.org/resource/Melora_Walters>,
+        <http://dbpedia.org/resource/Ritch_Brinkley> .
+
+<http://dbpedia.org/resource/Calendar_Girl_(1993_film)> rdfs:label "Calendar Girl",
+        "Calendar Girl (1993)" ;
+    dbo:description "1993 film by John Whitesell" ;
+    dbo:director <http://dbpedia.org/resource/John_Whitesell> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jason_Priestley>,
+        <http://dbpedia.org/resource/Joe_Pantoliano> .
+
+<http://dbpedia.org/resource/Canadian_Bacon> rdfs:label "Canadian Bacon" ;
+    dbo:description "1995 film by Michael Moore" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Moore> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alan_Alda>,
+        <http://dbpedia.org/resource/Bill_Nunn>,
+        <http://dbpedia.org/resource/G._D._Spradlin>,
+        <http://dbpedia.org/resource/John_Candy>,
+        <http://dbpedia.org/resource/Kevin_J._O'Connor_(actor)>,
+        <http://dbpedia.org/resource/Kevin_Pollak>,
+        <http://dbpedia.org/resource/Rhea_Perlman>,
+        <http://dbpedia.org/resource/Rip_Torn> .
+
+<http://dbpedia.org/resource/Carlito's_Way> rdfs:label "Carlito's Way" ;
+    dbo:description "1993 film directed by Brian De Palma" ;
+    dbo:director <http://dbpedia.org/resource/Brian_De_Palma> ;
+    dbo:runtime 8640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Al_Pacino>,
+        <http://dbpedia.org/resource/Penelope_Ann_Miller>,
+        <http://dbpedia.org/resource/Sean_Penn> .
+
+<http://dbpedia.org/resource/Casper_(film)> rdfs:label "Casper" ;
+    dbo:description "1995 American fantasy film directed by Brad Silberling" ;
+    dbo:director <http://dbpedia.org/resource/Brad_Silberling> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Pullman>,
+        <http://dbpedia.org/resource/Cathy_Moriarty>,
+        <http://dbpedia.org/resource/Christina_Ricci>,
+        <http://dbpedia.org/resource/Eric_Idle> .
+
+<http://dbpedia.org/resource/Castle_Freak> rdfs:label "Castle Freak" ;
+    dbo:description "1995 film directed by Stuart Gordon" ;
+    dbo:director <http://dbpedia.org/resource/Stuart_Gordon> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Barbara_Crampton>,
+        <http://dbpedia.org/resource/Jeffrey_Combs> .
+
+<http://dbpedia.org/resource/Catwalk_(film)> rdfs:label "Catwalk" ;
+    dbo:description "1995 film by Robert Leacock" ;
+    dbo:runtime 5580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christy_Turlington> .
+
+<http://dbpedia.org/resource/Chungking_Express> rdfs:label "Chungking Express" ;
+    dbo:description "1994 film directed by Wong Kar-Wai" ;
+    dbo:director <http://dbpedia.org/resource/Wong_Kar-wai> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brigitte_Lin>,
+        <http://dbpedia.org/resource/Faye_Wong>,
+        <http://dbpedia.org/resource/Takeshi_Kaneshiro>,
+        <http://dbpedia.org/resource/Tony_Leung_Chiu-wai> .
+
+<http://dbpedia.org/resource/Circle_of_Friends_(1995_film)> rdfs:label "Circle of Friends" ;
+    dbo:description "1995 film by Pat O'Connor" ;
+    dbo:director <http://dbpedia.org/resource/Pat_O'Connor_(director)> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_O'Donnell>,
+        <http://dbpedia.org/resource/Colin_Firth>,
+        <http://dbpedia.org/resource/Geraldine_O'Rawe>,
+        <http://dbpedia.org/resource/Minnie_Driver>,
+        <http://dbpedia.org/resource/Saffron_Burrows> .
+
+<http://dbpedia.org/resource/City_Hall_(1996_film)> rdfs:label "City Hall" ;
+    dbo:description "1996 film directed by Harold Becker" ;
+    dbo:director <http://dbpedia.org/resource/Harold_Becker> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Al_Pacino>,
+        <http://dbpedia.org/resource/Bridget_Fonda>,
+        <http://dbpedia.org/resource/Danny_Aiello>,
+        <http://dbpedia.org/resource/David_Paymer>,
+        <http://dbpedia.org/resource/John_Cusack>,
+        <http://dbpedia.org/resource/Martin_Landau> .
+
+<http://dbpedia.org/resource/City_Slickers_II:_The_Legend_of_Curly's_Gold> rdfs:label "City Slickers II: The Legend of Curly's Gold" ;
+    dbo:description "1994 film by Paul Weiland" ;
+    dbo:director <http://dbpedia.org/resource/Paul_Weiland> ;
+    dbo:runtime 6960.0 ;
+    dbo:starring <http://dbpedia.org/resource/Billy_Crystal>,
+        <http://dbpedia.org/resource/Daniel_Stern_(actor)>,
+        <http://dbpedia.org/resource/Jack_Palance>,
+        <http://dbpedia.org/resource/Jon_Lovitz>,
+        <http://dbpedia.org/resource/Patricia_Wettig> .
+
+<http://dbpedia.org/resource/Clear_and_Present_Danger_(film)> rdfs:label "Clear and Present Danger" ;
+    dbo:description "1994 film by Phillip Noyce" ;
+    dbo:director <http://dbpedia.org/resource/Phillip_Noyce> ;
+    dbo:runtime 8460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anne_Archer>,
+        <http://dbpedia.org/resource/Harrison_Ford>,
+        <http://dbpedia.org/resource/James_Earl_Jones>,
+        <http://dbpedia.org/resource/Willem_Dafoe> .
+
+<http://dbpedia.org/resource/Clerks_(film)> rdfs:label "Clerks" ;
+    dbo:description "1994 film directed by Kevin Smith" ;
+    dbo:director <http://dbpedia.org/resource/Kevin_Smith> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brian_O'Halloran>,
+        <http://dbpedia.org/resource/Jason_Mewes>,
+        <http://dbpedia.org/resource/Jeff_Anderson>,
+        <http://dbpedia.org/resource/Lisa_Spoonauer>,
+        <http://dbpedia.org/resource/Marilyn_Ghigliotti> .
+
+<http://dbpedia.org/resource/Cliffhanger_(film)> rdfs:label "Cliffhanger" ;
+    dbo:description "1993 film directed by Renny Harlin" ;
+    dbo:director <http://dbpedia.org/resource/Renny_Harlin> ;
+    dbo:runtime 6780.0 ;
+    dbo:starring <http://dbpedia.org/resource/Janine_Turner>,
+        <http://dbpedia.org/resource/John_Lithgow>,
+        <http://dbpedia.org/resource/Leon_Robinson>,
+        <http://dbpedia.org/resource/Michael_Rooker>,
+        <http://dbpedia.org/resource/Paul_Winfield>,
+        <http://dbpedia.org/resource/Ralph_Waite>,
+        <http://dbpedia.org/resource/Sylvester_Stallone> .
+
+<http://dbpedia.org/resource/Clockers_(film)> rdfs:label "Clockers" ;
+    dbo:description "1995 film directed by Spike Lee" ;
+    dbo:director <http://dbpedia.org/resource/Spike_Lee> ;
+    dbo:runtime 7680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Delroy_Lindo>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/Isaiah_Washington>,
+        <http://dbpedia.org/resource/John_Turturro>,
+        <http://dbpedia.org/resource/Keith_David>,
+        <http://dbpedia.org/resource/Mekhi_Phifer> .
+
+<http://dbpedia.org/resource/Clueless> rdfs:label "Clueless" ;
+    dbo:description "1995 film by Amy Heckerling" ;
+    dbo:director <http://dbpedia.org/resource/Amy_Heckerling> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alicia_Silverstone> .
+
+<http://dbpedia.org/resource/Colonel_Chabert_(1994_film)> rdfs:label "Le Colonel Chabert (1994)" ;
+    dbo:description "1994 film by Yves Angelo" ;
+    dbo:director <http://dbpedia.org/resource/Yves_Angelo> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/André_Dussollier>,
+        <http://dbpedia.org/resource/Fabrice_Luchini>,
+        <http://dbpedia.org/resource/Fanny_Ardant>,
+        <http://dbpedia.org/resource/Gérard_Depardieu> .
+
+<http://dbpedia.org/resource/Color_of_Night> rdfs:label "Color of Night" ;
+    dbo:description "1994 film by Richard Rush" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Rush_(director)> ;
+    dbo:runtime 7260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brad_Dourif>,
+        <http://dbpedia.org/resource/Bruce_Willis>,
+        <http://dbpedia.org/resource/Jane_March>,
+        <http://dbpedia.org/resource/Kevin_J._O'Connor_(actor)>,
+        <http://dbpedia.org/resource/Lance_Henriksen>,
+        <http://dbpedia.org/resource/Lesley_Ann_Warren>,
+        <http://dbpedia.org/resource/Rubén_Blades>,
+        <http://dbpedia.org/resource/Scott_Bakula> .
+
+<http://dbpedia.org/resource/Coneheads_(film)> rdfs:label "Coneheads" ;
+    dbo:description "1993 film by Steve Barron" ;
+    dbo:director <http://dbpedia.org/resource/Steve_Barron> ;
+    dbo:runtime 5220.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dan_Aykroyd>,
+        <http://dbpedia.org/resource/Jane_Curtin> .
+
+<http://dbpedia.org/resource/Crimson_Tide_(film)> rdfs:label "Crimson Tide" ;
+    dbo:description "1995 film by Tony Scott" ;
+    dbo:director <http://dbpedia.org/resource/Tony_Scott> ;
+    dbo:runtime 6960.0 ;
+    dbo:starring <http://dbpedia.org/resource/Denzel_Washington>,
+        <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/George_Dzundza>,
+        <http://dbpedia.org/resource/James_Gandolfini>,
+        <http://dbpedia.org/resource/Matt_Craven>,
+        <http://dbpedia.org/resource/Viggo_Mortensen> .
+
+<http://dbpedia.org/resource/Crooklyn> rdfs:label "Crooklyn" ;
+    dbo:description "1994 film directed by Spike Lee" ;
+    dbo:director <http://dbpedia.org/resource/Spike_Lee> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfre_Woodard>,
+        <http://dbpedia.org/resource/Delroy_Lindo>,
+        <http://dbpedia.org/resource/Spike_Lee>,
+        <http://dbpedia.org/resource/Zelda_Harris> .
+
+<http://dbpedia.org/resource/Crumb_(film)> rdfs:label "Crumb (1994)" ;
+    dbo:description "1994 documentary film directed by Terry Zwigoff" ;
+    dbo:director <http://dbpedia.org/resource/Terry_Zwigoff> ;
+    dbo:runtime 7200.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aline_Kominsky-Crumb>,
+        <http://dbpedia.org/resource/Crumb_family>,
+        <http://dbpedia.org/resource/Maxon_Crumb>,
+        <http://dbpedia.org/resource/Robert_Crumb> .
+
+<http://dbpedia.org/resource/Cutthroat_Island> rdfs:label "Cutthroat Island" ;
+    dbo:description "1995 film directed by Renny Harlin" ;
+    dbo:director <http://dbpedia.org/resource/Renny_Harlin> ;
+    dbo:runtime 7440.0 ;
+    dbo:starring <http://dbpedia.org/resource/Frank_Langella>,
+        <http://dbpedia.org/resource/Geena_Davis>,
+        <http://dbpedia.org/resource/Matthew_Modine>,
+        <http://dbpedia.org/resource/Maury_Chaykin>,
+        <http://dbpedia.org/resource/Patrick_Malahide>,
+        <http://dbpedia.org/resource/Stan_Shaw> .
+
+<http://dbpedia.org/resource/Dangerous_Minds> rdfs:label "Dangerous Minds" ;
+    dbo:description "1995 film directed by John N. Smith" ;
+    dbo:director <http://dbpedia.org/resource/John_N._Smith> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/George_Dzundza>,
+        <http://dbpedia.org/resource/Michelle_Pfeiffer> .
+
+<http://dbpedia.org/resource/Dave_(film)> rdfs:label "Dave" ;
+    dbo:description "1993 film directed by Ivan Reitman" ;
+    dbo:director <http://dbpedia.org/resource/Ivan_Reitman> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ben_Kingsley>,
+        <http://dbpedia.org/resource/Frank_Langella>,
+        <http://dbpedia.org/resource/Kevin_Dunn>,
+        <http://dbpedia.org/resource/Kevin_Kline>,
+        <http://dbpedia.org/resource/Sigourney_Weaver>,
+        <http://dbpedia.org/resource/Ving_Rhames> .
+
+<http://dbpedia.org/resource/Dead_Man_Walking_(film)> rdfs:label "Dead Man Walking" ;
+    dbo:description "1995 film by Tim Robbins" .
+
+<http://dbpedia.org/resource/Dead_Presidents> rdfs:label "Dead Presidents" ;
+    dbo:description "1995 film directed by Albert Hughes and Allen Hughes" ;
+    dbo:director <http://dbpedia.org/resource/Hughes_brothers> ;
+    dbo:runtime 7140.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bokeem_Woodbine>,
+        <http://dbpedia.org/resource/Chris_Tucker>,
+        <http://dbpedia.org/resource/Freddy_Rodriguez_(actor)>,
+        <http://dbpedia.org/resource/Keith_David>,
+        <http://dbpedia.org/resource/Larenz_Tate>,
+        <http://dbpedia.org/resource/N'Bushe_Wright> .
+
+<http://dbpedia.org/resource/Death_and_the_Maiden_(film)> rdfs:label "Death and the Maiden" ;
+    dbo:description "1994 film by Roman Polanski" ;
+    dbo:director <http://dbpedia.org/resource/Roman_Polanski> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ben_Kingsley>,
+        <http://dbpedia.org/resource/Sigourney_Weaver>,
+        <http://dbpedia.org/resource/Stuart_Wilson_(actor)> .
+
+<http://dbpedia.org/resource/Demolition_Man_(film)> rdfs:label "Demolition Man" ;
+    dbo:description "1993 film directed by Marco Brambilla" ;
+    dbo:director <http://dbpedia.org/resource/Marco_Brambilla> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Nigel_Hawthorne>,
+        <http://dbpedia.org/resource/Sandra_Bullock>,
+        <http://dbpedia.org/resource/Sylvester_Stallone>,
+        <http://dbpedia.org/resource/Wesley_Snipes> .
+
+<http://dbpedia.org/resource/Desperado_(film)> rdfs:label "Desperado",
+        "Desperado (1995)" ;
+    dbo:description "1995 film by Robert Rodriguez" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Rodriguez> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://dbpedia.org/resource/Cheech_Marin>,
+        <http://dbpedia.org/resource/Joaquim_de_Almeida>,
+        <http://dbpedia.org/resource/Quentin_Tarantino>,
+        <http://dbpedia.org/resource/Salma_Hayek>,
+        <http://dbpedia.org/resource/Steve_Buscemi> .
+
+<http://dbpedia.org/resource/Destiny_Turns_on_the_Radio> rdfs:label "Destiny Turns on the Radio" ;
+    dbo:description "1995 film by Jack Baran" ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Allen_Garfield>,
+        <http://dbpedia.org/resource/Dylan_McDermott>,
+        <http://dbpedia.org/resource/James_LeGros>,
+        <http://dbpedia.org/resource/Jim_Belushi>,
+        <http://dbpedia.org/resource/Nancy_Travis>,
+        <http://dbpedia.org/resource/Quentin_Tarantino>,
+        <http://dbpedia.org/resource/Tracey_Walter> .
+
+<http://dbpedia.org/resource/Devil_in_a_Blue_Dress_(film)> rdfs:label "Devil in a Blue Dress" ;
+    dbo:description "1995 film by Carl Franklin" ;
+    dbo:director <http://dbpedia.org/resource/Carl_Franklin> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Denzel_Washington>,
+        <http://dbpedia.org/resource/Don_Cheadle>,
+        <http://dbpedia.org/resource/Jennifer_Beals>,
+        <http://dbpedia.org/resource/Maury_Chaykin>,
+        <http://dbpedia.org/resource/Tom_Sizemore> .
+
+<http://dbpedia.org/resource/Die_Hard_with_a_Vengeance> rdfs:label "Die Hard: With a Vengeance" ;
+    dbo:description "1995 film directed by John McTiernan" ;
+    dbo:director <http://dbpedia.org/resource/John_McTiernan> ;
+    dbo:runtime 7680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bruce_Willis>,
+        <http://dbpedia.org/resource/Colleen_Camp>,
+        <http://dbpedia.org/resource/Graham_Greene_(actor)>,
+        <http://dbpedia.org/resource/Jeremy_Irons>,
+        <http://dbpedia.org/resource/Larry_Bryggman>,
+        <http://dbpedia.org/resource/Sam_Phillips_(musician)>,
+        <http://dbpedia.org/resource/Samuel_L._Jackson> .
+
+<http://dbpedia.org/resource/Disclosure_(1994_film)> rdfs:label "Disclosure" ;
+    dbo:description "1994 film by Barry Levinson" ;
+    dbo:director <http://dbpedia.org/resource/Barry_Levinson> ;
+    dbo:runtime 7680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Caroline_Goodall>,
+        <http://dbpedia.org/resource/Demi_Moore>,
+        <http://dbpedia.org/resource/Dennis_Miller>,
+        <http://dbpedia.org/resource/Donald_Sutherland>,
+        <http://dbpedia.org/resource/Michael_Douglas> .
+
+<http://dbpedia.org/resource/Dolores_Claiborne_(film)> rdfs:label "Dolores Claiborne" ;
+    dbo:description "1995 film by Taylor Hackford" ;
+    dbo:director <http://dbpedia.org/resource/Taylor_Hackford> ;
+    dbo:runtime 7920.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Plummer>,
+        <http://dbpedia.org/resource/David_Strathairn>,
+        <http://dbpedia.org/resource/Eric_Bogosian>,
+        <http://dbpedia.org/resource/Jennifer_Jason_Leigh>,
+        <http://dbpedia.org/resource/John_C._Reilly>,
+        <http://dbpedia.org/resource/Kathy_Bates> .
+
+<http://dbpedia.org/resource/Don't_Be_a_Menace_to_South_Central_While_Drinking_Your_Juice_in_the_Hood> rdfs:label "Don't Be a Menace to South Central While Drinking Your Juice in the Hood" ;
+    dbo:description "1996 film directed by Paris Barclay" ;
+    dbo:director <http://dbpedia.org/resource/Paris_Barclay> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Marlon_Wayans>,
+        <http://dbpedia.org/resource/Shawn_Wayans> .
+
+<http://dbpedia.org/resource/Don_Juan_DeMarco> rdfs:label "Don Juan DeMarco" ;
+    dbo:description "1995 film by Jeremy Leven" ;
+    dbo:director <http://dbpedia.org/resource/Jeremy_Leven> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bob_Dishy>,
+        <http://dbpedia.org/resource/Faye_Dunaway>,
+        <http://dbpedia.org/resource/Géraldine_Pailhas>,
+        <http://dbpedia.org/resource/Johnny_Depp>,
+        <http://dbpedia.org/resource/Marlon_Brando>,
+        <http://dbpedia.org/resource/Rachel_Ticotin> .
+
+<http://dbpedia.org/resource/Down_Periscope> rdfs:label "Down Periscope" ;
+    dbo:description "1996 film by David S. Ward" .
+
+<http://dbpedia.org/resource/Dracula:_Dead_and_Loving_It> rdfs:label "Dracula: Dead and Loving It" ;
+    dbo:description "1995 film by Mel Brooks" ;
+    dbo:director <http://dbpedia.org/resource/Mel_Brooks> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amy_Yasbeck>,
+        <http://dbpedia.org/resource/Harvey_Korman>,
+        <http://dbpedia.org/resource/Leslie_Nielsen>,
+        <http://dbpedia.org/resource/Lysette_Anthony>,
+        <http://dbpedia.org/resource/Mel_Brooks>,
+        <http://dbpedia.org/resource/Peter_MacNicol>,
+        <http://dbpedia.org/resource/Steven_Weber> .
+
+<http://dbpedia.org/resource/Drop_Zone_(film)> rdfs:label "Drop Zone" ;
+    dbo:description "1994 film directed by John Badham" ;
+    dbo:director <http://dbpedia.org/resource/John_Badham> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gary_Busey>,
+        <http://dbpedia.org/resource/Michael_Jeter>,
+        <http://dbpedia.org/resource/Wesley_Snipes>,
+        <http://dbpedia.org/resource/Yancy_Butler> .
+
+<http://dbpedia.org/resource/Dumb_and_Dumber> rdfs:label "Dumb & Dumber" ;
+    dbo:description "1994 comedy film by Peter Farrelly" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Farrelly> ;
+    dbo:runtime 6360.0 ;
+    dbo:starring <http://dbpedia.org/resource/Charles_Rocket>,
+        <http://dbpedia.org/resource/Jeff_Daniels>,
+        <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://dbpedia.org/resource/Karen_Duffy>,
+        <http://dbpedia.org/resource/Lauren_Holly>,
+        <http://dbpedia.org/resource/Mike_Starr_(actor)>,
+        <http://dbpedia.org/resource/Teri_Garr> .
+
+<http://dbpedia.org/resource/Dunston_Checks_In> rdfs:label "Dunston Checks In" ;
+    dbo:description "1996 film directed by Ken Kwapis" ;
+    dbo:director <http://dbpedia.org/resource/Ken_Kwapis> ;
+    dbo:runtime 5280.0 ;
+    dbo:starring <http://dbpedia.org/resource/Eric_Lloyd>,
+        <http://dbpedia.org/resource/Faye_Dunaway>,
+        <http://dbpedia.org/resource/Glenn_Shadix>,
+        <http://dbpedia.org/resource/Jason_Alexander>,
+        <http://dbpedia.org/resource/Paul_Reubens>,
+        <http://dbpedia.org/resource/Rupert_Everett> .
+
+<http://dbpedia.org/resource/Eat_Drink_Man_Woman> rdfs:label "Eat Drink Man Woman" ;
+    dbo:description "1994 film by Ang Lee" ;
+    dbo:director <http://dbpedia.org/resource/Ang_Lee> ;
+    dbo:runtime 7380.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gua_Ah-leh>,
+        <http://dbpedia.org/resource/Jacklyn_Wu>,
+        <http://dbpedia.org/resource/Sihung_Lung>,
+        <http://dbpedia.org/resource/Sylvia_Chang>,
+        <http://dbpedia.org/resource/Wang_Yu-wen_(Taiwanese_actress)>,
+        <http://dbpedia.org/resource/Winston_Chao>,
+        <http://dbpedia.org/resource/Yang_Kuei-mei> .
+
+<http://dbpedia.org/resource/Even_Cowgirls_Get_the_Blues_(film)> rdfs:label "Even Cowgirls Get the Blues" ;
+    dbo:description "1993 film by Gus Van Sant" ;
+    dbo:director <http://dbpedia.org/resource/Gus_Van_Sant> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Angie_Dickinson>,
+        <http://dbpedia.org/resource/John_Hurt>,
+        <http://dbpedia.org/resource/Keanu_Reeves>,
+        <http://dbpedia.org/resource/Lorraine_Bracco>,
+        <http://dbpedia.org/resource/Pat_Morita>,
+        <http://dbpedia.org/resource/Rain_Phoenix>,
+        <http://dbpedia.org/resource/Uma_Thurman> .
+
+<http://dbpedia.org/resource/Exit_to_Eden_(film)> rdfs:label "Exit to Eden" ;
+    dbo:description "1994 film by Garry Marshall" ;
+    dbo:director <http://dbpedia.org/resource/Garry_Marshall> ;
+    dbo:runtime 6840.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dan_Aykroyd>,
+        <http://dbpedia.org/resource/Dana_Delany>,
+        <http://dbpedia.org/resource/Héctor_Elizondo>,
+        <http://dbpedia.org/resource/Iman_(model)>,
+        <http://dbpedia.org/resource/Paul_Mercurio>,
+        <http://dbpedia.org/resource/Rosie_O'Donnell>,
+        <http://dbpedia.org/resource/Stuart_Wilson_(actor)> .
+
+<http://dbpedia.org/resource/Eye_for_an_Eye_(1996_film)> rdfs:label "Eye for an Eye" ;
+    dbo:description "1996 film by John Schlesinger" ;
+    dbo:director <http://dbpedia.org/resource/John_Schlesinger> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Beverly_D'Angelo>,
+        <http://dbpedia.org/resource/Ed_Harris>,
+        <http://dbpedia.org/resource/Joe_Mantegna>,
+        <http://dbpedia.org/resource/Kiefer_Sutherland>,
+        <http://dbpedia.org/resource/Sally_Field> .
+
+<http://dbpedia.org/resource/Fair_Game_(1995_film)> rdfs:label "Fair Game",
+        "Fair Game (1995)" ;
+    dbo:description "1995 action film by Andrew Sipes" ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_McDonald>,
+        <http://dbpedia.org/resource/Cindy_Crawford>,
+        <http://dbpedia.org/resource/Steven_Berkoff>,
+        <http://dbpedia.org/resource/William_Baldwin> .
+
+<http://dbpedia.org/resource/Fair_Game_(2010_film)> rdfs:label "Fair Game" ;
+    dbo:description "2010 film directed by Doug Liman" ;
+    dbo:director <http://dbpedia.org/resource/Doug_Liman> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Naomi_Watts>,
+        <http://dbpedia.org/resource/Sean_Penn> .
+
+<http://dbpedia.org/resource/Fatal_Instinct> rdfs:label "Fatal Instinct" ;
+    dbo:description "1993 American film by Carl Reiner." ;
+    dbo:director <http://dbpedia.org/resource/Carl_Reiner> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Armand_Assante>,
+        <http://dbpedia.org/resource/Kate_Nelligan>,
+        <http://dbpedia.org/resource/Sean_Young>,
+        <http://dbpedia.org/resource/Sherilyn_Fenn>,
+        <http://dbpedia.org/resource/Tony_Randall> .
+
+<http://dbpedia.org/resource/Father_of_the_Bride_Part_II> rdfs:label "Father of the Bride Part II" ;
+    dbo:description "1995 film by Charles Shyer" ;
+    dbo:director <http://dbpedia.org/resource/Charles_Shyer> ;
+    dbo:runtime 6360.0 ;
+    dbo:starring <http://dbpedia.org/resource/Diane_Keaton>,
+        <http://dbpedia.org/resource/George_Newbern>,
+        <http://dbpedia.org/resource/Kieran_Culkin>,
+        <http://dbpedia.org/resource/Kimberly_Williams-Paisley>,
+        <http://dbpedia.org/resource/Martin_Short>,
+        <http://dbpedia.org/resource/Steve_Martin> .
+
+<http://dbpedia.org/resource/Fear_of_a_Black_Hat> rdfs:label "Fear of a Black Hat" ;
+    dbo:description "1994 film directed by Rusty Cundieff" ;
+    dbo:director <http://dbpedia.org/resource/Rusty_Cundieff> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Larry_B._Scott>,
+        <http://dbpedia.org/resource/Mark_Christopher_Lawrence>,
+        <http://dbpedia.org/resource/Rusty_Cundieff> .
+
+<http://dbpedia.org/resource/Fearless_(1993_film)> rdfs:label "Fearless (1993)" ;
+    dbo:description "1993 film directed by Peter Weir" .
+
+<http://dbpedia.org/resource/Fearless_(2006_film)> rdfs:label "Fearless" ;
+    dbo:description "2006 film directed by Ronny Yu" ;
+    dbo:director <http://dbpedia.org/resource/Ronny_Yu> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Collin_Chou>,
+        <http://dbpedia.org/resource/Dong_Yong_(actor)>,
+        <http://dbpedia.org/resource/Jet_Li>,
+        <http://dbpedia.org/resource/Masato_Harada>,
+        <http://dbpedia.org/resource/Nakamura_Shidō_II>,
+        <http://dbpedia.org/resource/Nathan_Jones_(wrestler)>,
+        <http://dbpedia.org/resource/Sun_Li_(actress)> .
+
+<http://dbpedia.org/resource/First_Knight> rdfs:label "First Knight" ;
+    dbo:description "1995 film by Jerry Zucker" ;
+    dbo:director <http://dbpedia.org/resource/Jerry_Zucker> ;
+    dbo:runtime 8040.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ben_Cross>,
+        <http://dbpedia.org/resource/Julia_Ormond>,
+        <http://dbpedia.org/resource/Richard_Gere>,
+        <http://dbpedia.org/resource/Sean_Connery> .
+
+<http://dbpedia.org/resource/Fluke_(film)> rdfs:label "Fluke" ;
+    dbo:description "1995 film directed by Carlo Carlei" ;
+    dbo:director <http://dbpedia.org/resource/Carlo_Carlei> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Jon_Polito>,
+        <http://dbpedia.org/resource/Matthew_Modine>,
+        <http://dbpedia.org/resource/Max_Pomeranc>,
+        <http://dbpedia.org/resource/Nancy_Travis> .
+
+<http://dbpedia.org/resource/For_Love_or_Money_(1963_film)> rdfs:label "For Love or Money" ;
+    dbo:description "1963 film by Michael Gordon" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Gordon_(film_director)> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gig_Young>,
+        <http://dbpedia.org/resource/Kirk_Douglas>,
+        <http://dbpedia.org/resource/Mitzi_Gaynor>,
+        <http://dbpedia.org/resource/Thelma_Ritter> .
+
+<http://dbpedia.org/resource/For_Love_or_Money_(1993_film)> rdfs:label "For Love or Money" ;
+    dbo:description "1993 film by Barry Sonnenfeld" ;
+    dbo:director <http://dbpedia.org/resource/Barry_Sonnenfeld> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anthony_Higgins_(actor)>,
+        <http://dbpedia.org/resource/Bob_Balaban>,
+        <http://dbpedia.org/resource/Gabrielle_Anwar>,
+        <http://dbpedia.org/resource/Michael_J._Fox>,
+        <http://dbpedia.org/resource/Michael_Tucker_(actor)> .
+
+<http://dbpedia.org/resource/Forget_Paris> rdfs:label "Forget Paris" ;
+    dbo:description "1995 film by Billy Crystal" ;
+    dbo:director <http://dbpedia.org/resource/Billy_Crystal> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Billy_Crystal>,
+        <http://dbpedia.org/resource/Cathy_Moriarty>,
+        <http://dbpedia.org/resource/Debra_Winger>,
+        <http://dbpedia.org/resource/Joe_Mantegna>,
+        <http://dbpedia.org/resource/Julie_Kavner>,
+        <http://dbpedia.org/resource/Richard_Masur> .
+
+<http://dbpedia.org/resource/Forrest_Gump> rdfs:label "Forrest Gump" ;
+    dbo:description "1994 film directed by Robert Zemeckis" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Zemeckis> ;
+    dbo:runtime 8520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gary_Sinise>,
+        <http://dbpedia.org/resource/Mykelti_Williamson>,
+        <http://dbpedia.org/resource/Robin_Wright>,
+        <http://dbpedia.org/resource/Sally_Field>,
+        <http://dbpedia.org/resource/Tom_Hanks> .
+
+<http://dbpedia.org/resource/Four_Rooms> rdfs:label "Four Rooms" ;
+    dbo:description "1995 film by Quentin Tarantino, Robert Rodriguez, Alexandre Rockwell, Allison Anders" ;
+    dbo:director <http://dbpedia.org/resource/Alexandre_Rockwell>,
+        <http://dbpedia.org/resource/Allison_Anders>,
+        <http://dbpedia.org/resource/Quentin_Tarantino>,
+        <http://dbpedia.org/resource/Robert_Rodriguez> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://dbpedia.org/resource/David_Proval>,
+        <http://dbpedia.org/resource/Ione_Skye>,
+        <http://dbpedia.org/resource/Jennifer_Beals>,
+        <http://dbpedia.org/resource/Lili_Taylor>,
+        <http://dbpedia.org/resource/Madonna>,
+        <http://dbpedia.org/resource/Marisa_Tomei>,
+        <http://dbpedia.org/resource/Paul_Calderón>,
+        <http://dbpedia.org/resource/Sammi_Davis>,
+        <http://dbpedia.org/resource/Tamlyn_Tomita>,
+        <http://dbpedia.org/resource/Tim_Roth>,
+        <http://dbpedia.org/resource/Valeria_Golino> .
+
+<http://dbpedia.org/resource/Four_Weddings_and_a_Funeral> rdfs:label "Four Weddings and a Funeral" ;
+    dbo:description "1994 film by Mike Newell" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Newell_(director)> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andie_MacDowell>,
+        <http://dbpedia.org/resource/Charlotte_Coleman>,
+        <http://dbpedia.org/resource/Corin_Redgrave>,
+        <http://dbpedia.org/resource/David_Bower>,
+        <http://dbpedia.org/resource/Hugh_Grant>,
+        <http://dbpedia.org/resource/James_Fleet>,
+        <http://dbpedia.org/resource/John_Hannah_(actor)>,
+        <http://dbpedia.org/resource/Kristin_Scott_Thomas>,
+        <http://dbpedia.org/resource/Rowan_Atkinson>,
+        <http://dbpedia.org/resource/Simon_Callow> .
+
+<http://dbpedia.org/resource/Free_Willy> rdfs:label "Free Willy" ;
+    dbo:description "1993 film directed by Simon Wincer" ;
+    dbo:director <http://dbpedia.org/resource/Simon_Wincer> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/August_Schellenberg>,
+        <http://dbpedia.org/resource/Jason_James_Richter>,
+        <http://dbpedia.org/resource/Jayne_Atkinson>,
+        <http://dbpedia.org/resource/Lori_Petty>,
+        <http://dbpedia.org/resource/Michael_Madsen> .
+
+<http://dbpedia.org/resource/Free_Willy_2:_The_Adventure_Home> rdfs:label "Free Willy 2: The Adventure Home" ;
+    dbo:description "1995 film by Dwight H. Little" ;
+    dbo:director <http://dbpedia.org/resource/Dwight_H._Little> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/August_Schellenberg>,
+        <http://dbpedia.org/resource/Elizabeth_Peña>,
+        <http://dbpedia.org/resource/Jason_James_Richter>,
+        <http://dbpedia.org/resource/Jayne_Atkinson>,
+        <http://dbpedia.org/resource/Jon_Tenney>,
+        <http://dbpedia.org/resource/Michael_Madsen> .
+
+<http://dbpedia.org/resource/French_Kiss_(1995_film)> rdfs:label "French Kiss" ;
+    dbo:description "1995 film by Lawrence Kasdan" ;
+    dbo:director <http://dbpedia.org/resource/Lawrence_Kasdan> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/François_Cluzet>,
+        <http://dbpedia.org/resource/Jean_Reno>,
+        <http://dbpedia.org/resource/Kevin_Kline>,
+        <http://dbpedia.org/resource/Meg_Ryan>,
+        <http://dbpedia.org/resource/Suzan_Anbeh>,
+        <http://dbpedia.org/resource/Timothy_Hutton> .
+
+<http://dbpedia.org/resource/Fresh_(1994_film)> rdfs:label "Fresh (1994)" ;
+    dbo:description "1994 American crime film directed by Boaz Yakin" ;
+    dbo:director <http://dbpedia.org/resource/Boaz_Yakin> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Giancarlo_Esposito>,
+        <http://dbpedia.org/resource/N'Bushe_Wright>,
+        <http://dbpedia.org/resource/Samuel_L._Jackson>,
+        <http://dbpedia.org/resource/Sean_Nelson_(actor)> .
+
+<http://dbpedia.org/resource/Friday_(1995_film)> rdfs:label "Friday" ;
+    dbo:description "1995 film directed by F. Gary Gray" ;
+    dbo:director <http://dbpedia.org/resource/F._Gary_Gray> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anna_Maria_Horsford>,
+        <http://dbpedia.org/resource/Bernie_Mac>,
+        <http://dbpedia.org/resource/Chris_Tucker>,
+        <http://dbpedia.org/resource/Ice_Cube>,
+        <http://dbpedia.org/resource/John_Witherspoon_(actor)>,
+        <http://dbpedia.org/resource/Nia_Long>,
+        <http://dbpedia.org/resource/Regina_King>,
+        <http://dbpedia.org/resource/Tommy_Lister_Jr.> .
+
+<http://dbpedia.org/resource/From_Dusk_till_Dawn> rdfs:label "From Dusk Till Dawn" ;
+    dbo:description "1996 film directed by Robert Rodriguez" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Rodriguez> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cheech_Marin>,
+        <http://dbpedia.org/resource/Fred_Williamson>,
+        <http://dbpedia.org/resource/George_Clooney>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/Juliette_Lewis>,
+        <http://dbpedia.org/resource/Quentin_Tarantino>,
+        <http://dbpedia.org/resource/Salma_Hayek> .
+
+<http://dbpedia.org/resource/Georgia_(1995_film)> rdfs:label "Georgia (1995)" ;
+    dbo:description "1995 film by Ulu Grosbard" ;
+    dbo:director <http://dbpedia.org/resource/Ulu_Grosbard> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jennifer_Jason_Leigh>,
+        <http://dbpedia.org/resource/John_C._Reilly>,
+        <http://dbpedia.org/resource/John_Doe_(musician)>,
+        <http://dbpedia.org/resource/Mare_Winningham>,
+        <http://dbpedia.org/resource/Max_Perlich>,
+        <http://dbpedia.org/resource/Ted_Levine>,
+        <http://dbpedia.org/resource/Tom_Bower_(actor)> .
+
+<http://dbpedia.org/resource/Geronimo:_An_American_Legend> rdfs:label "Geronimo: An American Legend" ;
+    dbo:description "1993 film by Walter Hill" ;
+    dbo:director <http://dbpedia.org/resource/Walter_Hill> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/Jason_Patric>,
+        <http://dbpedia.org/resource/Robert_Duvall>,
+        <http://dbpedia.org/resource/Wes_Studi> .
+
+<http://dbpedia.org/resource/Get_Shorty_(film)> rdfs:label "Get Shorty" ;
+    dbo:description "1995 film by Barry Sonnenfeld" ;
+    dbo:director <http://dbpedia.org/resource/Barry_Sonnenfeld> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Danny_DeVito>,
+        <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/John_Travolta>,
+        <http://dbpedia.org/resource/Rene_Russo> .
+
+<http://dbpedia.org/resource/GoldenEye> rdfs:label "GoldenEye" ;
+    dbo:description "1995 film by Martin Campbell" ;
+    dbo:director <http://dbpedia.org/resource/Martin_Campbell> ;
+    dbo:runtime 7800.0 ;
+    dbo:starring <http://dbpedia.org/resource/Famke_Janssen>,
+        <http://dbpedia.org/resource/Izabella_Scorupco>,
+        <http://dbpedia.org/resource/Joe_Don_Baker>,
+        <http://dbpedia.org/resource/Pierce_Brosnan>,
+        <http://dbpedia.org/resource/Sean_Bean> .
+
+<http://dbpedia.org/resource/Gordy> rdfs:label "Gordy" ;
+    dbo:description "1994 film directed by Mark Lewis" ;
+    dbo:director <http://dbpedia.org/resource/Mark_Lewis_(filmmaker)> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Doug_Stone>,
+        <http://dbpedia.org/resource/Tom_Lester> .
+
+<http://dbpedia.org/resource/Grumpier_Old_Men> rdfs:label "Grumpier Old Men" ;
+    dbo:description "1995 film by Howard Deutch" ;
+    dbo:director <http://dbpedia.org/resource/Howard_Deutch> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ann-Margret>,
+        <http://dbpedia.org/resource/Daryl_Hannah>,
+        <http://dbpedia.org/resource/Jack_Lemmon>,
+        <http://dbpedia.org/resource/Kevin_Pollak>,
+        <http://dbpedia.org/resource/Sophia_Loren>,
+        <http://dbpedia.org/resource/Walter_Matthau> .
+
+<http://dbpedia.org/resource/Hackers_(film)> rdfs:label "Hackers" ;
+    dbo:description "1995 American crime film" ;
+    dbo:director <http://dbpedia.org/resource/Iain_Softley> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Angelina_Jolie>,
+        <http://dbpedia.org/resource/Fisher_Stevens>,
+        <http://dbpedia.org/resource/Jonny_Lee_Miller>,
+        <http://dbpedia.org/resource/Lorraine_Bracco> .
+
+<http://dbpedia.org/resource/Happy_Gilmore> rdfs:label "Happy Gilmore" ;
+    dbo:description "1996 film by Dennis Dugan" ;
+    dbo:director <http://dbpedia.org/resource/Dennis_Dugan> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Adam_Sandler>,
+        <http://dbpedia.org/resource/Carl_Weathers>,
+        <http://dbpedia.org/resource/Christopher_McDonald>,
+        <http://dbpedia.org/resource/Julie_Bowen> .
+
+<http://dbpedia.org/resource/Heat_(1995_film)> rdfs:label "Heat",
+        "Heat (1995)" ;
+    dbo:description "1995 film directed by Michael Mann" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Mann> ;
+    dbo:runtime 10260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Al_Pacino>,
+        <http://dbpedia.org/resource/Amy_Brenneman>,
+        <http://dbpedia.org/resource/Ashley_Judd>,
+        <http://dbpedia.org/resource/Danny_Trejo>,
+        <http://dbpedia.org/resource/Diane_Venora>,
+        <http://dbpedia.org/resource/Jon_Voight>,
+        <http://dbpedia.org/resource/Mykelti_Williamson>,
+        <http://dbpedia.org/resource/Robert_De_Niro>,
+        <http://dbpedia.org/resource/Ted_Levine>,
+        <http://dbpedia.org/resource/Tom_Sizemore>,
+        <http://dbpedia.org/resource/Val_Kilmer>,
+        <http://dbpedia.org/resource/Wes_Studi> .
+
+<http://dbpedia.org/resource/Heavenly_Creatures> rdfs:label "Heavenly Creatures" ;
+    dbo:description "1994 film directed by Peter Jackson" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Jackson> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Clive_Merrison>,
+        <http://dbpedia.org/resource/Diana_Kent>,
+        <http://dbpedia.org/resource/Kate_Winslet>,
+        <http://dbpedia.org/resource/Melanie_Lynskey>,
+        <http://dbpedia.org/resource/Sarah_Peirse>,
+        <http://dbpedia.org/resource/Simon_O'Connor_(actor)> .
+
+<http://dbpedia.org/resource/Heavyweights> rdfs:label "Heavyweights" ;
+    dbo:description "1995 film directed by Steven Brill" ;
+    dbo:director <http://dbpedia.org/resource/Steven_Brill_(filmmaker)> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aaron_Schwartz_(American_actor)>,
+        <http://dbpedia.org/resource/Anne_Meara>,
+        <http://dbpedia.org/resource/Ben_Stiller>,
+        <http://dbpedia.org/resource/David_Bowe_(actor)>,
+        <http://dbpedia.org/resource/Jeffrey_Tambor>,
+        <http://dbpedia.org/resource/Jerry_Stiller>,
+        <http://dbpedia.org/resource/Kenan_Thompson>,
+        <http://dbpedia.org/resource/Leah_Lail>,
+        <http://dbpedia.org/resource/Max_Goldblatt>,
+        <http://dbpedia.org/resource/Paul_Feig>,
+        <http://dbpedia.org/resource/Shaun_Weiss>,
+        <http://dbpedia.org/resource/Tom_Hodges_(actor)>,
+        <http://dbpedia.org/resource/Tom_McGowan> .
+
+<http://dbpedia.org/resource/Heidi_Fleiss:_Hollywood_Madam> rdfs:label "Heidi Fleiss: Hollywood Madam" ;
+    dbo:description "1996 film by Nick Broomfield" ;
+    dbo:director <http://dbpedia.org/resource/Nick_Broomfield> ;
+    dbo:runtime 6420.0 .
+
+<http://dbpedia.org/resource/Higher_Learning> rdfs:label "Higher Learning" ;
+    dbo:description "1995 film by John Singleton" ;
+    dbo:director <http://dbpedia.org/resource/John_Singleton> ;
+    dbo:runtime 7620.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ice_Cube>,
+        <http://dbpedia.org/resource/Jennifer_Connelly>,
+        <http://dbpedia.org/resource/Kristy_Swanson>,
+        <http://dbpedia.org/resource/Laurence_Fishburne>,
+        <http://dbpedia.org/resource/Michael_Rapaport>,
+        <http://dbpedia.org/resource/Omar_Epps> .
+
+<http://dbpedia.org/resource/Highlander_III:_The_Sorcerer> rdfs:label "Highlander III: The Sorcerer" ;
+    dbo:description "1994 film by Andy Morahan" ;
+    dbo:director <http://dbpedia.org/resource/Andy_Morahan> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Lambert>,
+        <http://dbpedia.org/resource/Deborah_Kara_Unger>,
+        <http://dbpedia.org/resource/Mako_(actor)>,
+        <http://dbpedia.org/resource/Mario_Van_Peebles> .
+
+<http://dbpedia.org/resource/Home_for_the_Holidays_(1995_film)> rdfs:label "Home for the Holidays" ;
+    dbo:description "1995 film directed by Jodie Foster" ;
+    dbo:director <http://dbpedia.org/resource/Jodie_Foster> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anne_Bancroft>,
+        <http://dbpedia.org/resource/Charles_Durning>,
+        <http://dbpedia.org/resource/Claire_Danes>,
+        <http://dbpedia.org/resource/Cynthia_Stevenson>,
+        <http://dbpedia.org/resource/Dylan_McDermott>,
+        <http://dbpedia.org/resource/Geraldine_Chaplin>,
+        <http://dbpedia.org/resource/Holly_Hunter>,
+        <http://dbpedia.org/resource/Robert_Downey_Jr.>,
+        <http://dbpedia.org/resource/Steve_Guttenberg> .
+
+<http://dbpedia.org/resource/Hoop_Dreams> rdfs:label "Hoop Dreams" ;
+    dbo:description "1994 documentary film by Steve James" ;
+    dbo:director <http://dbpedia.org/resource/Steve_James_(film_producer)> ;
+    dbo:runtime 10260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Arthur_Agee>,
+        <http://dbpedia.org/resource/William_Gates_(basketball)> .
+
+<http://dbpedia.org/resource/Houseguest> rdfs:label "Houseguest" ;
+    dbo:description "1995 film by Randall Miller" ;
+    dbo:director <http://dbpedia.org/resource/Randall_Miller> ;
+    dbo:runtime 6540.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jeffrey_Jones>,
+        <http://dbpedia.org/resource/Kim_Greist>,
+        <http://dbpedia.org/resource/Phil_Hartman>,
+        <http://dbpedia.org/resource/Sinbad_(comedian)> .
+
+<http://dbpedia.org/resource/How_to_Make_an_American_Quilt> rdfs:label "How to Make an American Quilt" ;
+    dbo:description "1995 film by Jocelyn Moorhouse" ;
+    dbo:director <http://dbpedia.org/resource/Jocelyn_Moorhouse> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfre_Woodard>,
+        <http://dbpedia.org/resource/Anne_Bancroft>,
+        <http://dbpedia.org/resource/Dermot_Mulroney>,
+        <http://dbpedia.org/resource/Derrick_O'Connor>,
+        <http://dbpedia.org/resource/Ellen_Burstyn>,
+        <http://dbpedia.org/resource/Jean_Simmons>,
+        <http://dbpedia.org/resource/Kate_Capshaw>,
+        <http://dbpedia.org/resource/Kate_Nelligan>,
+        <http://dbpedia.org/resource/Lois_Smith>,
+        <http://dbpedia.org/resource/Loren_Dean>,
+        <http://dbpedia.org/resource/Maya_Angelou>,
+        <http://dbpedia.org/resource/Mykelti_Williamson>,
+        <http://dbpedia.org/resource/Rip_Torn>,
+        <http://dbpedia.org/resource/Samantha_Mathis>,
+        <http://dbpedia.org/resource/Winona_Ryder> .
+
+<http://dbpedia.org/resource/I.Q._(film)> rdfs:label "I.Q." ;
+    dbo:description "1994 film by Fred Schepisi" ;
+    dbo:director <http://dbpedia.org/resource/Fred_Schepisi> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Charles_Durning>,
+        <http://dbpedia.org/resource/Meg_Ryan>,
+        <http://dbpedia.org/resource/Tim_Robbins>,
+        <http://dbpedia.org/resource/Walter_Matthau> .
+
+<http://dbpedia.org/resource/I_Like_It_Like_That_(film)> rdfs:label "I Like It Like That" ;
+    dbo:description "1994 film by Darnell Martin" ;
+    dbo:director <http://dbpedia.org/resource/Darnell_Martin> ;
+    dbo:runtime 6240.0 ;
+    dbo:starring <http://dbpedia.org/resource/Griffin_Dunne>,
+        <http://dbpedia.org/resource/Jon_Seda>,
+        <http://dbpedia.org/resource/Lauren_Vélez>,
+        <http://dbpedia.org/resource/Rita_Moreno> .
+
+<http://dbpedia.org/resource/I_Love_Trouble_(1994_film)> rdfs:label "I Love Trouble" ;
+    dbo:description "1994 film by Charles Shyer" ;
+    dbo:director <http://dbpedia.org/resource/Charles_Shyer> ;
+    dbo:runtime 7380.0 ;
+    dbo:starring <http://dbpedia.org/resource/James_Rebhorn>,
+        <http://dbpedia.org/resource/Julia_Roberts>,
+        <http://dbpedia.org/resource/Nick_Nolte>,
+        <http://dbpedia.org/resource/Robert_Loggia>,
+        <http://dbpedia.org/resource/Saul_Rubinek> .
+
+<http://dbpedia.org/resource/If_Lucy_Fell> rdfs:label "If Lucy Fell" ;
+    dbo:description "1996 film by Eric Schaeffer" ;
+    dbo:director <http://dbpedia.org/resource/Eric_Schaeffer> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ben_Stiller>,
+        <http://dbpedia.org/resource/Elle_Macpherson>,
+        <http://dbpedia.org/resource/Eric_Schaeffer>,
+        <http://dbpedia.org/resource/James_Rebhorn>,
+        <http://dbpedia.org/resource/Sarah_Jessica_Parker> .
+
+<http://dbpedia.org/resource/Immortal_Beloved_(1994_film)> rdfs:label "Immortal Beloved" ;
+    dbo:description "1994 film by Bernard Rose" ;
+    dbo:director <http://dbpedia.org/resource/Bernard_Rose_(director)> ;
+    dbo:runtime 7260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gary_Oldman>,
+        <http://dbpedia.org/resource/Isabella_Rossellini>,
+        <http://dbpedia.org/resource/Jeroen_Krabbé>,
+        <http://dbpedia.org/resource/Johanna_ter_Steege>,
+        <http://dbpedia.org/resource/Valeria_Golino> .
+
+<http://dbpedia.org/resource/In_the_Mouth_of_Madness> rdfs:label "In the Mouth of Madness" ;
+    dbo:description "1994 film directed by John Carpenter" .
+
+<http://dbpedia.org/resource/Interview_with_the_Vampire_(film)> rdfs:label "Interview with the Vampire: The Vampire Chronicles" ;
+    dbo:description "1994 film by Neil Jordan" ;
+    dbo:director <http://dbpedia.org/resource/Neil_Jordan> ;
+    dbo:runtime 7320.0 ;
+    dbo:starring <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://dbpedia.org/resource/Brad_Pitt>,
+        <http://dbpedia.org/resource/Christian_Slater>,
+        <http://dbpedia.org/resource/Kirsten_Dunst>,
+        <http://dbpedia.org/resource/Stephen_Rea>,
+        <http://dbpedia.org/resource/Tom_Cruise> .
+
+<http://dbpedia.org/resource/It_Could_Happen_to_You_(1994_film)> rdfs:label "It Could Happen to You",
+        "It Could Happen to You (1994)" ;
+    dbo:description "1994 film by Andrew Bergman" ;
+    dbo:director <http://dbpedia.org/resource/Andrew_Bergman> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bridget_Fonda>,
+        <http://dbpedia.org/resource/Isaac_Hayes>,
+        <http://dbpedia.org/resource/J._E._Freeman>,
+        <http://dbpedia.org/resource/Nicolas_Cage>,
+        <http://dbpedia.org/resource/Rosie_Perez>,
+        <http://dbpedia.org/resource/Seymour_Cassel>,
+        <http://dbpedia.org/resource/Stanley_Tucci> .
+
+<http://dbpedia.org/resource/It_Takes_Two_(1995_film)> rdfs:label "It Takes Two",
+        "It Takes Two (1995)" ;
+    dbo:description "1995 film directed by Andy Tennant" ;
+    dbo:director <http://dbpedia.org/resource/Andy_Tennant> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jane_Sibbett>,
+        <http://dbpedia.org/resource/Kirstie_Alley>,
+        <http://dbpedia.org/resource/Mary-Kate_and_Ashley_Olsen>,
+        <http://dbpedia.org/resource/Philip_Bosco>,
+        <http://dbpedia.org/resource/Steve_Guttenberg> .
+
+<http://dbpedia.org/resource/Jason's_Lyric> rdfs:label "Jason's Lyric" ;
+    dbo:description "1994 film directed by Doug McHenry" ;
+    dbo:director <http://dbpedia.org/resource/Doug_McHenry> ;
+    dbo:runtime 7200.0 ;
+    dbo:starring <http://dbpedia.org/resource/Allen_Payne>,
+        <http://dbpedia.org/resource/Bokeem_Woodbine>,
+        <http://dbpedia.org/resource/Eddie_Griffin>,
+        <http://dbpedia.org/resource/Forest_Whitaker>,
+        <http://dbpedia.org/resource/Jada_Pinkett_Smith>,
+        <http://dbpedia.org/resource/Treach> .
+
+<http://dbpedia.org/resource/Jefferson_in_Paris> rdfs:label "Jefferson in Paris" ;
+    dbo:description "1995 film by James Ivory" ;
+    dbo:director <http://dbpedia.org/resource/James_Ivory> ;
+    dbo:runtime 8340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Charlotte_de_Turckheim>,
+        <http://dbpedia.org/resource/Greta_Scacchi>,
+        <http://dbpedia.org/resource/Gwyneth_Paltrow>,
+        <http://dbpedia.org/resource/James_Earl_Jones>,
+        <http://dbpedia.org/resource/Jean-Pierre_Aumont>,
+        <http://dbpedia.org/resource/Lambert_Wilson>,
+        <http://dbpedia.org/resource/Michael_Lonsdale>,
+        <http://dbpedia.org/resource/Nancy_Marchand>,
+        <http://dbpedia.org/resource/Nick_Nolte>,
+        <http://dbpedia.org/resource/Seth_Gilliam>,
+        <http://dbpedia.org/resource/Simon_Callow>,
+        <http://dbpedia.org/resource/Thandiwe_Newton> .
+
+<http://dbpedia.org/resource/Jeffrey_(1995_film)> rdfs:label "Jeffrey" ;
+    dbo:description "1995 film by Christopher Ashley" ;
+    dbo:director <http://dbpedia.org/resource/Christopher_Ashley> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bryan_Batt>,
+        <http://dbpedia.org/resource/Michael_T._Weiss>,
+        <http://dbpedia.org/resource/Patrick_Stewart>,
+        <http://dbpedia.org/resource/Sigourney_Weaver>,
+        <http://dbpedia.org/resource/Steven_Weber> .
+
+<http://dbpedia.org/resource/Johnny_Mnemonic_(film)> rdfs:label "Johnny Mnemonic" ;
+    dbo:description "1995 film directed by Robert Longo" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Longo> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dina_Meyer>,
+        <http://dbpedia.org/resource/Dolph_Lundgren>,
+        <http://dbpedia.org/resource/Ice-T>,
+        <http://dbpedia.org/resource/Keanu_Reeves>,
+        <http://dbpedia.org/resource/Takeshi_Kitano> .
+
+<http://dbpedia.org/resource/Judge_Dredd_(film)> rdfs:label "Judge Dredd" ;
+    dbo:description "1995 film directed by Danny Cannon" ;
+    dbo:director <http://dbpedia.org/resource/Danny_Cannon> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Armand_Assante>,
+        <http://dbpedia.org/resource/Diane_Lane>,
+        <http://dbpedia.org/resource/Joan_Chen>,
+        <http://dbpedia.org/resource/Jürgen_Prochnow>,
+        <http://dbpedia.org/resource/Max_von_Sydow>,
+        <http://dbpedia.org/resource/Rob_Schneider>,
+        <http://dbpedia.org/resource/Sylvester_Stallone> .
+
+<http://dbpedia.org/resource/Jumanji> rdfs:label "Jumanji" ;
+    dbo:description "1995 film by Joe Johnston" ;
+    dbo:director <http://dbpedia.org/resource/Joe_Johnston> ;
+    dbo:runtime 6240.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bebe_Neuwirth>,
+        <http://dbpedia.org/resource/Bonnie_Hunt>,
+        <http://dbpedia.org/resource/David_Alan_Grier>,
+        <http://dbpedia.org/resource/Jonathan_Hyde>,
+        <http://dbpedia.org/resource/Kirsten_Dunst>,
+        <http://dbpedia.org/resource/Robin_Williams> .
+
+<http://dbpedia.org/resource/Junior_(1994_film)> rdfs:label "Junior",
+        "Junior (1994)" ;
+    dbo:description "1994 American comedy film directed by Ivan Reitman" ;
+    dbo:director <http://dbpedia.org/resource/Ivan_Reitman> ;
+    dbo:runtime 6540.0 ;
+    dbo:starring <http://dbpedia.org/resource/Arnold_Schwarzenegger>,
+        <http://dbpedia.org/resource/Danny_DeVito>,
+        <http://dbpedia.org/resource/Emma_Thompson>,
+        <http://dbpedia.org/resource/Frank_Langella>,
+        <http://dbpedia.org/resource/Pamela_Reed> .
+
+<http://dbpedia.org/resource/Jury_Duty_(film)> rdfs:label "Jury Duty" ;
+    dbo:description "1995 film by John Fortenberry" ;
+    dbo:director <http://dbpedia.org/resource/John_Fortenberry> ;
+    dbo:runtime 5280.0 ;
+    dbo:starring <http://dbpedia.org/resource/Abe_Vigoda>,
+        <http://dbpedia.org/resource/Brian_Doyle-Murray>,
+        <http://dbpedia.org/resource/Charles_Napier_(actor)>,
+        <http://dbpedia.org/resource/Pauly_Shore>,
+        <http://dbpedia.org/resource/Shelley_Winters>,
+        <http://dbpedia.org/resource/Stanley_Tucci>,
+        <http://dbpedia.org/resource/Tia_Carrere> .
+
+<http://dbpedia.org/resource/Just_Cause_(film)> rdfs:label "Just Cause" ;
+    dbo:description "1995 film directed by Arne Glimcher" ;
+    dbo:director <http://dbpedia.org/resource/Arne_Glimcher> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Blair_Underwood>,
+        <http://dbpedia.org/resource/Ed_Harris>,
+        <http://dbpedia.org/resource/Kate_Capshaw>,
+        <http://dbpedia.org/resource/Laurence_Fishburne>,
+        <http://dbpedia.org/resource/Ruby_Dee>,
+        <http://dbpedia.org/resource/Sean_Connery> .
+
+<http://dbpedia.org/resource/Kicking_&_Screaming_(2005_film)> rdfs:label "Kicking and Screaming" ;
+    dbo:description "2005 American comedy film directed by Jesse Dylan" ;
+    dbo:director <http://dbpedia.org/resource/Jesse_Dylan> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Kate_Walsh_(actress)>,
+        <http://dbpedia.org/resource/Mike_Ditka>,
+        <http://dbpedia.org/resource/Robert_Duvall>,
+        <http://dbpedia.org/resource/Will_Ferrell> .
+
+<http://dbpedia.org/resource/Kicking_and_Screaming_(1995_film)> rdfs:label "Kicking and Screaming" ;
+    dbo:description "1995 film by Noah Baumbach" ;
+    dbo:director <http://dbpedia.org/resource/Noah_Baumbach> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cara_Buono>,
+        <http://dbpedia.org/resource/Carlos_Jacott>,
+        <http://dbpedia.org/resource/Chris_Eigeman>,
+        <http://dbpedia.org/resource/Elliott_Gould>,
+        <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Jason_Wiles>,
+        <http://dbpedia.org/resource/Josh_Hamilton_(actor)>,
+        <http://dbpedia.org/resource/Olivia_d'Abo>,
+        <http://dbpedia.org/resource/Parker_Posey> .
+
+<http://dbpedia.org/resource/Kids_(film)> rdfs:label "Kids" ;
+    dbo:description "1995 film by Larry Clark" ;
+    dbo:director <http://dbpedia.org/resource/Larry_Clark> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chloë_Sevigny>,
+        <http://dbpedia.org/resource/Justin_Pierce>,
+        <http://dbpedia.org/resource/Leo_Fitzpatrick> .
+
+<http://dbpedia.org/resource/Kiss_of_Death_(1947_film)> rdfs:label "Kiss of Death" ;
+    dbo:description "1947 film by Henry Hathaway" ;
+    dbo:director <http://dbpedia.org/resource/Henry_Hathaway> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brian_Donlevy>,
+        <http://dbpedia.org/resource/Coleen_Gray>,
+        <http://dbpedia.org/resource/Richard_Widmark>,
+        <http://dbpedia.org/resource/Victor_Mature> .
+
+<http://dbpedia.org/resource/Kiss_of_Death_(1995_film)> rdfs:label "Kiss of Death",
+        "Kiss of Death (1995)" ;
+    dbo:description "1995 film by Barbet Schroeder" ;
+    dbo:director <http://dbpedia.org/resource/Barbet_Schroeder> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Caruso>,
+        <http://dbpedia.org/resource/Helen_Hunt>,
+        <http://dbpedia.org/resource/Kathryn_Erbe>,
+        <http://dbpedia.org/resource/Michael_Rapaport>,
+        <http://dbpedia.org/resource/Nicolas_Cage>,
+        <http://dbpedia.org/resource/Samuel_L._Jackson>,
+        <http://dbpedia.org/resource/Stanley_Tucci>,
+        <http://dbpedia.org/resource/Ving_Rhames> .
+
+<http://dbpedia.org/resource/Ladybird,_Ladybird_(film)> rdfs:label "Ladybird Ladybird" ;
+    dbo:description "1994 film by Ken Loach" ;
+    dbo:director <http://dbpedia.org/resource/Ken_Loach> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Crissy_Rock>,
+        <http://dbpedia.org/resource/Vladimir_Vega> .
+
+<http://dbpedia.org/resource/Lamerica> rdfs:label "Lamerica" ;
+    dbo:description "1994 film by Gianni Amelio" ;
+    dbo:director <http://dbpedia.org/resource/Gianni_Amelio> ;
+    dbo:runtime 6960.0 ;
+    dbo:starring <http://dbpedia.org/resource/Carmelo_Di_Mazzarelli>,
+        <http://dbpedia.org/resource/Elida_Janushi>,
+        <http://dbpedia.org/resource/Enrico_Lo_Verso>,
+        <http://dbpedia.org/resource/Idajet_Sejdia>,
+        <http://dbpedia.org/resource/Marieta_Ljarja>,
+        <http://dbpedia.org/resource/Michele_Placido>,
+        <http://dbpedia.org/resource/Piro_Milkani>,
+        <http://dbpedia.org/resource/Sefer_Pema> .
+
+<http://dbpedia.org/resource/Lawnmower_Man_2:_Beyond_Cyberspace> rdfs:label "Lawnmower Man 2: Beyond Cyberspace" ;
+    dbo:description "1996 film by Farhad Mann" ;
+    dbo:director <http://dbpedia.org/resource/Farhad_Mann> ;
+    dbo:runtime 5580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Austin_O'Brien>,
+        <http://dbpedia.org/resource/Ely_Pouget>,
+        <http://dbpedia.org/resource/Kevin_Conway_(actor)>,
+        <http://dbpedia.org/resource/Matt_Frewer>,
+        <http://dbpedia.org/resource/Patrick_Bergin> .
+
+<http://dbpedia.org/resource/Leaving_Las_Vegas> rdfs:label "Leaving Las Vegas" ;
+    dbo:description "1995 film directed by Mike Figgis" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Figgis> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Elisabeth_Shue>,
+        <http://dbpedia.org/resource/Julian_Sands>,
+        <http://dbpedia.org/resource/Nicolas_Cage> .
+
+<http://dbpedia.org/resource/Legends_of_the_Fall> rdfs:label "Legends of the Fall" ;
+    dbo:description "1994 film directed by Edward Zwick" ;
+    dbo:director <http://dbpedia.org/resource/Edward_Zwick> ;
+    dbo:runtime 7980.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aidan_Quinn>,
+        <http://dbpedia.org/resource/Anthony_Hopkins>,
+        <http://dbpedia.org/resource/Brad_Pitt>,
+        <http://dbpedia.org/resource/Henry_Thomas>,
+        <http://dbpedia.org/resource/Julia_Ormond> .
+
+<http://dbpedia.org/resource/Les_Misérables_(1995_film)> rdfs:label "Les Misérables (1995)" ;
+    dbo:description "1995 film set by Claude Lelouch" ;
+    dbo:director <http://dbpedia.org/resource/Claude_Lelouch> ;
+    dbo:runtime 10500.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alessandra_Martines>,
+        <http://dbpedia.org/resource/Jean-Paul_Belmondo>,
+        <http://dbpedia.org/resource/Michel_Boujenah> .
+
+<http://dbpedia.org/resource/Little_Buddha> rdfs:label "Little Buddha" ;
+    dbo:description "1993 film by Bernardo Bertolucci" ;
+    dbo:director <http://dbpedia.org/resource/Bernardo_Bertolucci> ;
+    dbo:runtime 8400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bridget_Fonda>,
+        <http://dbpedia.org/resource/Chris_Isaak>,
+        <http://dbpedia.org/resource/Keanu_Reeves>,
+        <http://dbpedia.org/resource/Ying_Ruocheng> .
+
+<http://dbpedia.org/resource/Little_Women_(1994_film)> rdfs:label "Little Women (1994)" ;
+    dbo:description "1994 film by Gillian Armstrong" ;
+    dbo:director <http://dbpedia.org/resource/Gillian_Armstrong> ;
+    dbo:runtime 7140.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christian_Bale>,
+        <http://dbpedia.org/resource/Claire_Danes>,
+        <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Gabriel_Byrne>,
+        <http://dbpedia.org/resource/Kirsten_Dunst>,
+        <http://dbpedia.org/resource/Mary_Wickes>,
+        <http://dbpedia.org/resource/Samantha_Mathis>,
+        <http://dbpedia.org/resource/Susan_Sarandon>,
+        <http://dbpedia.org/resource/Trini_Alvarado>,
+        <http://dbpedia.org/resource/Winona_Ryder> .
+
+<http://dbpedia.org/resource/Living_in_Oblivion> rdfs:label "Living in Oblivion" ;
+    dbo:description "1995 film by Tom DiCillo" ;
+    dbo:director <http://dbpedia.org/resource/Tom_DiCillo> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Catherine_Keener>,
+        <http://dbpedia.org/resource/Danielle_von_Zerneck>,
+        <http://dbpedia.org/resource/Dermot_Mulroney>,
+        <http://dbpedia.org/resource/James_LeGros>,
+        <http://dbpedia.org/resource/Steve_Buscemi> .
+
+<http://dbpedia.org/resource/Lord_of_Illusions> rdfs:label "Lord of Illusions" ;
+    dbo:description "1995 film directed by Clive Barker" ;
+    dbo:director <http://dbpedia.org/resource/Clive_Barker> ;
+    dbo:runtime 6540.0 ;
+    dbo:starring <http://dbpedia.org/resource/Daniel_von_Bargen>,
+        <http://dbpedia.org/resource/Famke_Janssen>,
+        <http://dbpedia.org/resource/Kevin_J._O'Connor_(actor)>,
+        <http://dbpedia.org/resource/Scott_Bakula> .
+
+<http://dbpedia.org/resource/Losing_Isaiah> rdfs:label "Losing Isaiah" ;
+    dbo:description "1995 film by Stephen Gyllenhaal" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Gyllenhaal> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cuba_Gooding_Jr.>,
+        <http://dbpedia.org/resource/David_Strathairn>,
+        <http://dbpedia.org/resource/Halle_Berry>,
+        <http://dbpedia.org/resource/Jessica_Lange>,
+        <http://dbpedia.org/resource/Samuel_L._Jackson> .
+
+<http://dbpedia.org/resource/Love_Affair_(1994_film)> rdfs:label "Love Affair",
+        "Love Affair (1994)" ;
+    dbo:description "1994 film directed by Glenn Gordon Caron" ;
+    dbo:director <http://dbpedia.org/resource/Glenn_Gordon_Caron> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annette_Bening>,
+        <http://dbpedia.org/resource/Chloe_Webb>,
+        <http://dbpedia.org/resource/Garry_Shandling>,
+        <http://dbpedia.org/resource/Kate_Capshaw>,
+        <http://dbpedia.org/resource/Katharine_Hepburn>,
+        <http://dbpedia.org/resource/Pierce_Brosnan>,
+        <http://dbpedia.org/resource/Warren_Beatty> .
+
+<http://dbpedia.org/resource/Love_and_Human_Remains> rdfs:label "Love & Human Remains" ;
+    dbo:description "1993 film by Denys Arcand" ;
+    dbo:director <http://dbpedia.org/resource/Denys_Arcand> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cameron_Bancroft_(actor)>,
+        <http://dbpedia.org/resource/Jo_Vannicola>,
+        <http://dbpedia.org/resource/Matthew_Ferguson>,
+        <http://dbpedia.org/resource/Mia_Kirshner>,
+        <http://dbpedia.org/resource/Rick_Roberts_(actor)>,
+        <http://dbpedia.org/resource/Ruth_Marshall>,
+        <http://dbpedia.org/resource/Thomas_Gibson> .
+
+<http://dbpedia.org/resource/Léon:_The_Professional> rdfs:label "Léon: The Professional" ;
+    dbo:description "1994 film by Luc Besson" ;
+    dbo:director <http://dbpedia.org/resource/Luc_Besson> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Danny_Aiello>,
+        <http://dbpedia.org/resource/Gary_Oldman>,
+        <http://dbpedia.org/resource/Jean_Reno>,
+        <http://dbpedia.org/resource/Natalie_Portman> .
+
+<http://dbpedia.org/resource/Mad_Love_(1935_film)> rdfs:label "Mad Love" ;
+    dbo:description "1935 film by Karl Freund" ;
+    dbo:director <http://dbpedia.org/resource/Karl_Freund> ;
+    dbo:runtime 4080.0 ;
+    dbo:starring <http://dbpedia.org/resource/Colin_Clive>,
+        <http://dbpedia.org/resource/Frances_Drake>,
+        <http://dbpedia.org/resource/Peter_Lorre>,
+        <http://dbpedia.org/resource/Sara_Haden>,
+        <http://dbpedia.org/resource/Ted_Healy> .
+
+<http://dbpedia.org/resource/Mad_Love_(1995_film)> rdfs:label "Mad Love",
+        "Mad Love (1995)" ;
+    dbo:description "1995 film by Antonia Bird" ;
+    dbo:director <http://dbpedia.org/resource/Antonia_Bird> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_O'Donnell>,
+        <http://dbpedia.org/resource/Drew_Barrymore>,
+        <http://dbpedia.org/resource/Joan_Allen> .
+
+<http://dbpedia.org/resource/Major_Payne> rdfs:label "Major Payne" ;
+    dbo:description "1995 film by Nick Castle" ;
+    dbo:director <http://dbpedia.org/resource/Nick_Castle> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Damon_Wayans>,
+        <http://dbpedia.org/resource/Karyn_Parsons>,
+        <http://dbpedia.org/resource/Michael_Ironside> .
+
+<http://dbpedia.org/resource/Mallrats> rdfs:label "Mallrats" ;
+    dbo:description "1995 film directed by Kevin Smith" ;
+    dbo:director <http://dbpedia.org/resource/Kevin_Smith> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Claire_Forlani>,
+        <http://dbpedia.org/resource/Jason_Lee>,
+        <http://dbpedia.org/resource/Jeremy_London>,
+        <http://dbpedia.org/resource/Michael_Rooker>,
+        <http://dbpedia.org/resource/Priscilla_Barnes>,
+        <http://dbpedia.org/resource/Shannen_Doherty> .
+
+<http://dbpedia.org/resource/Man_of_the_House_(2005_film)> rdfs:label "Man of the House" ;
+    dbo:description "2005 film by Stephen Herek" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Herek> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anne_Archer>,
+        <http://dbpedia.org/resource/Brian_Van_Holt>,
+        <http://dbpedia.org/resource/Christina_Milian>,
+        <http://dbpedia.org/resource/Monica_Keena>,
+        <http://dbpedia.org/resource/Paula_Garcés>,
+        <http://dbpedia.org/resource/R._Lee_Ermey>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/Man_of_the_Year_(2006_film)> rdfs:label "Man of the Year" ;
+    dbo:description "2006 film by Barry Levinson" ;
+    dbo:director <http://dbpedia.org/resource/Barry_Levinson> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Jeff_Goldblum>,
+        <http://dbpedia.org/resource/Laura_Linney>,
+        <http://dbpedia.org/resource/Lewis_Black>,
+        <http://dbpedia.org/resource/Robin_Williams> .
+
+<http://dbpedia.org/resource/Mary_Reilly_(film)> rdfs:label "Mary Reilly" ;
+    dbo:description "1996 film directed by Stephen Frears" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Frears> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/George_Cole_(actor)>,
+        <http://dbpedia.org/resource/John_Malkovich>,
+        <http://dbpedia.org/resource/Julia_Roberts>,
+        <http://dbpedia.org/resource/Michael_Gambon> .
+
+<http://dbpedia.org/resource/Mary_Shelley's_Frankenstein_(film)> rdfs:label "Mary Shelley's Frankenstein" ;
+    dbo:description "1994 horror film directed by Kenneth Branagh" ;
+    dbo:director <http://dbpedia.org/resource/Kenneth_Branagh> ;
+    dbo:runtime 7380.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aidan_Quinn>,
+        <http://dbpedia.org/resource/Helena_Bonham_Carter>,
+        <http://dbpedia.org/resource/Ian_Holm>,
+        <http://dbpedia.org/resource/John_Cleese>,
+        <http://dbpedia.org/resource/Kenneth_Branagh>,
+        <http://dbpedia.org/resource/Robert_De_Niro>,
+        <http://dbpedia.org/resource/Tom_Hulce> .
+
+<http://dbpedia.org/resource/Maverick_(film)> rdfs:label "Maverick" ;
+    dbo:description "1994 film by Richard Donner" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Donner> ;
+    dbo:runtime 7620.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfred_Molina>,
+        <http://dbpedia.org/resource/Graham_Greene_(actor)>,
+        <http://dbpedia.org/resource/James_Coburn>,
+        <http://dbpedia.org/resource/James_Garner>,
+        <http://dbpedia.org/resource/Jodie_Foster>,
+        <http://dbpedia.org/resource/Mel_Gibson> .
+
+<http://dbpedia.org/resource/Miami_Rhapsody> rdfs:label "Miami Rhapsody" ;
+    dbo:description "1995 film by David Frankel" ;
+    dbo:director <http://dbpedia.org/resource/David_Frankel> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://dbpedia.org/resource/Carla_Gugino>,
+        <http://dbpedia.org/resource/Gil_Bellows>,
+        <http://dbpedia.org/resource/Kevin_Pollak>,
+        <http://dbpedia.org/resource/Mia_Farrow>,
+        <http://dbpedia.org/resource/Paul_Mazursky>,
+        <http://dbpedia.org/resource/Sarah_Jessica_Parker> .
+
+<http://dbpedia.org/resource/Mighty_Aphrodite> rdfs:label "Mighty Aphrodite" ;
+    dbo:description "1995 film by Woody Allen" ;
+    dbo:director <http://dbpedia.org/resource/Woody_Allen> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Claire_Bloom>,
+        <http://dbpedia.org/resource/David_Ogden_Stiers>,
+        <http://dbpedia.org/resource/F._Murray_Abraham>,
+        <http://dbpedia.org/resource/Helena_Bonham_Carter>,
+        <http://dbpedia.org/resource/Jack_Warden>,
+        <http://dbpedia.org/resource/Michael_Rapaport>,
+        <http://dbpedia.org/resource/Mira_Sorvino>,
+        <http://dbpedia.org/resource/Olympia_Dukakis>,
+        <http://dbpedia.org/resource/Peter_Weller>,
+        <http://dbpedia.org/resource/Woody_Allen> .
+
+<http://dbpedia.org/resource/Mighty_Morphin_Power_Rangers:_The_Movie> rdfs:label "Mighty Morphin Power Rangers: The Movie" ;
+    dbo:description "1995 film by Bryan Spicer" ;
+    dbo:director <http://dbpedia.org/resource/Bryan_Spicer> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amy_Jo_Johnson>,
+        <http://dbpedia.org/resource/David_Yost>,
+        <http://dbpedia.org/resource/Jason_David_Frank>,
+        <http://dbpedia.org/resource/Jason_Narvy>,
+        <http://dbpedia.org/resource/Johnny_Yong_Bosch>,
+        <http://dbpedia.org/resource/Karan_Ashley>,
+        <http://dbpedia.org/resource/Paul_Freeman_(actor)>,
+        <http://dbpedia.org/resource/Paul_Schrier>,
+        <http://dbpedia.org/resource/Steve_Cardenas> .
+
+<http://dbpedia.org/resource/Milk_Money_(film)> rdfs:label "Milk Money" ;
+    dbo:description "1994 film by Richard Benjamin" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Benjamin> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ed_Harris>,
+        <http://dbpedia.org/resource/Melanie_Griffith> .
+
+<http://dbpedia.org/resource/Miracle_on_34th_Street> rdfs:label "Miracle on 34th Street" ;
+    dbo:description "1947 film by George Seaton" ;
+    dbo:director <http://dbpedia.org/resource/George_Seaton> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Edmund_Gwenn>,
+        <http://dbpedia.org/resource/Gene_Lockhart>,
+        <http://dbpedia.org/resource/Jerome_Cowan>,
+        <http://dbpedia.org/resource/John_Payne_(actor)>,
+        <http://dbpedia.org/resource/Maureen_O'Hara>,
+        <http://dbpedia.org/resource/Natalie_Wood>,
+        <http://dbpedia.org/resource/Philip_Tonge>,
+        <http://dbpedia.org/resource/Porter_Hall>,
+        <http://dbpedia.org/resource/William_Frawley> .
+
+<http://dbpedia.org/resource/Miracle_on_34th_Street_(1994_film)> rdfs:label "Miracle on 34th Street",
+        "Miracle on 34th Street (1994)" ;
+    dbo:description "1994 film by Les Mayfield" ;
+    dbo:director <http://dbpedia.org/resource/Les_Mayfield> ;
+    dbo:runtime 6840.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dylan_McDermott>,
+        <http://dbpedia.org/resource/Elizabeth_Perkins>,
+        <http://dbpedia.org/resource/J._T._Walsh>,
+        <http://dbpedia.org/resource/James_Remar>,
+        <http://dbpedia.org/resource/Mara_Wilson>,
+        <http://dbpedia.org/resource/Richard_Attenborough>,
+        <http://dbpedia.org/resource/Robert_Prosky> .
+
+<http://dbpedia.org/resource/Mixed_Nuts> rdfs:label "Mixed Nuts" ;
+    dbo:description "1994 film by Nora Ephron" ;
+    dbo:director <http://dbpedia.org/resource/Nora_Ephron> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Adam_Sandler>,
+        <http://dbpedia.org/resource/Anthony_LaPaglia>,
+        <http://dbpedia.org/resource/Juliette_Lewis>,
+        <http://dbpedia.org/resource/Madeline_Kahn>,
+        <http://dbpedia.org/resource/Rita_Wilson>,
+        <http://dbpedia.org/resource/Rob_Reiner>,
+        <http://dbpedia.org/resource/Robert_Klein>,
+        <http://dbpedia.org/resource/Steve_Martin> .
+
+<http://dbpedia.org/resource/Money_Train> rdfs:label "Money Train" ;
+    dbo:description "1995 film by Joseph Ruben" ;
+    dbo:director <http://dbpedia.org/resource/Joseph_Ruben> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Chris_Cooper>,
+        <http://dbpedia.org/resource/Jennifer_Lopez>,
+        <http://dbpedia.org/resource/Robert_Blake_(actor)>,
+        <http://dbpedia.org/resource/Wesley_Snipes>,
+        <http://dbpedia.org/resource/Woody_Harrelson> .
+
+<http://dbpedia.org/resource/Mortal_Kombat_(1995_film)> rdfs:label "Mortal Kombat (1995)" ;
+    dbo:description "1995 film directed by Paul W. S. Anderson" ;
+    dbo:director <http://dbpedia.org/resource/Paul_W._S._Anderson> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bridgette_Wilson>,
+        <http://dbpedia.org/resource/Cary-Hiroyuki_Tagawa>,
+        <http://dbpedia.org/resource/Christopher_Lambert>,
+        <http://dbpedia.org/resource/Linden_Ashby>,
+        <http://dbpedia.org/resource/Robin_Shou>,
+        <http://dbpedia.org/resource/Talisa_Soto> .
+
+<http://dbpedia.org/resource/Mr._Holland's_Opus> rdfs:label "Mr. Holland's Opus" ;
+    dbo:description "1995 film by Stephen Herek" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Herek> ;
+    dbo:runtime 8580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Glenne_Headly>,
+        <http://dbpedia.org/resource/Jay_Thomas>,
+        <http://dbpedia.org/resource/Olympia_Dukakis>,
+        <http://dbpedia.org/resource/Richard_Dreyfuss> .
+
+<http://dbpedia.org/resource/Mr._Wrong> rdfs:label "Mr. Wrong" ;
+    dbo:description "1996 film directed by Nick Castle" ;
+    dbo:director <http://dbpedia.org/resource/Nick_Castle> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Pullman>,
+        <http://dbpedia.org/resource/Dean_Stockwell>,
+        <http://dbpedia.org/resource/Ellen_DeGeneres>,
+        <http://dbpedia.org/resource/Joan_Cusack>,
+        <http://dbpedia.org/resource/Joan_Plowright> .
+
+<http://dbpedia.org/resource/Mrs._Parker_and_the_Vicious_Circle> rdfs:label "Mrs. Parker and the Vicious Circle" ;
+    dbo:description "1994 film by Alan Rudolph" ;
+    dbo:director <http://dbpedia.org/resource/Alan_Rudolph> ;
+    dbo:runtime 7560.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andrew_McCarthy>,
+        <http://dbpedia.org/resource/Campbell_Scott>,
+        <http://dbpedia.org/resource/Gwyneth_Paltrow>,
+        <http://dbpedia.org/resource/Heather_Graham>,
+        <http://dbpedia.org/resource/James_LeGros>,
+        <http://dbpedia.org/resource/Jennifer_Beals>,
+        <http://dbpedia.org/resource/Jennifer_Jason_Leigh>,
+        <http://dbpedia.org/resource/Lili_Taylor>,
+        <http://dbpedia.org/resource/Martha_Plimpton>,
+        <http://dbpedia.org/resource/Matthew_Broderick>,
+        <http://dbpedia.org/resource/Peter_Gallagher>,
+        <http://dbpedia.org/resource/Rebecca_Miller>,
+        <http://dbpedia.org/resource/Sam_Robards>,
+        <http://dbpedia.org/resource/Stephen_Baldwin>,
+        <http://dbpedia.org/resource/Tom_McGowan>,
+        <http://dbpedia.org/resource/Wallace_Shawn> .
+
+<http://dbpedia.org/resource/Muppet_Treasure_Island> rdfs:label "Muppet Treasure Island" ;
+    dbo:description "1996 film directed by Brian Henson" ;
+    dbo:director <http://dbpedia.org/resource/Brian_Henson> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dave_Goelz>,
+        <http://dbpedia.org/resource/Frank_Oz>,
+        <http://dbpedia.org/resource/Jerry_Nelson>,
+        <http://dbpedia.org/resource/Kevin_Clash>,
+        <http://dbpedia.org/resource/Steve_Whitmire>,
+        <http://dbpedia.org/resource/Tim_Curry> .
+
+<http://dbpedia.org/resource/Murder_in_the_First_(film)> rdfs:label "Murder in the First" ;
+    dbo:description "1995 film by Marc Rocco" ;
+    dbo:director <http://dbpedia.org/resource/Marc_Rocco> ;
+    dbo:runtime 7320.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brad_Dourif>,
+        <http://dbpedia.org/resource/Christian_Slater>,
+        <http://dbpedia.org/resource/Embeth_Davidtz>,
+        <http://dbpedia.org/resource/Gary_Oldman>,
+        <http://dbpedia.org/resource/Kevin_Bacon>,
+        <http://dbpedia.org/resource/R._Lee_Ermey>,
+        <http://dbpedia.org/resource/William_H._Macy> .
+
+<http://dbpedia.org/resource/Muriel's_Wedding> rdfs:label "Muriel's Wedding" ;
+    dbo:description "1994 film by P. J. Hogan" ;
+    dbo:director <http://dbpedia.org/resource/P._J._Hogan> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Hunter_(actor)>,
+        <http://dbpedia.org/resource/Rachel_Griffiths>,
+        <http://dbpedia.org/resource/Toni_Collette> .
+
+<http://dbpedia.org/resource/Mute_Witness> rdfs:label "Mute Witness" ;
+    dbo:description "1995 film directed by Anthony Waller" ;
+    dbo:director <http://dbpedia.org/resource/Anthony_Waller> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Fay_Ripley>,
+        <http://dbpedia.org/resource/Marina_Zudina>,
+        <http://dbpedia.org/resource/Oleg_Yankovsky> .
+
+<http://dbpedia.org/resource/Naked_Gun_33_1/3:_The_Final_Insult> rdfs:label "Naked Gun 33 1/3: The Final Insult" ;
+    dbo:description "1994 film directed by Peter Segal" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Segal> ;
+    dbo:runtime 4920.0 ;
+    dbo:starring <http://dbpedia.org/resource/Fred_Ward>,
+        <http://dbpedia.org/resource/George_Kennedy>,
+        <http://dbpedia.org/resource/Leslie_Nielsen>,
+        <http://dbpedia.org/resource/O._J._Simpson>,
+        <http://dbpedia.org/resource/Priscilla_Presley> .
+
+<http://dbpedia.org/resource/National_Lampoon's_Senior_Trip> rdfs:label "National Lampoon's Senior Trip" ;
+    dbo:description "1995 film" ;
+    dbo:director <http://dbpedia.org/resource/Kelly_Makin> ;
+    dbo:runtime 5460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jeremy_Renner>,
+        <http://dbpedia.org/resource/Matt_Frewer>,
+        <http://dbpedia.org/resource/Tommy_Chong>,
+        <http://dbpedia.org/resource/Valerie_Mahaffey> .
+
+<http://dbpedia.org/resource/Natural_Born_Killers> rdfs:label "Natural Born Killers" ;
+    dbo:description "1994 film directed by Oliver Stone" .
+
+<http://dbpedia.org/resource/Nell_(film)> rdfs:label "Nell" ;
+    dbo:description "1994 film directed by Michael Apted" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Apted> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jodie_Foster>,
+        <http://dbpedia.org/resource/Liam_Neeson>,
+        <http://dbpedia.org/resource/Natasha_Richardson>,
+        <http://dbpedia.org/resource/Richard_Libertini> .
+
+<http://dbpedia.org/resource/New_Jersey_Drive> rdfs:label "New Jersey Drive" ;
+    dbo:description "1995 film directed by Nick Gomez" ;
+    dbo:director <http://dbpedia.org/resource/Nick_Gomez_(director)> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gabriel_Casseus> .
+
+<http://dbpedia.org/resource/Nick_of_Time_(film)> rdfs:label "Nick of Time" ;
+    dbo:description "1995 film directed by John Badham" ;
+    dbo:director <http://dbpedia.org/resource/John_Badham> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Charles_S._Dutton>,
+        <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Gloria_Reuben>,
+        <http://dbpedia.org/resource/Johnny_Depp>,
+        <http://dbpedia.org/resource/Marsha_Mason>,
+        <http://dbpedia.org/resource/Peter_Strauss>,
+        <http://dbpedia.org/resource/Roma_Maffia> .
+
+<http://dbpedia.org/resource/Nina_Takes_a_Lover> rdfs:label "Nina Takes a Lover" ;
+    dbo:description "1994 film by Alan Jacobs" ;
+    dbo:director <http://dbpedia.org/resource/Alan_Jacobs_(filmmaker)> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cristi_Conaway>,
+        <http://dbpedia.org/resource/Fisher_Stevens>,
+        <http://dbpedia.org/resource/Laura_San_Giacomo>,
+        <http://dbpedia.org/resource/Michael_O'Keefe>,
+        <http://dbpedia.org/resource/Paul_Rhys> .
+
+<http://dbpedia.org/resource/Nine_Months> rdfs:label "Nine Months" ;
+    dbo:description "1995 film by Chris Columbus" ;
+    dbo:director <http://dbpedia.org/resource/Chris_Columbus_(filmmaker)> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Hugh_Grant>,
+        <http://dbpedia.org/resource/Jeff_Goldblum>,
+        <http://dbpedia.org/resource/Joan_Cusack>,
+        <http://dbpedia.org/resource/Julianne_Moore>,
+        <http://dbpedia.org/resource/Robin_Williams>,
+        <http://dbpedia.org/resource/Tom_Arnold_(actor)> .
+
+<http://dbpedia.org/resource/Nobody's_Fool_(1994_film)> rdfs:label "Nobody's Fool",
+        "Nobody's Fool (1994)" ;
+    dbo:description "1994 film by Robert Benton" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Benton> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jessica_Tandy>,
+        <http://dbpedia.org/resource/Melanie_Griffith>,
+        <http://dbpedia.org/resource/Paul_Newman> .
+
+<http://dbpedia.org/resource/Now_and_Then_(film)> rdfs:label "Now and Then" ;
+    dbo:description "1995 film by Lesli Linka Glatter" ;
+    dbo:director <http://dbpedia.org/resource/Lesli_Linka_Glatter> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ashleigh_Aston_Moore>,
+        <http://dbpedia.org/resource/Christina_Ricci>,
+        <http://dbpedia.org/resource/Demi_Moore>,
+        <http://dbpedia.org/resource/Gaby_Hoffmann>,
+        <http://dbpedia.org/resource/Melanie_Griffith>,
+        <http://dbpedia.org/resource/Rita_Wilson>,
+        <http://dbpedia.org/resource/Rosie_O'Donnell>,
+        <http://dbpedia.org/resource/Thora_Birch> .
+
+<http://dbpedia.org/resource/Once_Upon_a_Time..._When_We_Were_Colored> rdfs:label "Once Upon a Time... When We Were Colored" ;
+    dbo:description "1996 film by Tim Reid" ;
+    dbo:director <http://dbpedia.org/resource/Tim_Reid> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Al_Freeman_Jr.>,
+        <http://dbpedia.org/resource/Leon_Robinson>,
+        <http://dbpedia.org/resource/Phylicia_Rashad> .
+
+<http://dbpedia.org/resource/Once_Were_Warriors_(film)> rdfs:label "Once Were Warriors" ;
+    dbo:description "1994 film by Lee Tamahori" ;
+    dbo:director <http://dbpedia.org/resource/Lee_Tamahori> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cliff_Curtis>,
+        <http://dbpedia.org/resource/Julian_Arahanga>,
+        <http://dbpedia.org/resource/Mamaengaroa_Kerr-Bell>,
+        <http://dbpedia.org/resource/Rena_Owen>,
+        <http://dbpedia.org/resource/Temuera_Morrison> .
+
+<http://dbpedia.org/resource/Only_You_(1994_film)> rdfs:label "Only You (1994)" ;
+    dbo:description "1994 film by Norman Jewison" ;
+    dbo:director <http://dbpedia.org/resource/Norman_Jewison> ;
+    dbo:runtime 6540.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bonnie_Hunt>,
+        <http://dbpedia.org/resource/Fisher_Stevens>,
+        <http://dbpedia.org/resource/Joaquim_de_Almeida>,
+        <http://dbpedia.org/resource/Marisa_Tomei>,
+        <http://dbpedia.org/resource/Robert_Downey_Jr.> .
+
+<http://dbpedia.org/resource/Othello_(1995_film)> rdfs:label "Othello (1995)" ;
+    dbo:description "1995 film by Oliver Parker" ;
+    dbo:director <http://dbpedia.org/resource/Oliver_Parker> ;
+    dbo:runtime 7440.0 ;
+    dbo:starring <http://dbpedia.org/resource/Irène_Jacob>,
+        <http://dbpedia.org/resource/Kenneth_Branagh>,
+        <http://dbpedia.org/resource/Laurence_Fishburne> .
+
+<http://dbpedia.org/resource/Outbreak_(disambiguation)> rdfs:label "Outbreak" ;
+    dbo:description "Wikimedia disambiguation page" ;
+    dbo:director <http://dbpedia.org/resource/Wolfgang_Petersen> ;
+    dbo:runtime 7680.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cuba_Gooding_Jr.>,
+        <http://dbpedia.org/resource/Donald_Sutherland>,
+        <http://dbpedia.org/resource/Dustin_Hoffman>,
+        <http://dbpedia.org/resource/Kevin_Spacey>,
+        <http://dbpedia.org/resource/Morgan_Freeman>,
+        <http://dbpedia.org/resource/Patrick_Dempsey>,
+        <http://dbpedia.org/resource/Rene_Russo> .
+
+<http://dbpedia.org/resource/Outbreak_(film)> rdfs:label "Outbreak" ;
+    dbo:description "1995 film directed by Wolfgang Petersen" .
+
+<http://dbpedia.org/resource/Party_Girl_(1958_film)> rdfs:label "Party Girl" ;
+    dbo:description "1958 film by Nicholas Ray" ;
+    dbo:director <http://dbpedia.org/resource/Nicholas_Ray> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cyd_Charisse>,
+        <http://dbpedia.org/resource/Lee_J._Cobb>,
+        <http://dbpedia.org/resource/Robert_Taylor_(American_actor)> .
+
+<http://dbpedia.org/resource/Pocahontas_(1995_film)> rdfs:label "Pocahontas (1995)" ;
+    dbo:description "1995 animated film directed by Mike Gabriel and Eric Goldberg" ;
+    dbo:director <http://dbpedia.org/resource/Eric_Goldberg_(animator)>,
+        <http://dbpedia.org/resource/Mike_Gabriel> ;
+    dbo:runtime 4860.0 ;
+    dbo:starring <http://dbpedia.org/resource/Billy_Connolly>,
+        <http://dbpedia.org/resource/Christian_Bale>,
+        <http://dbpedia.org/resource/David_Ogden_Stiers>,
+        <http://dbpedia.org/resource/Frank_Welker>,
+        <http://dbpedia.org/resource/Gordon_Tootoosis>,
+        <http://dbpedia.org/resource/Irene_Bedard>,
+        <http://dbpedia.org/resource/John_Kassir>,
+        <http://dbpedia.org/resource/Judy_Kuhn>,
+        <http://dbpedia.org/resource/Linda_Hunt>,
+        <http://dbpedia.org/resource/Mel_Gibson>,
+        <http://dbpedia.org/resource/Michelle_St._John>,
+        <http://dbpedia.org/resource/Russell_Means> .
+
+<http://dbpedia.org/resource/Pulp_Fiction> rdfs:label "Pulp Fiction" ;
+    dbo:description "1994 film by Quentin Tarantino" ;
+    dbo:director <http://dbpedia.org/resource/Quentin_Tarantino> ;
+    dbo:runtime 9240.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amanda_Plummer>,
+        <http://dbpedia.org/resource/Bruce_Willis>,
+        <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/John_Travolta>,
+        <http://dbpedia.org/resource/Maria_de_Medeiros>,
+        <http://dbpedia.org/resource/Rosanna_Arquette>,
+        <http://dbpedia.org/resource/Samuel_L._Jackson>,
+        <http://dbpedia.org/resource/Tim_Roth>,
+        <http://dbpedia.org/resource/Uma_Thurman>,
+        <http://dbpedia.org/resource/Ving_Rhames> .
+
+<http://dbpedia.org/resource/Pushing_Hands_(film)> rdfs:label "Pushing Hands" ;
+    dbo:description "1991 film by Ang Lee" ;
+    dbo:director <http://dbpedia.org/resource/Ang_Lee> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Sihung_Lung> .
+
+<http://dbpedia.org/resource/Quiz_Show_(film)> rdfs:label "Quiz Show" ;
+    dbo:description "1994 film by Robert Redford" ;
+    dbo:director <http://dbpedia.org/resource/Robert_Redford> ;
+    dbo:runtime 7980.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Paymer>,
+        <http://dbpedia.org/resource/John_Turturro>,
+        <http://dbpedia.org/resource/Paul_Scofield>,
+        <http://dbpedia.org/resource/Ralph_Fiennes>,
+        <http://dbpedia.org/resource/Rob_Morrow> .
+
+<http://dbpedia.org/resource/Reality_Bites> rdfs:label "Reality Bites" ;
+    dbo:description "1994 film directed by Ben Stiller" ;
+    dbo:director <http://dbpedia.org/resource/Ben_Stiller> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ben_Stiller>,
+        <http://dbpedia.org/resource/Ethan_Hawke>,
+        <http://dbpedia.org/resource/Janeane_Garofalo>,
+        <http://dbpedia.org/resource/Joe_Don_Baker>,
+        <http://dbpedia.org/resource/John_Mahoney>,
+        <http://dbpedia.org/resource/Swoosie_Kurtz>,
+        <http://dbpedia.org/resource/Winona_Ryder> .
+
+<http://dbpedia.org/resource/Reckless_(1984_film)> rdfs:label "Reckless" ;
+    dbo:description "1984 love story directed by James Foley" ;
+    dbo:director <http://dbpedia.org/resource/James_Foley_(director)> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Aidan_Quinn>,
+        <http://dbpedia.org/resource/Cliff_DeYoung>,
+        <http://dbpedia.org/resource/Daryl_Hannah>,
+        <http://dbpedia.org/resource/Kenneth_McMillan_(actor)> .
+
+<http://dbpedia.org/resource/Red_Rock_West> rdfs:label "Red Rock West" ;
+    dbo:description "1993 film by John Dahl" ;
+    dbo:director <http://dbpedia.org/resource/John_Dahl> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dennis_Hopper>,
+        <http://dbpedia.org/resource/J._T._Walsh>,
+        <http://dbpedia.org/resource/Lara_Flynn_Boyle>,
+        <http://dbpedia.org/resource/Nicolas_Cage>,
+        <http://dbpedia.org/resource/Timothy_Carhart> .
+
+<http://dbpedia.org/resource/Relative_Fear> rdfs:label "Relative Fear" ;
+    dbo:description "1994 film by George Mihalka" ;
+    dbo:director <http://dbpedia.org/resource/George_Mihalka> ;
+    dbo:runtime -5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bruce_Dinsmore>,
+        <http://dbpedia.org/resource/Darlanne_Fluegel>,
+        <http://dbpedia.org/resource/James_Brolin> .
+
+<http://dbpedia.org/resource/Rent-a-Kid> rdfs:label "Rent-a-Kid" ;
+    dbo:description "1995 television film directed by Fred Gerber" ;
+    dbo:director <http://dbpedia.org/resource/Fred_Gerber> ;
+    dbo:runtime 5100.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Lloyd>,
+        <http://dbpedia.org/resource/Leslie_Nielsen>,
+        <http://dbpedia.org/resource/Matt_McCoy_(actor)> .
+
+<http://dbpedia.org/resource/Restoration_(1995_film)> rdfs:label "Restoration" ;
+    dbo:description "1995 film directed by Michael Hoffman" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Hoffman_(director)> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Thewlis>,
+        <http://dbpedia.org/resource/Hugh_Grant>,
+        <http://dbpedia.org/resource/Ian_McKellen>,
+        <http://dbpedia.org/resource/Meg_Ryan>,
+        <http://dbpedia.org/resource/Polly_Walker>,
+        <http://dbpedia.org/resource/Robert_Downey_Jr.>,
+        <http://dbpedia.org/resource/Sam_Neill> .
+
+<http://dbpedia.org/resource/Rob_Roy_(1995_film)> rdfs:label "Rob Roy" ;
+    dbo:description "1995 film by Michael Caton-Jones" ;
+    dbo:director <http://dbpedia.org/resource/Michael_Caton-Jones> ;
+    dbo:runtime 8340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brian_Cox_(actor)>,
+        <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Jessica_Lange>,
+        <http://dbpedia.org/resource/John_Hurt>,
+        <http://dbpedia.org/resource/Liam_Neeson>,
+        <http://dbpedia.org/resource/Tim_Roth> .
+
+<http://dbpedia.org/resource/Roommates_(1995_film)> rdfs:label "Roommates" ;
+    dbo:description "1995 film by Peter Yates" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Yates> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/D._B._Sweeney>,
+        <http://dbpedia.org/resource/Ellen_Burstyn>,
+        <http://dbpedia.org/resource/Jan_Rubeš>,
+        <http://dbpedia.org/resource/Julianne_Moore>,
+        <http://dbpedia.org/resource/Peter_Falk> .
+
+<http://dbpedia.org/resource/Rumble_in_the_Bronx> rdfs:label "Rumble in the Bronx" ;
+    dbo:description "1995 film by Stanley Tong" ;
+    dbo:director <http://dbpedia.org/resource/Stanley_Tong> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anita_Mui>,
+        <http://dbpedia.org/resource/Françoise_Yip>,
+        <http://dbpedia.org/resource/Jackie_Chan> .
+
+<http://dbpedia.org/resource/S.F.W.> rdfs:label "S.F.W." ;
+    dbo:description "1994 film by Jefery Levy" ;
+    dbo:director <http://dbpedia.org/resource/Jefery_Levy> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/Reese_Witherspoon>,
+        <http://dbpedia.org/resource/Stephen_Dorff> .
+
+<http://dbpedia.org/resource/Sabrina_(1995_film)> rdfs:label "Sabrina (1995)" ;
+    dbo:description "1995 film by Sydney Pollack" ;
+    dbo:director <http://dbpedia.org/resource/Sydney_Pollack> ;
+    dbo:runtime 7620.0 ;
+    dbo:starring <http://dbpedia.org/resource/Greg_Kinnear>,
+        <http://dbpedia.org/resource/Harrison_Ford>,
+        <http://dbpedia.org/resource/John_Wood_(English_actor)>,
+        <http://dbpedia.org/resource/Julia_Ormond>,
+        <http://dbpedia.org/resource/Nancy_Marchand> .
+
+<http://dbpedia.org/resource/Safe_(1995_film)> rdfs:label "Safe (1995)" ;
+    dbo:description "1995 film by Todd Haynes" ;
+    dbo:director <http://dbpedia.org/resource/Todd_Haynes> ;
+    dbo:runtime 7140.0 ;
+    dbo:starring <http://dbpedia.org/resource/James_LeGros>,
+        <http://dbpedia.org/resource/Julianne_Moore>,
+        <http://dbpedia.org/resource/Peter_Friedman>,
+        <http://dbpedia.org/resource/Xander_Berkeley> .
+
+<http://dbpedia.org/resource/Safe_(2012_film)> rdfs:label "Safe" ;
+    dbo:description "2012 film by Boaz Yakin" ;
+    dbo:director <http://dbpedia.org/resource/Boaz_Yakin> ;
+    dbo:runtime 5700.0 .
+
+<http://dbpedia.org/resource/Screamers_(1995_film)> rdfs:label "Screamers",
+        "Screamers (1995)" ;
+    dbo:description "1995 film by Christian Duguay" ;
+    dbo:director <http://dbpedia.org/resource/Christian_Duguay_(director)> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andrew_Lauer>,
+        <http://dbpedia.org/resource/Jennifer_Rubin_(actress)>,
+        <http://dbpedia.org/resource/Peter_Weller>,
+        <http://dbpedia.org/resource/Roy_Dupuis> .
+
+<http://dbpedia.org/resource/Screamers_(2006_film)> rdfs:label "Screamers" ;
+    dbo:description "2006 American film by Carla Garapedian" ;
+    dbo:director <http://dbpedia.org/resource/Carla_Garapedian> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Daron_Malakian>,
+        <http://dbpedia.org/resource/John_Dolmayan>,
+        <http://dbpedia.org/resource/Serj_Tankian>,
+        <http://dbpedia.org/resource/Shavo_Odadjian> .
+
+<http://dbpedia.org/resource/Seven_(1995_film)> rdfs:label "Seven" ;
+    dbo:description "1995 film by David Fincher" ;
+    dbo:director <http://dbpedia.org/resource/David_Fincher> ;
+    dbo:runtime 7620.0 .
+
+<http://dbpedia.org/resource/Shallow_Grave_(1994_film)> rdfs:label "Shallow Grave" ;
+    dbo:description "1994 film directed by Danny Boyle" ;
+    dbo:director <http://dbpedia.org/resource/Danny_Boyle> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Eccleston>,
+        <http://dbpedia.org/resource/Ewan_McGregor>,
+        <http://dbpedia.org/resource/Kerry_Fox> .
+
+<http://dbpedia.org/resource/Shanghai_Triad> rdfs:label "Shanghai Triad" ;
+    dbo:description "1995 film by Zhang Yimou" ;
+    dbo:director <http://dbpedia.org/resource/Zhang_Yimou> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gong_Li>,
+        <http://dbpedia.org/resource/Li_Baotian>,
+        <http://dbpedia.org/resource/Li_Xuejian> .
+
+<http://dbpedia.org/resource/Showgirls> rdfs:label "Showgirls" ;
+    dbo:description "1995 American film directed by Paul Verhoeven" ;
+    dbo:director <http://dbpedia.org/resource/Paul_Verhoeven> ;
+    dbo:runtime 7860.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alan_Rachins>,
+        <http://dbpedia.org/resource/Elizabeth_Berkley>,
+        <http://dbpedia.org/resource/Gina_Gershon>,
+        <http://dbpedia.org/resource/Gina_Ravera>,
+        <http://dbpedia.org/resource/Glenn_Plummer>,
+        <http://dbpedia.org/resource/Kyle_MacLachlan>,
+        <http://dbpedia.org/resource/Robert_Davi> .
+
+<http://dbpedia.org/resource/Smoke_(film)> rdfs:label "Smoke",
+        "Smoke (1995)" ;
+    dbo:description "1995 film by Wayne Wang" ;
+    dbo:director <http://dbpedia.org/resource/Wayne_Wang> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ashley_Judd>,
+        <http://dbpedia.org/resource/Forest_Whitaker>,
+        <http://dbpedia.org/resource/Giancarlo_Esposito>,
+        <http://dbpedia.org/resource/Harold_Perrineau>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/Stockard_Channing>,
+        <http://dbpedia.org/resource/William_Hurt> .
+
+<http://dbpedia.org/resource/Something_to_Talk_About_(film)> rdfs:label "Something to Talk About" ;
+    dbo:description "1995 film by Lasse Hallström" ;
+    dbo:director <http://dbpedia.org/resource/Lasse_Hallström> ;
+    dbo:runtime 6300.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dennis_Quaid>,
+        <http://dbpedia.org/resource/Gena_Rowlands>,
+        <http://dbpedia.org/resource/Julia_Roberts>,
+        <http://dbpedia.org/resource/Kyra_Sedgwick>,
+        <http://dbpedia.org/resource/Robert_Duvall> .
+
+<http://dbpedia.org/resource/Species_(film)> rdfs:label "Species" ;
+    dbo:description "1995 film by Roger Donaldson" ;
+    dbo:director <http://dbpedia.org/resource/Roger_Donaldson> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfred_Molina>,
+        <http://dbpedia.org/resource/Ben_Kingsley>,
+        <http://dbpedia.org/resource/Forest_Whitaker>,
+        <http://dbpedia.org/resource/Marg_Helgenberger>,
+        <http://dbpedia.org/resource/Michael_Madsen>,
+        <http://dbpedia.org/resource/Natasha_Henstridge> .
+
+<http://dbpedia.org/resource/Speed_(1994_film)> rdfs:label "Speed",
+        "Speed (1994)" ;
+    dbo:description "1994 film directed by Jan de Bont" ;
+    dbo:director <http://dbpedia.org/resource/Jan_de_Bont> ;
+    dbo:runtime 6960.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dennis_Hopper>,
+        <http://dbpedia.org/resource/Jeff_Daniels>,
+        <http://dbpedia.org/resource/Joe_Morton>,
+        <http://dbpedia.org/resource/Keanu_Reeves>,
+        <http://dbpedia.org/resource/Sandra_Bullock> .
+
+<http://dbpedia.org/resource/Star_Trek_Generations> rdfs:label "Star Trek: Generations" ;
+    dbo:description "1994 film directed by David Carson" ;
+    dbo:director <http://dbpedia.org/resource/David_Carson_(director)> ;
+    dbo:runtime 7080.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brent_Spiner>,
+        <http://dbpedia.org/resource/Gates_McFadden>,
+        <http://dbpedia.org/resource/James_Doohan>,
+        <http://dbpedia.org/resource/Jonathan_Frakes>,
+        <http://dbpedia.org/resource/LeVar_Burton>,
+        <http://dbpedia.org/resource/Malcolm_McDowell>,
+        <http://dbpedia.org/resource/Marina_Sirtis>,
+        <http://dbpedia.org/resource/Michael_Dorn>,
+        <http://dbpedia.org/resource/Patrick_Stewart>,
+        <http://dbpedia.org/resource/Walter_Koenig>,
+        <http://dbpedia.org/resource/William_Shatner> .
+
+<http://dbpedia.org/resource/Strange_Days_(film)> rdfs:label "Strange Days" ;
+    dbo:description "1995 film by Kathryn Bigelow" ;
+    dbo:director <http://dbpedia.org/resource/Kathryn_Bigelow> ;
+    dbo:runtime 8700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Angela_Bassett>,
+        <http://dbpedia.org/resource/Juliette_Lewis>,
+        <http://dbpedia.org/resource/Michael_Wincott>,
+        <http://dbpedia.org/resource/Ralph_Fiennes>,
+        <http://dbpedia.org/resource/Tom_Sizemore>,
+        <http://dbpedia.org/resource/Vincent_D'Onofrio> .
+
+<http://dbpedia.org/resource/Strawberry_and_Chocolate> rdfs:label "Strawberry and Chocolate" ;
+    dbo:description "1993 film by Tomás Gutiérrez Alea, Juan Carlos Tabío" ;
+    dbo:director <http://dbpedia.org/resource/Juan_Carlos_Tabío>,
+        <http://dbpedia.org/resource/Tomás_Gutiérrez_Alea> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Francisco_Gattorno>,
+        <http://dbpedia.org/resource/Jorge_Perugorría>,
+        <http://dbpedia.org/resource/Mirta_Ibarra>,
+        <http://dbpedia.org/resource/Vladimir_Cruz> .
+
+<http://dbpedia.org/resource/Stuart_Saves_His_Family> rdfs:label "Stuart Saves His Family" ;
+    dbo:description "1995 film by Harold Ramis" ;
+    dbo:director <http://dbpedia.org/resource/Harold_Ramis> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Al_Franken>,
+        <http://dbpedia.org/resource/Harris_Yulin>,
+        <http://dbpedia.org/resource/Laura_San_Giacomo>,
+        <http://dbpedia.org/resource/Shirley_Knight>,
+        <http://dbpedia.org/resource/Vincent_D'Onofrio> .
+
+<http://dbpedia.org/resource/Sudden_Death_(1995_film)> rdfs:label "Sudden Death",
+        "Sudden Death (1995)" ;
+    dbo:description "1995 film directed by Peter Hyams" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Hyams> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dorian_Harewood>,
+        <http://dbpedia.org/resource/Jean-Claude_Van_Damme>,
+        <http://dbpedia.org/resource/Powers_Boothe>,
+        <http://dbpedia.org/resource/Raymond_J._Barry> .
+
+<http://dbpedia.org/resource/Suture_(film)> rdfs:label "Suture" ;
+    dbo:description "1993 film by David Siegel, Scott McGehee" ;
+    dbo:director <http://dbpedia.org/resource/Siegel_&_McGehee> ;
+    dbo:runtime 5760.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Graf>,
+        <http://dbpedia.org/resource/Dennis_Haysbert>,
+        <http://dbpedia.org/resource/Dina_Merrill>,
+        <http://dbpedia.org/resource/Mel_Harris>,
+        <http://dbpedia.org/resource/Sab_Shimono> .
+
+<http://dbpedia.org/resource/Swimming_with_Sharks> rdfs:label "Swimming with Sharks" ;
+    dbo:description "1994 film by George Huang" ;
+    dbo:director <http://dbpedia.org/resource/George_Huang_(director)> ;
+    dbo:runtime 5580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Benicio_del_Toro>,
+        <http://dbpedia.org/resource/Frank_Whaley>,
+        <http://dbpedia.org/resource/Jerry_Levine>,
+        <http://dbpedia.org/resource/Kevin_Spacey>,
+        <http://dbpedia.org/resource/Michelle_Forbes>,
+        <http://dbpedia.org/resource/Roy_Dotrice> .
+
+<http://dbpedia.org/resource/Tales_from_the_Hood> rdfs:label "Tales from the Hood" ;
+    dbo:description "1995 film directed by Rusty Cundieff" ;
+    dbo:director <http://dbpedia.org/resource/Rusty_Cundieff> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anthony_Griffith_(actor)>,
+        <http://dbpedia.org/resource/Clarence_Williams_III>,
+        <http://dbpedia.org/resource/Corbin_Bernsen>,
+        <http://dbpedia.org/resource/David_Alan_Grier>,
+        <http://dbpedia.org/resource/Joe_Torry>,
+        <http://dbpedia.org/resource/Paula_Jai_Parker>,
+        <http://dbpedia.org/resource/Rosalind_Cash>,
+        <http://dbpedia.org/resource/Rusty_Cundieff>,
+        <http://dbpedia.org/resource/Wings_Hauser> .
+
+<http://dbpedia.org/resource/Taxi_Driver> rdfs:label "Taxi Driver" ;
+    dbo:description "1976 film directed by Martin Scorsese" ;
+    dbo:director <http://dbpedia.org/resource/Martin_Scorsese> ;
+    dbo:runtime 6840.0 ;
+    dbo:starring <http://dbpedia.org/resource/Albert_Brooks>,
+        <http://dbpedia.org/resource/Cybill_Shepherd>,
+        <http://dbpedia.org/resource/Harvey_Keitel>,
+        <http://dbpedia.org/resource/Jodie_Foster>,
+        <http://dbpedia.org/resource/Leonard_Harris_(actor)>,
+        <http://dbpedia.org/resource/Peter_Boyle>,
+        <http://dbpedia.org/resource/Robert_De_Niro> .
+
+<http://dbpedia.org/resource/The_Addiction> rdfs:label "The Addiction" ;
+    dbo:description "1995 film by Abel Ferrara" ;
+    dbo:director <http://dbpedia.org/resource/Abel_Ferrara> ;
+    dbo:runtime 4920.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annabella_Sciorra>,
+        <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Edie_Falco>,
+        <http://dbpedia.org/resource/Fredro_Starr>,
+        <http://dbpedia.org/resource/Kathryn_Erbe>,
+        <http://dbpedia.org/resource/Lili_Taylor>,
+        <http://dbpedia.org/resource/Michael_Imperioli>,
+        <http://dbpedia.org/resource/Paul_Calderón> .
+
+<http://dbpedia.org/resource/The_Adventures_of_Priscilla,_Queen_of_the_Desert> rdfs:label "The Adventures of Priscilla, Queen of the Desert" ;
+    dbo:description "1994 film directed by Stephan Elliott" ;
+    dbo:director <http://dbpedia.org/resource/Stephan_Elliott> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Hunter_(actor)>,
+        <http://dbpedia.org/resource/Guy_Pearce>,
+        <http://dbpedia.org/resource/Hugo_Weaving>,
+        <http://dbpedia.org/resource/Terence_Stamp> .
+
+<http://dbpedia.org/resource/The_Age_of_Innocence_(1993_film)> rdfs:label "The Age of Innocence (1993)" ;
+    dbo:description "1993 film by Martin Scorsese" ;
+    dbo:director <http://dbpedia.org/resource/Martin_Scorsese> ;
+    dbo:runtime 8340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Daniel_Day-Lewis>,
+        <http://dbpedia.org/resource/Michelle_Pfeiffer>,
+        <http://dbpedia.org/resource/Winona_Ryder> .
+
+<http://dbpedia.org/resource/The_Air_Up_There> rdfs:label "The Air Up There" ;
+    dbo:description "1994 film directed by Paul Michael Glaser" ;
+    dbo:director <http://dbpedia.org/resource/Paul_Michael_Glaser> ;
+    dbo:runtime 6420.0 ;
+    dbo:starring <http://dbpedia.org/resource/Kevin_Bacon> .
+
+<http://dbpedia.org/resource/The_Amazing_Panda_Adventure> rdfs:label "The Amazing Panda Adventure" ;
+    dbo:description "1995 film by Christopher Cain" ;
+    dbo:director <http://dbpedia.org/resource/Christopher_Cain> ;
+    dbo:runtime 5040.0 ;
+    dbo:starring <http://dbpedia.org/resource/Stephen_Lang>,
+        <http://dbpedia.org/resource/Yi_Ding_(actress)> .
+
+<http://dbpedia.org/resource/The_American_President> rdfs:label "The American President" ;
+    dbo:description "1995 film directed by Rob Reiner" ;
+    dbo:director <http://dbpedia.org/resource/Rob_Reiner> ;
+    dbo:runtime 6780.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annette_Bening>,
+        <http://dbpedia.org/resource/David_Paymer>,
+        <http://dbpedia.org/resource/Martin_Sheen>,
+        <http://dbpedia.org/resource/Michael_Douglas>,
+        <http://dbpedia.org/resource/Michael_J._Fox>,
+        <http://dbpedia.org/resource/Samantha_Mathis> .
+
+<http://dbpedia.org/resource/The_Babysitter_(1995_film)> rdfs:label "The Babysitter" ;
+    dbo:description "1995 film by Guy Ferland" ;
+    dbo:director <http://dbpedia.org/resource/Guy_Ferland> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alicia_Silverstone>,
+        <http://dbpedia.org/resource/George_Segal>,
+        <http://dbpedia.org/resource/J._T._Walsh>,
+        <http://dbpedia.org/resource/Jeremy_London>,
+        <http://dbpedia.org/resource/Lee_Garlington>,
+        <http://dbpedia.org/resource/Lois_Chiles>,
+        <http://dbpedia.org/resource/Nicky_Katt> .
+
+<http://dbpedia.org/resource/The_Basketball_Diaries_(film)> rdfs:label "The Basketball Diaries" ;
+    dbo:description "1995 film by Scott Kalvert" ;
+    dbo:director <http://dbpedia.org/resource/Scott_Kalvert> ;
+    dbo:runtime 6240.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bruno_Kirby>,
+        <http://dbpedia.org/resource/Ernie_Hudson>,
+        <http://dbpedia.org/resource/James_Madio>,
+        <http://dbpedia.org/resource/Leonardo_DiCaprio>,
+        <http://dbpedia.org/resource/Lorraine_Bracco>,
+        <http://dbpedia.org/resource/Mark_Wahlberg>,
+        <http://dbpedia.org/resource/Michael_Imperioli>,
+        <http://dbpedia.org/resource/Patrick_McGaw> .
+
+<http://dbpedia.org/resource/The_Beverly_Hillbillies_(film)> rdfs:label "The Beverly Hillbillies" ;
+    dbo:description "1993 film by Penelope Spheeris" ;
+    dbo:director <http://dbpedia.org/resource/Penelope_Spheeris> ;
+    dbo:runtime 5520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cloris_Leachman>,
+        <http://dbpedia.org/resource/Dabney_Coleman>,
+        <http://dbpedia.org/resource/Diedrich_Bader>,
+        <http://dbpedia.org/resource/Erika_Eleniak>,
+        <http://dbpedia.org/resource/Jim_Varney>,
+        <http://dbpedia.org/resource/Lea_Thompson>,
+        <http://dbpedia.org/resource/Lily_Tomlin>,
+        <http://dbpedia.org/resource/Rob_Schneider> .
+
+<http://dbpedia.org/resource/The_Big_Green> rdfs:label "The Big Green" ;
+    dbo:description "1995 film directed by Holly Goldberg Sloan" ;
+    dbo:director <http://dbpedia.org/resource/Holly_Goldberg_Sloan> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jay_O._Sanders>,
+        <http://dbpedia.org/resource/Olivia_d'Abo>,
+        <http://dbpedia.org/resource/Steve_Guttenberg> .
+
+<http://dbpedia.org/resource/The_Birdcage> rdfs:label "The Birdcage" ;
+    dbo:description "1996 film by Mike Nichols" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Nichols> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dianne_Wiest>,
+        <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/Nathan_Lane>,
+        <http://dbpedia.org/resource/Robin_Williams> .
+
+<http://dbpedia.org/resource/The_Boys_of_St._Vincent> rdfs:label "The Boys of St. Vincent" ;
+    dbo:description "1992 film by John N. Smith" ;
+    dbo:director <http://dbpedia.org/resource/John_N._Smith> ;
+    dbo:runtime 11160.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Hewlett>,
+        <http://dbpedia.org/resource/Henry_Czerny>,
+        <http://dbpedia.org/resource/Lise_Roy>,
+        <http://dbpedia.org/resource/Sebastian_Spence>,
+        <http://dbpedia.org/resource/Timothy_Webber> .
+
+<http://dbpedia.org/resource/The_Bridges_of_Madison_County_(film)> rdfs:label "The Bridges of Madison County" ;
+    dbo:description "1995 film directed by Clint Eastwood" ;
+    dbo:director <http://dbpedia.org/resource/Clint_Eastwood> ;
+    dbo:runtime 8040.0 ;
+    dbo:starring <http://dbpedia.org/resource/Clint_Eastwood>,
+        <http://dbpedia.org/resource/Meryl_Streep> .
+
+<http://dbpedia.org/resource/The_Brothers_McMullen> rdfs:label "The Brothers McMullen" ;
+    dbo:description "1995 film by Edward Burns" ;
+    dbo:director <http://dbpedia.org/resource/Edward_Burns> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Connie_Britton>,
+        <http://dbpedia.org/resource/Edward_Burns>,
+        <http://dbpedia.org/resource/Jack_Mulcahy_(actor)>,
+        <http://dbpedia.org/resource/Jennifer_Jostyn>,
+        <http://dbpedia.org/resource/Maxine_Bahns>,
+        <http://dbpedia.org/resource/Mike_McGlone> .
+
+<http://dbpedia.org/resource/The_Browning_Version_(1994_film)> rdfs:label "The Browning Version (1994)" ;
+    dbo:description "1994 Mike Figgis film" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Figgis> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Albert_Finney>,
+        <http://dbpedia.org/resource/Greta_Scacchi>,
+        <http://dbpedia.org/resource/Matthew_Modine> .
+
+<http://dbpedia.org/resource/The_Client_(1994_film)> rdfs:label "The Client (1994)" ;
+    dbo:description "1994 film directed by Joel Schumacher" ;
+    dbo:director <http://dbpedia.org/resource/Joel_Schumacher> ;
+    dbo:runtime 7260.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anthony_Edwards_(actor)>,
+        <http://dbpedia.org/resource/Anthony_LaPaglia>,
+        <http://dbpedia.org/resource/Brad_Renfro>,
+        <http://dbpedia.org/resource/Mary-Louise_Parker>,
+        <http://dbpedia.org/resource/Ossie_Davis>,
+        <http://dbpedia.org/resource/Susan_Sarandon>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/The_Cowboy_Way_(film)> rdfs:label "The Cowboy Way" ;
+    dbo:description "1994 film directed by Gregg Champion" ;
+    dbo:director <http://dbpedia.org/resource/Gregg_Champion> ;
+    dbo:runtime 6420.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dylan_McDermott>,
+        <http://dbpedia.org/resource/Ernie_Hudson>,
+        <http://dbpedia.org/resource/Kiefer_Sutherland>,
+        <http://dbpedia.org/resource/Woody_Harrelson> .
+
+<http://dbpedia.org/resource/The_Crossing_Guard> rdfs:label "The Crossing Guard" ;
+    dbo:description "1995 film by Sean Penn" ;
+    dbo:director <http://dbpedia.org/resource/Sean_Penn> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Anjelica_Huston>,
+        <http://dbpedia.org/resource/David_Morse>,
+        <http://dbpedia.org/resource/Jack_Nicholson>,
+        <http://dbpedia.org/resource/Robin_Wright> .
+
+<http://dbpedia.org/resource/The_Crow_(1994_film)> rdfs:label "The Crow" ;
+    dbo:description "1994 superhero film directed by Alex Proyas" ;
+    dbo:director <http://dbpedia.org/resource/Alex_Proyas> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brandon_Lee>,
+        <http://dbpedia.org/resource/Ernie_Hudson>,
+        <http://dbpedia.org/resource/Michael_Wincott> .
+
+<http://dbpedia.org/resource/The_Cure_(1995_film)> rdfs:label "The Cure (1995)" ;
+    dbo:description "1995 film by Peter Horton" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Horton> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annabella_Sciorra>,
+        <http://dbpedia.org/resource/Brad_Renfro>,
+        <http://dbpedia.org/resource/Bruce_Davison>,
+        <http://dbpedia.org/resource/Diana_Scarwid>,
+        <http://dbpedia.org/resource/Joseph_Mazzello> .
+
+<http://dbpedia.org/resource/The_Doom_Generation> rdfs:label "The Doom Generation" ;
+    dbo:description "1995 film by Gregg Araki" ;
+    dbo:director <http://dbpedia.org/resource/Gregg_Araki> ;
+    dbo:runtime 4980.0 ;
+    dbo:starring <http://dbpedia.org/resource/James_Duval>,
+        <http://dbpedia.org/resource/Johnathon_Schaech>,
+        <http://dbpedia.org/resource/Rose_McGowan> .
+
+<http://dbpedia.org/resource/The_Firm_(1993_film)> rdfs:label "The Firm",
+        "The Firm (1993)" ;
+    dbo:description "1993 film by Sydney Pollack" ;
+    dbo:director <http://dbpedia.org/resource/Sydney_Pollack> ;
+    dbo:runtime 9240.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Strathairn>,
+        <http://dbpedia.org/resource/Ed_Harris>,
+        <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/Hal_Holbrook>,
+        <http://dbpedia.org/resource/Holly_Hunter>,
+        <http://dbpedia.org/resource/Jeanne_Tripplehorn>,
+        <http://dbpedia.org/resource/Tom_Cruise> .
+
+<http://dbpedia.org/resource/The_Fugitive_(1993_film)> rdfs:label "The Fugitive",
+        "The Fugitive (1993)" ;
+    dbo:description "1993 American film by Andrew Davis" ;
+    dbo:director <http://dbpedia.org/resource/Andrew_Davis_(director)> ;
+    dbo:runtime 7800.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andreas_Katsulas>,
+        <http://dbpedia.org/resource/Harrison_Ford>,
+        <http://dbpedia.org/resource/Jeroen_Krabbé>,
+        <http://dbpedia.org/resource/Joe_Pantoliano>,
+        <http://dbpedia.org/resource/Sela_Ward>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/The_Hunted_(1995_film)> rdfs:label "The Hunted (1995)" ;
+    dbo:description "1995 film by J. F. Lawton" ;
+    dbo:director <http://dbpedia.org/resource/J._F._Lawton> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Lambert>,
+        <http://dbpedia.org/resource/Joan_Chen>,
+        <http://dbpedia.org/resource/John_Lone> .
+
+<http://dbpedia.org/resource/The_Hunted_(2003_film)> rdfs:label "The Hunted" ;
+    dbo:description "2003 film by William Friedkin" ;
+    dbo:director <http://dbpedia.org/resource/William_Friedkin> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/Benicio_del_Toro>,
+        <http://dbpedia.org/resource/Connie_Nielsen>,
+        <http://dbpedia.org/resource/Tommy_Lee_Jones> .
+
+<http://dbpedia.org/resource/The_Jungle_Book_(1994_film)> rdfs:label "The Jungle Book (1994)" ;
+    dbo:description "1994 film directed by Stephen Sommers" ;
+    dbo:director <http://dbpedia.org/resource/Stephen_Sommers> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cary_Elwes>,
+        <http://dbpedia.org/resource/Jason_Scott_Lee>,
+        <http://dbpedia.org/resource/John_Cleese>,
+        <http://dbpedia.org/resource/Lena_Headey>,
+        <http://dbpedia.org/resource/Sam_Neill> .
+
+<http://dbpedia.org/resource/The_Juror> rdfs:label "The Juror" ;
+    dbo:description "1996 film by Brian Gibson" ;
+    dbo:director <http://dbpedia.org/resource/Brian_Gibson_(director)> ;
+    dbo:runtime 7080.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alec_Baldwin>,
+        <http://dbpedia.org/resource/Demi_Moore>,
+        <http://dbpedia.org/resource/James_Gandolfini>,
+        <http://dbpedia.org/resource/Lindsay_Crouse> .
+
+<http://dbpedia.org/resource/The_Lion_King> rdfs:label "The Lion King",
+        "The Lion King (1994)" ;
+    dbo:description "1994 animated film directed by Roger Allers and Rob Minkoff" ;
+    dbo:director <http://dbpedia.org/resource/Rob_Minkoff>,
+        <http://dbpedia.org/resource/Roger_Allers> ;
+    dbo:runtime 5280.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cheech_Marin>,
+        <http://dbpedia.org/resource/Ernie_Sabella>,
+        <http://dbpedia.org/resource/James_Earl_Jones>,
+        <http://dbpedia.org/resource/Jeremy_Irons>,
+        <http://dbpedia.org/resource/Jim_Cummings>,
+        <http://dbpedia.org/resource/Jonathan_Taylor_Thomas>,
+        <http://dbpedia.org/resource/Madge_Sinclair>,
+        <http://dbpedia.org/resource/Matthew_Broderick>,
+        <http://dbpedia.org/resource/Moira_Kelly>,
+        <http://dbpedia.org/resource/Nathan_Lane>,
+        <http://dbpedia.org/resource/Robert_Guillaume>,
+        <http://dbpedia.org/resource/Rowan_Atkinson>,
+        <http://dbpedia.org/resource/Whoopi_Goldberg> .
+
+<http://dbpedia.org/resource/The_Madness_of_King_George> rdfs:label "The Madness of King George" ;
+    dbo:description "1994 historical film directed by Nicholas Hytner" ;
+    dbo:director <http://dbpedia.org/resource/Nicholas_Hytner> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amanda_Donohoe>,
+        <http://dbpedia.org/resource/Helen_Mirren>,
+        <http://dbpedia.org/resource/Ian_Holm>,
+        <http://dbpedia.org/resource/Nigel_Hawthorne>,
+        <http://dbpedia.org/resource/Rupert_Everett>,
+        <http://dbpedia.org/resource/Rupert_Graves> .
+
+<http://dbpedia.org/resource/The_Mask_(1994_film)> rdfs:label "The Mask (1994)" ;
+    dbo:description "1994 film directed by Chuck Russell" ;
+    dbo:director <http://dbpedia.org/resource/Chuck_Russell> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amy_Yasbeck>,
+        <http://dbpedia.org/resource/Cameron_Diaz>,
+        <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://dbpedia.org/resource/Peter_Greene>,
+        <http://dbpedia.org/resource/Peter_Riegert>,
+        <http://dbpedia.org/resource/Richard_Jeni> .
+
+<http://dbpedia.org/resource/The_Net_(1995_film)> rdfs:label "The Net" ;
+    dbo:description "1995 film directed by Irwin Winkler" ;
+    dbo:director <http://dbpedia.org/resource/Irwin_Winkler> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dennis_Miller>,
+        <http://dbpedia.org/resource/Jeremy_Northam>,
+        <http://dbpedia.org/resource/Sandra_Bullock> .
+
+<http://dbpedia.org/resource/The_NeverEnding_Story_III> rdfs:label "The NeverEnding Story III" ;
+    dbo:description "1994 film directed by Peter MacDonald" ;
+    dbo:director <http://dbpedia.org/resource/Peter_MacDonald_(director)> ;
+    dbo:runtime 5700.0 ;
+    dbo:starring <http://dbpedia.org/resource/Freddie_Jones>,
+        <http://dbpedia.org/resource/Jack_Black>,
+        <http://dbpedia.org/resource/Jason_James_Richter>,
+        <http://dbpedia.org/resource/Julie_Cox>,
+        <http://dbpedia.org/resource/Melody_Kay>,
+        <http://dbpedia.org/resource/Tony_Robinson> .
+
+<http://dbpedia.org/resource/The_Paper_(film)> rdfs:label "The Paper" ;
+    dbo:description "1994 film by Ron Howard" ;
+    dbo:director <http://dbpedia.org/resource/Ron_Howard> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Glenn_Close>,
+        <http://dbpedia.org/resource/Marisa_Tomei>,
+        <http://dbpedia.org/resource/Michael_Keaton>,
+        <http://dbpedia.org/resource/Randy_Quaid>,
+        <http://dbpedia.org/resource/Robert_Duvall> .
+
+<http://dbpedia.org/resource/The_Perez_Family> rdfs:label "The Perez Family" ;
+    dbo:description "1995 film by Mira Nair" ;
+    dbo:director <http://dbpedia.org/resource/Mira_Nair> ;
+    dbo:runtime 6840.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alfred_Molina>,
+        <http://dbpedia.org/resource/Anjelica_Huston>,
+        <http://dbpedia.org/resource/Celia_Cruz>,
+        <http://dbpedia.org/resource/Chazz_Palminteri>,
+        <http://dbpedia.org/resource/Marisa_Tomei>,
+        <http://dbpedia.org/resource/Trini_Alvarado> .
+
+<http://dbpedia.org/resource/The_Prophecy> rdfs:label "The Prophecy" ;
+    dbo:description "1995 film directed by Gregory Widen" ;
+    dbo:director <http://dbpedia.org/resource/Gregory_Widen> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/Amanda_Plummer>,
+        <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Elias_Koteas>,
+        <http://dbpedia.org/resource/Eric_Stoltz>,
+        <http://dbpedia.org/resource/Viggo_Mortensen>,
+        <http://dbpedia.org/resource/Virginia_Madsen> .
+
+<http://dbpedia.org/resource/The_Quick_and_the_Dead_(1995_film)> rdfs:label "The Quick and the Dead" ;
+    dbo:description "1995 film by Sam Raimi" ;
+    dbo:director <http://dbpedia.org/resource/Sam_Raimi> ;
+    dbo:runtime 6480.0 ;
+    dbo:starring <http://dbpedia.org/resource/Gary_Sinise>,
+        <http://dbpedia.org/resource/Gene_Hackman>,
+        <http://dbpedia.org/resource/Kevin_Conway_(actor)>,
+        <http://dbpedia.org/resource/Lance_Henriksen>,
+        <http://dbpedia.org/resource/Leonardo_DiCaprio>,
+        <http://dbpedia.org/resource/Pat_Hingle>,
+        <http://dbpedia.org/resource/Roberts_Blossom>,
+        <http://dbpedia.org/resource/Russell_Crowe>,
+        <http://dbpedia.org/resource/Sharon_Stone> .
+
+<http://dbpedia.org/resource/The_River_Wild> rdfs:label "The River Wild" ;
+    dbo:description "1994 film by Curtis Hanson" ;
+    dbo:director <http://dbpedia.org/resource/Curtis_Hanson> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Strathairn>,
+        <http://dbpedia.org/resource/John_C._Reilly>,
+        <http://dbpedia.org/resource/Joseph_Mazzello>,
+        <http://dbpedia.org/resource/Kevin_Bacon>,
+        <http://dbpedia.org/resource/Meryl_Streep> .
+
+<http://dbpedia.org/resource/The_Santa_Clause> rdfs:label "The Santa Clause" ;
+    dbo:description "1994 film by John Pasquin" ;
+    dbo:director <http://dbpedia.org/resource/John_Pasquin> ;
+    dbo:runtime 5820.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Krumholtz>,
+        <http://dbpedia.org/resource/Judge_Reinhold>,
+        <http://dbpedia.org/resource/Peter_Boyle>,
+        <http://dbpedia.org/resource/Tim_Allen>,
+        <http://dbpedia.org/resource/Wendy_Crewson> .
+
+<http://dbpedia.org/resource/The_Scarlet_Letter_(1995_film)> rdfs:label "The Scarlet Letter (1995)" ;
+    dbo:description "1995 film by Roland Joffé" ;
+    dbo:director <http://dbpedia.org/resource/Roland_Joffé> ;
+    dbo:runtime 8100.0 ;
+    dbo:starring <http://dbpedia.org/resource/Demi_Moore>,
+        <http://dbpedia.org/resource/Edward_Hardwicke>,
+        <http://dbpedia.org/resource/Gary_Oldman>,
+        <http://dbpedia.org/resource/Joan_Plowright>,
+        <http://dbpedia.org/resource/Robert_Duvall>,
+        <http://dbpedia.org/resource/Robert_Prosky> .
+
+<http://dbpedia.org/resource/The_Secret_of_Roan_Inish> rdfs:label "The Secret of Roan Inish" ;
+    dbo:description "1994 film by John Sayles" ;
+    dbo:director <http://dbpedia.org/resource/John_Sayles> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Cillian_Byrne>,
+        <http://dbpedia.org/resource/Eileen_Colgan>,
+        <http://dbpedia.org/resource/Jeni_Courtney>,
+        <http://dbpedia.org/resource/John_Lynch_(actor)>,
+        <http://dbpedia.org/resource/Mick_Lally> .
+
+<http://dbpedia.org/resource/The_Shawshank_Redemption> rdfs:label "The Shawshank Redemption" ;
+    dbo:description "1994 American drama film directed by Frank Darabont" ;
+    dbo:director <http://dbpedia.org/resource/Frank_Darabont> ;
+    dbo:runtime 8520.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bob_Gunton>,
+        <http://dbpedia.org/resource/Clancy_Brown>,
+        <http://dbpedia.org/resource/Gil_Bellows>,
+        <http://dbpedia.org/resource/James_Whitmore>,
+        <http://dbpedia.org/resource/Morgan_Freeman>,
+        <http://dbpedia.org/resource/Tim_Robbins>,
+        <http://dbpedia.org/resource/William_Sadler_(actor)> .
+
+<http://dbpedia.org/resource/The_Specialist> rdfs:label "The Specialist" ;
+    dbo:description "1994 film by Luis Llosa" ;
+    dbo:director <http://dbpedia.org/resource/Luis_Llosa> ;
+    dbo:runtime 6600.0 ;
+    dbo:starring <http://dbpedia.org/resource/Eric_Roberts>,
+        <http://dbpedia.org/resource/James_Woods>,
+        <http://dbpedia.org/resource/Rod_Steiger>,
+        <http://dbpedia.org/resource/Sharon_Stone>,
+        <http://dbpedia.org/resource/Sylvester_Stallone> .
+
+<http://dbpedia.org/resource/The_Sum_of_Us_(film)> rdfs:label "The Sum of Us" ;
+    dbo:description "1994 film by Kevin Dowling" ;
+    dbo:director <http://dbpedia.org/resource/Kevin_Dowling_(director)> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Deborah_Kennedy>,
+        <http://dbpedia.org/resource/Jack_Thompson_(actor)>,
+        <http://dbpedia.org/resource/John_Polson>,
+        <http://dbpedia.org/resource/Russell_Crowe> .
+
+<http://dbpedia.org/resource/The_Swan_Princess> rdfs:label "The Swan Princess" ;
+    dbo:description "1994 American animated musical fantasy film directed by Richard Rich" ;
+    dbo:director <http://dbpedia.org/resource/Richard_Rich_(filmmaker)> ;
+    dbo:runtime 5400.0 ;
+    dbo:starring <http://dbpedia.org/resource/Howard_McGillin>,
+        <http://dbpedia.org/resource/Jack_Palance>,
+        <http://dbpedia.org/resource/John_Cleese>,
+        <http://dbpedia.org/resource/Michelle_Nicastro>,
+        <http://dbpedia.org/resource/Sandy_Duncan>,
+        <http://dbpedia.org/resource/Steve_Vinovich>,
+        <http://dbpedia.org/resource/Steven_Wright> .
+
+<http://dbpedia.org/resource/The_Underneath_(film)> rdfs:label "Underneath" ;
+    dbo:description "1995 film by Steven Soderbergh" ;
+    dbo:director <http://dbpedia.org/resource/Steven_Soderbergh> ;
+    dbo:runtime 5940.0 ;
+    dbo:starring <http://dbpedia.org/resource/Alison_Elliott>,
+        <http://dbpedia.org/resource/Elisabeth_Shue>,
+        <http://dbpedia.org/resource/Joe_Don_Baker>,
+        <http://dbpedia.org/resource/Paul_Dooley>,
+        <http://dbpedia.org/resource/Peter_Gallagher>,
+        <http://dbpedia.org/resource/Shelley_Duvall>,
+        <http://dbpedia.org/resource/William_Fichtner> .
+
+<http://dbpedia.org/resource/The_Usual_Suspects> rdfs:label "The Usual Suspects" ;
+    dbo:description "1995 film directed by Bryan Singer" .
+
+<http://dbpedia.org/resource/The_Young_Poisoner's_Handbook> rdfs:label "The Young Poisoner's Handbook" ;
+    dbo:description "1995 film by Benjamin Ross" ;
+    dbo:director <http://dbpedia.org/resource/Benjamin_Ross> ;
+    dbo:runtime 5580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Charlotte_Coleman>,
+        <http://dbpedia.org/resource/Hugh_O'Conor>,
+        <http://dbpedia.org/resource/Roger_Lloyd-Pack>,
+        <http://dbpedia.org/resource/Ruth_Sheen> .
+
+<http://dbpedia.org/resource/Things_to_Do_in_Denver_When_You're_Dead> rdfs:label "Things to Do in Denver When You're Dead" ;
+    dbo:description "1995 film by Gary Fleder" ;
+    dbo:director <http://dbpedia.org/resource/Gary_Fleder> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andy_García>,
+        <http://dbpedia.org/resource/Bill_Nunn>,
+        <http://dbpedia.org/resource/Christopher_Lloyd>,
+        <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://dbpedia.org/resource/Fairuza_Balk>,
+        <http://dbpedia.org/resource/Gabrielle_Anwar>,
+        <http://dbpedia.org/resource/Jack_Warden>,
+        <http://dbpedia.org/resource/Steve_Buscemi>,
+        <http://dbpedia.org/resource/Treat_Williams>,
+        <http://dbpedia.org/resource/William_Forsythe_(actor)> .
+
+<http://dbpedia.org/resource/Timecop> rdfs:label "Timecop" ;
+    dbo:description "1994 film by Peter Hyams" ;
+    dbo:director <http://dbpedia.org/resource/Peter_Hyams> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Jean-Claude_Van_Damme>,
+        <http://dbpedia.org/resource/Mia_Sara>,
+        <http://dbpedia.org/resource/Ron_Silver> .
+
+<http://dbpedia.org/resource/To_Die_For> rdfs:label "To Die For" ;
+    dbo:description "1995 film by Gus Van Sant" ;
+    dbo:director <http://dbpedia.org/resource/Gus_Van_Sant> ;
+    dbo:runtime 6360.0 ;
+    dbo:starring <http://dbpedia.org/resource/Joaquin_Phoenix>,
+        <http://dbpedia.org/resource/Matt_Dillon>,
+        <http://dbpedia.org/resource/Nicole_Kidman> .
+
+<http://dbpedia.org/resource/To_Live_(1994_film)> rdfs:label "To Live" ;
+    dbo:description "1994 Chinese film directed by Zhang Yimou" ;
+    dbo:director <http://dbpedia.org/resource/Zhang_Yimou> ;
+    dbo:runtime 7920.0 ;
+    dbo:starring <http://dbpedia.org/resource/Ge_You>,
+        <http://dbpedia.org/resource/Gong_Li>,
+        <http://dbpedia.org/resource/Guo_Tao_(actor)>,
+        <http://dbpedia.org/resource/Jiang_Wu>,
+        <http://dbpedia.org/resource/Niu_Ben> .
+
+<http://dbpedia.org/resource/Tom_&_Viv> rdfs:label "Tom & Viv" ;
+    dbo:description "1994 film by Brian Gilbert" ;
+    dbo:director <http://dbpedia.org/resource/Brian_Gilbert_(director)> ;
+    dbo:runtime 6900.0 ;
+    dbo:starring <http://dbpedia.org/resource/Miranda_Richardson>,
+        <http://dbpedia.org/resource/Nickolas_Grace>,
+        <http://dbpedia.org/resource/Rosemary_Harris>,
+        <http://dbpedia.org/resource/Tim_Dutton>,
+        <http://dbpedia.org/resource/Willem_Dafoe> .
+
+<http://dbpedia.org/resource/Tom_and_Huck> rdfs:label "Tom and Huck" ;
+    dbo:description "1995 film directed by Peter Hewitt" .
+
+<http://dbpedia.org/resource/Tommy_Boy> rdfs:label "Tommy Boy" ;
+    dbo:description "1995 film by Peter Segal" .
+
+<http://dbpedia.org/resource/Total_Eclipse_(film)> rdfs:label "Total Eclipse" ;
+    dbo:description "1996 film by Agnieszka Holland" ;
+    dbo:director <http://dbpedia.org/resource/Agnieszka_Holland> ;
+    dbo:runtime 6660.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Thewlis>,
+        <http://dbpedia.org/resource/Dominique_Blanc_(actress)>,
+        <http://dbpedia.org/resource/Leonardo_DiCaprio>,
+        <http://dbpedia.org/resource/Romane_Bohringer> .
+
+<http://dbpedia.org/resource/Toy_Story> rdfs:label "Toy Story" ;
+    dbo:description "1995 American animated film" ;
+    dbo:director <http://dbpedia.org/resource/John_Lasseter> ;
+    dbo:runtime 4860.0 ;
+    dbo:starring <http://dbpedia.org/resource/Annie_Potts>,
+        <http://dbpedia.org/resource/Don_Rickles>,
+        <http://dbpedia.org/resource/Jim_Varney>,
+        <http://dbpedia.org/resource/John_Ratzenberger>,
+        <http://dbpedia.org/resource/Tim_Allen>,
+        <http://dbpedia.org/resource/Tom_Hanks>,
+        <http://dbpedia.org/resource/Wallace_Shawn> .
+
+<http://dbpedia.org/resource/True_Lies> rdfs:label "True Lies" ;
+    dbo:description "1994 film by James Cameron" ;
+    dbo:director <http://dbpedia.org/resource/James_Cameron> ;
+    dbo:runtime 8460.0 ;
+    dbo:starring <http://dbpedia.org/resource/Arnold_Schwarzenegger>,
+        <http://dbpedia.org/resource/Art_Malik>,
+        <http://dbpedia.org/resource/Bill_Paxton>,
+        <http://dbpedia.org/resource/Jamie_Lee_Curtis>,
+        <http://dbpedia.org/resource/Tia_Carrere>,
+        <http://dbpedia.org/resource/Tom_Arnold_(actor)> .
+
+<http://dbpedia.org/resource/Under_Siege_2:_Dark_Territory> rdfs:label "Under Siege 2: Dark Territory" ;
+    dbo:description "1995 film by Geoff Murphy" ;
+    dbo:director <http://dbpedia.org/resource/Geoff_Murphy> ;
+    dbo:runtime 6000.0 ;
+    dbo:starring <http://dbpedia.org/resource/Eric_Bogosian>,
+        <http://dbpedia.org/resource/Everett_McGill>,
+        <http://dbpedia.org/resource/Katherine_Heigl>,
+        <http://dbpedia.org/resource/Morris_Chestnut>,
+        <http://dbpedia.org/resource/Steven_Seagal> .
+
+<http://dbpedia.org/resource/Unforgettable_(1996_film)> rdfs:label "Unforgettable (1996)" ;
+    dbo:description "1996 film by John Dahl" ;
+    dbo:director <http://dbpedia.org/resource/John_Dahl> ;
+    dbo:runtime 7020.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_McDonald>,
+        <http://dbpedia.org/resource/David_Paymer>,
+        <http://dbpedia.org/resource/Linda_Fiorentino>,
+        <http://dbpedia.org/resource/Peter_Coyote>,
+        <http://dbpedia.org/resource/Ray_Liotta> .
+
+<http://dbpedia.org/resource/Unstrung_Heroes> rdfs:label "Unstrung Heroes" ;
+    dbo:description "1995 film by Diane Keaton" ;
+    dbo:director <http://dbpedia.org/resource/Diane_Keaton> ;
+    dbo:runtime 5580.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andie_MacDowell>,
+        <http://dbpedia.org/resource/John_Turturro>,
+        <http://dbpedia.org/resource/Maury_Chaykin>,
+        <http://dbpedia.org/resource/Michael_Richards> .
+
+<http://dbpedia.org/resource/Vampire_in_Brooklyn> rdfs:label "Vampire in Brooklyn" ;
+    dbo:description "1995 film directed by Wes Craven" ;
+    dbo:director <http://dbpedia.org/resource/Wes_Craven> ;
+    dbo:runtime 6120.0 ;
+    dbo:starring <http://dbpedia.org/resource/Allen_Payne>,
+        <http://dbpedia.org/resource/Angela_Bassett>,
+        <http://dbpedia.org/resource/Eddie_Murphy>,
+        <http://dbpedia.org/resource/Kadeem_Hardison>,
+        <http://dbpedia.org/resource/Zakes_Mokae> .
+
+<http://dbpedia.org/resource/Vanya_on_42nd_Street> rdfs:label "Vanya on 42nd Street" ;
+    dbo:description "1994 film by Louis Malle" ;
+    dbo:director <http://dbpedia.org/resource/Louis_Malle> ;
+    dbo:runtime 7140.0 ;
+    dbo:starring <http://dbpedia.org/resource/André_Gregory>,
+        <http://dbpedia.org/resource/Brooke_Smith_(actress)>,
+        <http://dbpedia.org/resource/George_Gaynes>,
+        <http://dbpedia.org/resource/Julianne_Moore>,
+        <http://dbpedia.org/resource/Larry_Pine>,
+        <http://dbpedia.org/resource/Lynn_Cohen>,
+        <http://dbpedia.org/resource/Phoebe_Brand>,
+        <http://dbpedia.org/resource/Wallace_Shawn> .
+
+<http://dbpedia.org/resource/Village_of_the_Damned_(1995_film)> rdfs:label "Village of the Damned",
+        "Village of the Damned (1995)" ;
+    dbo:description "1995 film by John Carpenter" ;
+    dbo:director <http://dbpedia.org/resource/John_Carpenter> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Reeve>,
+        <http://dbpedia.org/resource/Kirstie_Alley>,
+        <http://dbpedia.org/resource/Linda_Kozlowski>,
+        <http://dbpedia.org/resource/Michael_Paré> .
+
+<http://dbpedia.org/resource/Virtuosity> rdfs:label "Virtuosity" ;
+    dbo:description "1995 film directed by Brett Leonard" ;
+    dbo:director <http://dbpedia.org/resource/Brett_Leonard> ;
+    dbo:runtime 6360.0 ;
+    dbo:starring <http://dbpedia.org/resource/Denzel_Washington>,
+        <http://dbpedia.org/resource/Kelly_Lynch>,
+        <http://dbpedia.org/resource/Louise_Fletcher>,
+        <http://dbpedia.org/resource/Russell_Crowe>,
+        <http://dbpedia.org/resource/Stephen_Spinella>,
+        <http://dbpedia.org/resource/William_Forsythe_(actor)> .
+
+<http://dbpedia.org/resource/Waiting_to_Exhale> rdfs:label "Waiting to Exhale" ;
+    dbo:description "1995 film" ;
+    dbo:director <http://dbpedia.org/resource/Forest_Whitaker> ;
+    dbo:runtime 7440.0 ;
+    dbo:starring <http://dbpedia.org/resource/Angela_Bassett>,
+        <http://dbpedia.org/resource/Lela_Rochon>,
+        <http://dbpedia.org/resource/Loretta_Devine>,
+        <http://dbpedia.org/resource/Whitney_Houston> .
+
+<http://dbpedia.org/resource/Waterworld> rdfs:label "Waterworld" ;
+    dbo:description "1995 film directed by Kevin Reynolds" ;
+    dbo:director <http://dbpedia.org/resource/Kevin_Reynolds_(director)> ;
+    dbo:runtime 8100.0 ;
+    dbo:starring <http://dbpedia.org/resource/Dennis_Hopper>,
+        <http://dbpedia.org/resource/Jeanne_Tripplehorn>,
+        <http://dbpedia.org/resource/Kevin_Costner>,
+        <http://dbpedia.org/resource/Michael_Jeter>,
+        <http://dbpedia.org/resource/Tina_Majorino> .
+
+<http://dbpedia.org/resource/Wes_Craven's_New_Nightmare> rdfs:label "Wes Craven's New Nightmare" ;
+    dbo:description "1994 slasher film" ;
+    dbo:director <http://dbpedia.org/resource/Wes_Craven> ;
+    dbo:runtime 6720.0 ;
+    dbo:starring <http://dbpedia.org/resource/Heather_Langenkamp>,
+        <http://dbpedia.org/resource/John_Saxon>,
+        <http://dbpedia.org/resource/Miko_Hughes>,
+        <http://dbpedia.org/resource/Robert_Englund> .
+
+<http://dbpedia.org/resource/What's_Eating_Gilbert_Grape> rdfs:label "What's Eating Gilbert Grape" ;
+    dbo:description "1993 film directed by Lasse Hallström" ;
+    dbo:director <http://dbpedia.org/resource/Lasse_Hallström> ;
+    dbo:runtime 7080.0 ;
+    dbo:starring <http://dbpedia.org/resource/Darlene_Cates>,
+        <http://dbpedia.org/resource/John_C._Reilly>,
+        <http://dbpedia.org/resource/Johnny_Depp>,
+        <http://dbpedia.org/resource/Juliette_Lewis>,
+        <http://dbpedia.org/resource/Leonardo_DiCaprio>,
+        <http://dbpedia.org/resource/Mary_Steenburgen> .
+
+<http://dbpedia.org/resource/When_Night_Is_Falling> rdfs:label "When Night Is Falling" ;
+    dbo:description "1995 film by Patricia Rozema" ;
+    dbo:director <http://dbpedia.org/resource/Patricia_Rozema> ;
+    dbo:runtime 5640.0 ;
+    dbo:starring <http://dbpedia.org/resource/David_Fox_(actor)>,
+        <http://dbpedia.org/resource/Don_McKellar>,
+        <http://dbpedia.org/resource/Henry_Czerny>,
+        <http://dbpedia.org/resource/Pascale_Bussières>,
+        <http://dbpedia.org/resource/Rachael_Crawford>,
+        <http://dbpedia.org/resource/Tracy_Wright> .
+
+<http://dbpedia.org/resource/When_a_Man_Loves_a_Woman_(film)> rdfs:label "When a Man Loves a Woman" ;
+    dbo:description "1994 film directed by Luis Mandoki" ;
+    dbo:director <http://dbpedia.org/resource/Luis_Mandoki> ;
+    dbo:runtime 7560.0 ;
+    dbo:starring <http://dbpedia.org/resource/Andy_García>,
+        <http://dbpedia.org/resource/Ellen_Burstyn>,
+        <http://dbpedia.org/resource/Lauren_Tom>,
+        <http://dbpedia.org/resource/Meg_Ryan> .
+
+<http://dbpedia.org/resource/While_You_Were_Sleeping_(film)> rdfs:label "While You Were Sleeping" ;
+    dbo:description "1995 film directed by Jon Turteltaub" ;
+    dbo:director <http://dbpedia.org/resource/Jon_Turteltaub> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bill_Pullman>,
+        <http://dbpedia.org/resource/Glynis_Johns>,
+        <http://dbpedia.org/resource/Jack_Warden>,
+        <http://dbpedia.org/resource/Peter_Boyle>,
+        <http://dbpedia.org/resource/Peter_Gallagher>,
+        <http://dbpedia.org/resource/Sandra_Bullock> .
+
+<http://dbpedia.org/resource/White_Man's_Burden_(film)> rdfs:label "White Man's Burden" ;
+    dbo:description "1995 film directed by Desmond Nakano" ;
+    dbo:director <http://dbpedia.org/resource/Desmond_Nakano> ;
+    dbo:runtime 5340.0 ;
+    dbo:starring <http://dbpedia.org/resource/Harry_Belafonte>,
+        <http://dbpedia.org/resource/John_Travolta>,
+        <http://dbpedia.org/resource/Kelly_Lynch>,
+        <http://dbpedia.org/resource/Margaret_Avery>,
+        <http://dbpedia.org/resource/Tom_Bower_(actor)> .
+
+<http://dbpedia.org/resource/White_Squall_(film)> rdfs:label "White Squall" ;
+    dbo:description "1996 film by Ridley Scott" ;
+    dbo:director <http://dbpedia.org/resource/Ridley_Scott> ;
+    dbo:runtime 7740.0 ;
+    dbo:starring <http://dbpedia.org/resource/Balthazar_Getty>,
+        <http://dbpedia.org/resource/Caroline_Goodall>,
+        <http://dbpedia.org/resource/Jeff_Bridges>,
+        <http://dbpedia.org/resource/Jeremy_Sisto>,
+        <http://dbpedia.org/resource/John_Savage_(actor)>,
+        <http://dbpedia.org/resource/Scott_Wolf> .
+
+<http://dbpedia.org/resource/Widows'_Peak> rdfs:label "Widows' Peak" ;
+    dbo:description "1994 film by John Irvin" ;
+    dbo:director <http://dbpedia.org/resource/John_Irvin> ;
+    dbo:runtime 6060.0 ;
+    dbo:starring <http://dbpedia.org/resource/Adrian_Dunbar>,
+        <http://dbpedia.org/resource/Jim_Broadbent>,
+        <http://dbpedia.org/resource/Joan_Plowright>,
+        <http://dbpedia.org/resource/Mia_Farrow>,
+        <http://dbpedia.org/resource/Natasha_Richardson> .
+
+<http://dbpedia.org/resource/Wild_Bill_(1995_film)> rdfs:label "Wild Bill (1995)" ;
+    dbo:description "1995 film by Walter Hill" ;
+    dbo:director <http://dbpedia.org/resource/Walter_Hill> ;
+    dbo:runtime 5880.0 ;
+    dbo:starring <http://dbpedia.org/resource/Bruce_Dern>,
+        <http://dbpedia.org/resource/Christina_Applegate>,
+        <http://dbpedia.org/resource/David_Arquette>,
+        <http://dbpedia.org/resource/Diane_Lane>,
+        <http://dbpedia.org/resource/Ellen_Barkin>,
+        <http://dbpedia.org/resource/James_Gammon>,
+        <http://dbpedia.org/resource/Jeff_Bridges>,
+        <http://dbpedia.org/resource/John_Hurt>,
+        <http://dbpedia.org/resource/Keith_Carradine>,
+        <http://dbpedia.org/resource/Marjoe_Gortner> .
+
+<http://dbpedia.org/resource/With_Honors_(film)> rdfs:label "With Honors" ;
+    dbo:description "1994 film by Alek Keshishian" ;
+    dbo:director <http://dbpedia.org/resource/Alek_Keshishian> ;
+    dbo:runtime 6180.0 ;
+    dbo:starring <http://dbpedia.org/resource/Brendan_Fraser>,
+        <http://dbpedia.org/resource/Gore_Vidal>,
+        <http://dbpedia.org/resource/Joe_Pesci>,
+        <http://dbpedia.org/resource/Josh_Hamilton_(actor)>,
+        <http://dbpedia.org/resource/Moira_Kelly>,
+        <http://dbpedia.org/resource/Patrick_Dempsey> .
+
+<http://dbpedia.org/resource/Wolf_(1994_film)> rdfs:label "Wolf (1994)" ;
+    dbo:description "1994 film directed by Mike Nichols" ;
+    dbo:director <http://dbpedia.org/resource/Mike_Nichols> ;
+    dbo:runtime 7500.0 ;
+    dbo:starring <http://dbpedia.org/resource/Christopher_Plummer>,
+        <http://dbpedia.org/resource/Jack_Nicholson>,
+        <http://dbpedia.org/resource/James_Spader>,
+        <http://dbpedia.org/resource/Kate_Nelligan>,
+        <http://dbpedia.org/resource/Michelle_Pfeiffer> .
+
