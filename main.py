@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Carica dataset
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("MovieLensSmall/movies.csv")
 
 
 # 2. Estrai generi
