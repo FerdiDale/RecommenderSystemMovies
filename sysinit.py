@@ -36,6 +36,29 @@ def addToGraphFromRow(subjectUri, objectValue, predicateStr, graph):
     p = URIRef(predicateStr)
     graph.add((s,p,o_val))
 
+def removeFromGraph(subjectUri, objectValue, predicateStr, graph):
+    s = subjectUri
+    o_val = objectValue
+    # Se questo campo è assente nell'estrazione di DBPedia non aggiungiamo la tripla
+    if o_val is None:
+        return
+    p = URIRef(predicateStr)
+    graph.remove((s,p,o_val))
+
+def cleanAllLabels(graph, newgraph):
+    # Rimuovo tutte le vecchie label
+    queryLabels = """
+                SELECT DISTINCT ?movie ?title
+                WHERE {
+                ?movie rdfs:label ?title .
+                }
+                """
+    for row in graph.query(queryLabels):
+        removeFromGraph(row.movie, row.title, RDFS.label, graph)
+
+    for row in newgraph.query(queryLabels):
+        addToGraphFromRow(row.movie, row.title, RDFS.label, graph)
+
 def addToGraphNewProperty(subjectUri, objectString, predicateStr, graph):
     s = subjectUri 
     o_val = objectString
@@ -49,13 +72,13 @@ def addToGraphNewProperty(subjectUri, objectString, predicateStr, graph):
                 pass
 
     if (isinstance(o_val,float)):
-        o = Literal(Decimal(o_val))
+        o = Literal(Decimal(o_val).quantize(Decimal("0.01")))
     else:
         o = Literal(o_val)
     p = URIRef(predicateStr)
     graph.add((s,p,o))
 
-# Grafo input costruito dai file Turtle ottenuti da DBPedia
+# Grafo costruito dai file Turtle ottenuti da DBPedia, che arricchiamo
 g = Graph()
 DBO = Namespace('http://dbpedia.org/ontology/')
 g.bind('dbo', DBO)
@@ -63,12 +86,12 @@ g.bind('dbp', Namespace('http://dbpedia.org/property/'))
 g.parse("db_dump_1.ttl",format='ttl')
 g.parse("db_dump_2.ttl",format='ttl')
 
-# Grafo output, arricchimento di g (con ridefinizione delle label)
-gOut = Graph()
-gOut.bind('dbo', DBO)
-gOut.bind('dbp', Namespace('http://dbpedia.org/property/'))
+gLabels = Graph()
+gLabels.bind('dbo', DBO)
+gLabels.bind('dbp', Namespace('http://dbpedia.org/property/'))
 
 moviesFile = open("MovieLensSmall/movies.csv", encoding="utf8")
+counter = 0
 try:
     moviecsvreader = csv.reader(moviesFile, delimiter=",")
     # Scorro tutti gli elementi del csv princiaple per costruire le strutture contenenti tag e ratings
@@ -99,63 +122,58 @@ try:
     moviesFile.seek(0)
     next(moviecsvreader, None)
     for movieId, movieLongName, genresString in moviecsvreader:
+        counter += 1
         genreList = genresString.split('|')
         movieName, movieYear = getCleanDataFromLabel(movieLongName)
-        if (movieName == "Pocahontas"):
-            print(movieId)
 
-            # Ora che ho raccolto tutti i dati locali, per ogni film cerco su dbpedia i dati,
-            # provando come label il nome pulito e anche una versione alternativa con anno incluso
-            startq1 = """
-                PREFIX dbo: <http://dbpedia.org/ontology/>
-                PREFIX dbp: <http://dbpedia.org/property/>
-                SELECT DISTINCT ?movie ?description ?director ?runtime ?starring 
-                WHERE {
-                ?movie rdfs:label ?title .
-                OPTIONAL { ?movie dbo:description ?description . }
-                OPTIONAL { ?movie dbo:director ?director . }
-                OPTIONAL { ?movie dbo:runtime ?runtime . }
-                OPTIONAL { ?movie dbo:starring ?starring . }
-                """
-                
-            #(Rimpiazzo ' e " che altrimenti causano problemi di compilazione nella query)
-            endq1 = """
-                FILTER (STR(?title) = "{moviename} ({movieyear})" || STR(?title) = "{moviename}")
-                """.format(moviename=movieName.replace("'","\\'").replace('"','\\"'), movieyear=movieYear)
-            q1 = startq1 + endq1 + "}"
+        print(movieId)
 
-            resultRows = g.query(q1)
+        # Ora che ho raccolto tutti i dati locali, per ogni film cerco su dbpedia i dati,
+        # provando come label il nome pulito e anche una versione alternativa con anno incluso
+        startq1 = """
+            PREFIX dbo: <http://dbpedia.org/ontology/>
+            PREFIX dbp: <http://dbpedia.org/property/>
+            SELECT DISTINCT ?movie ?title
+            WHERE {
+            ?movie rdfs:label ?title .
+            """
+            
+        endq1 = """
+            FILTER (STR(?title) = \"\"\"{moviename} ({movieyear})\"\"\" || STR(?title) = \"\"\"{moviename}\"\"\")
+            """.format(moviename=movieName, movieyear=movieYear)
+        q1 = startq1 + endq1 + "}"
 
-    #     # Se il film è stato trovato salvo l'URI del film prendendolo dalla prima riga ricavata
-    #     # altrimenti invento un URI (Tanto per ritrovare i film utilizzerò le label pulite ottenute in precedenza)
-            if resultRows:
-                for row in resultRows:
-                    currMovieURI = row.movie
-                    addToGraphFromRow(currMovieURI, row.director, DBO.director, gOut)
-                    addToGraphFromRow(currMovieURI, row.starring, DBO.starring, gOut)
-                    addToGraphFromRow(currMovieURI, row.runtime, DBO.runtime, gOut)
-                    addToGraphFromRow(currMovieURI, row.description, DBO.description, gOut)
-            else:
-                # URI inventato fatto da nome pulito del film + anno tra parentesi con gli spazi sostituiti con underscore
-                currMovieURI = URIRef("http://dbpedia.org/resource/"+movieName.replace(' ','_')+'_('+str(movieYear)+')/')
-    #     # Aggiungo i dati presi dal csv  
-            addToGraphNewProperty(currMovieURI, movieName, RDFS.label, gOut)
-            addToGraphNewProperty(currMovieURI, movieYear, DBO.releaseYear, gOut)
-            for genre in genreList:
-                if (genre != "(no genres listed)"):
-                    addToGraphNewProperty(currMovieURI, genre, DBO.genre, gOut)
-            for tag in tags[str(movieId)]:
-                addToGraphNewProperty(currMovieURI, tag, DBO.tag, gOut)
-            nRatings = 0
-            sumRatings = 0
-            for rating in ratings[str(movieId)]:
-                nRatings += 1
-                sumRatings += rating
-                addToGraphNewProperty(currMovieURI, rating, DBO.rating, gOut)
-            print(sumRatings/nRatings)
-            print(statistics.mean(ratings[str(movieId)]))
+        resultRows = g.query(q1)
 
-    gOut.serialize(destination="output.ttl", format="turtle")
+        # Se il film è stato trovato salvo l'URI del film prendendolo dalla prima riga ricavata
+        # altrimenti invento un URI (Tanto per ritrovare i film utilizzerò le label pulite ottenute in precedenza)
+        if resultRows:
+            for row in resultRows:
+                currMovieURI = row.movie
+        else:
+            # URI inventato fatto di caratteri safe
+            currMovieURI = URIRef("http://dbpedia.org/resource/movieuri"+str(counter)+'/')
+            
+        # La label la aggiungo in un grafo a parte, per poi alla fine fare pulizia di tutte le label ed aggiungere solo quelle pulite
+        # Questo perché DBPedia soffre di dati sporchi sulle label, che contagiano il risultato desiderato delle query
+        addToGraphNewProperty(currMovieURI, movieName + " (" + str(movieYear) + ")", RDFS.label, gLabels) 
+        # Aggiungo i dati presi dal csv  
+        addToGraphNewProperty(currMovieURI, movieYear, DBO.releaseYear, g) # anno
+        for genre in genreList:
+            if (genre != "(no genres listed)"):
+                addToGraphNewProperty(currMovieURI, genre, DBO.genre, g) # generi se presenti
+        for tag in tags[str(movieId)]:
+            addToGraphNewProperty(currMovieURI, tag, DBO.tag, g) # tag se presenti
+        if (ratings[str(movieId)]):
+            avgRating = statistics.mean(ratings[str(movieId)])
+            addToGraphNewProperty(currMovieURI, round(avgRating,2), DBO.avgRating, g) # rating medio se presenti ratings
+
+        if (counter % 1000 == 0):
+            g.serialize(destination="output.ttl", format="turtle")
+    
+    cleanAllLabels(g, gLabels)
+    g.serialize(destination="output.ttl", format="turtle")
+        
 
 finally:
     moviesFile.close()
