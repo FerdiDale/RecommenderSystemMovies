@@ -40887,7 +40887,8 @@
         <http://dbpedia.org/resource/Mélissa_Désormeaux-Poulin>,
         <http://dbpedia.org/resource/Rémy_Girard> .
 
-<http://dbpedia.org/resource/Inception> dbo:description "2010 film directed by Christopher Nolan" ;
+<http://dbpedia.org/resource/Inception> rdfs:label "Inception (2010)" ;
+    dbo:description "2010 film directed by Christopher Nolan" ;
     dbo:director <http://dbpedia.org/resource/Christopher_Nolan> ;
     dbo:runtime 8880.0 ;
     dbo:starring <http://dbpedia.org/resource/Cillian_Murphy>,

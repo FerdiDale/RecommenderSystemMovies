@@ -8,7 +8,7 @@ from decimal import Decimal
 import statistics
 import time
 import math
-import main
+import cooccurrenceMatrix as cm
 import similarityFunctions as simFuncs
 import numpy as np
 import streamlit as st
@@ -145,6 +145,13 @@ import streamlit as st
 
 
 # !!! - !!!
+
+def setEnvironment(graph, genreMatrix):
+    global g
+    global genreCooccurrenceMatrix
+    g = graph
+    genreCooccurrenceMatrix = genreMatrix
+
 def computeSoftmaxDenominator(movieDictionary, alpha):
     totalSum = 0
     for movieData in movieDictionary.values():
@@ -187,7 +194,7 @@ def getRecommendationExplanation(index, myMovie, targetMovie):
             return "è stato taggato analogamente (" + " ,".join(tagIntersection) + ")"
         
 
-def computeSimilarityToTarget(movieDictionary, movieUri):
+def computeSimilarityToTarget(movieDictionary, movieUri, targetMovieUri):
     myMovie = movieDictionary[movieUri]
     targetMovie = movieDictionary[targetMovieUri]
 
@@ -209,7 +216,7 @@ def computeSimilarityToTarget(movieDictionary, movieUri):
             myMovie["similarityExplanation"].append(getRecommendationExplanation(i, myMovie, targetMovie))
     return np.dot(similarityWeights, similarityValues)*myMovie["avgRating"] # LASCIARE IL BILANCIAMENTO CON RATING?
 
-def retrieveAttributesOfMovie(row, retDict):
+def retrieveAttributesOfMovie(row, retDict, targetMovieUri):
     
     movieUriString = str(row.movie)
     # Se nel dizionario NON c'è già una chiave per il film associato a questa riga, devo creare un nuovo dizionario per il film
@@ -242,30 +249,16 @@ def retrieveAttributesOfMovie(row, retDict):
 
     # Anche se alla riga attuale i dati del film non sono ancora completi, la similarità sarà sovrascritta nelle prossime iterazioni
     # A fine addQueryContentToDictionary() la similarity risulterà calcolata correttamente
-    retDict[movieUriString]["similarityToTarget"] = computeSimilarityToTarget(retDict, movieUriString)
+    retDict[movieUriString]["similarityToTarget"] = computeSimilarityToTarget(retDict, movieUriString, targetMovieUri)
 
-def addQueryContentToDictionary(queryString, graph, retDict):
+def addQueryContentToDictionary(queryString, graph, retDict, targetMovieUri):
     results = graph.query(queryString)
     for row in results:
-        retrieveAttributesOfMovie(row,retDict)
-
-def initSystem():
-    # Grafo costruito dai file Turtle ottenuti da DBPedia, che arricchiamo
-    global g
-    global genreCooccurrenceMatrix
-    g = Graph()
-    DBO = Namespace('http://dbpedia.org/ontology/')
-    g.bind('dbo', DBO)
-    g.bind('dbp', Namespace('http://dbpedia.org/property/'))
-    g.parse("rich_database.ttl",format='ttl')
-
-    genreCooccurrenceMatrix = main.buildGenreCooccurrenceMatrix()
+        retrieveAttributesOfMovie(row, retDict, targetMovieUri)
 
 @st.cache_resource
-def querySimilarities():
-    global targetMovieUri
+def querySimilarities(query, targetMovieUri, nerfedVersion):
     movieDictionary = {}
-    targetMovieUri = "http://dbpedia.org/resource/The_Silence_of_the_Lambs_(film)"
     myMovieUri1 = "http://dbpedia.org/resource/The_Dark_Knight_Rises"
     myMovieUri2 = "http://dbpedia.org/resource/A_Goofy_Movie"
     myMovieUri3 = "http://dbpedia.org/resource/Pocahontas_II:_Journey_to_a_New_World"
@@ -273,14 +266,16 @@ def querySimilarities():
     myMovieUri5 = "http://dbpedia.org/resource/Public_Enemies_(2009_film)"
     alpha = 1
     # Dobbiamo riempire prima i dati riguardanti il target, in modo da poter calcolare man mano la similarità
-    addQueryContentToDictionary(queryTargetMovie.format(targetUri = targetMovieUri), g, movieDictionary)
-    # addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri1), g, movieDictionary)
-    # addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri2), g, movieDictionary)
-    # addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri3), g, movieDictionary)
-    # addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri4), g, movieDictionary)
-    # addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri5), g, movieDictionary)
+    addQueryContentToDictionary(queryTargetMovie.format(targetUri = targetMovieUri), g, movieDictionary, targetMovieUri)
+    if nerfedVersion:
+        addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri1), g, movieDictionary, targetMovieUri)
+        addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri2), g, movieDictionary, targetMovieUri)
+        addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri3), g, movieDictionary, targetMovieUri)
+        addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri4), g, movieDictionary, targetMovieUri)
+        addQueryContentToDictionary(queryTargetMovie.format(targetUri = myMovieUri5), g, movieDictionary, targetMovieUri)
+    else:
+        addQueryContentToDictionary(query, g, movieDictionary, targetMovieUri)
     targetMovieTitle = movieDictionary[targetMovieUri]["title"]
-    addQueryContentToDictionary(queryAllMovies, g, movieDictionary)
     movieDictionary.pop(targetMovieUri)
     softmaxDenominator = computeSoftmaxDenominator(movieDictionary, alpha)
     fillArmProbability(movieDictionary, alpha, softmaxDenominator)
@@ -288,15 +283,12 @@ def querySimilarities():
 
 @st.cache_data
 def pullKMovies(movieDictionary, k):
-    with open('prob.txt', 'w') as f:
-        movie_uris = list(movieDictionary.keys())
-        weights = [movieDictionary[m]["armProbability"] for m in movie_uris]
-        for movieuri, moviedata in movieDictionary.items():
-            if (moviedata["armProbability"]>0.0001):
-                print(moviedata["title"] + " ha probabilità " + str(moviedata["armProbability"]), file=f)
-        chosen_movie_uris = sorted(np.random.choice(movie_uris, p=weights, size=k, replace=False), key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)
-        print("Sono stati scelti in ordine: " + str([movieDictionary[m]["title"] for m in chosen_movie_uris]))
-        return chosen_movie_uris
+    movie_uris = list(movieDictionary.keys())
+    weights = [movieDictionary[m]["armProbability"] for m in movie_uris]
+    chosen_movie_uris = sorted(np.random.choice(movie_uris, p=weights, size=k, replace=False), key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)
+    print("Sono stati scelti in ordine: " + str([movieDictionary[m]["title"] for m in chosen_movie_uris]))
+    return chosen_movie_uris
+
 
 queryTargetMovie = """
     PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -316,23 +308,6 @@ queryTargetMovie = """
         }}    
     """
 
-queryAllMovies = """
-    PREFIX dbo: <http://dbpedia.org/ontology/>
-    PREFIX dbp: <http://dbpedia.org/property/>
-    SELECT DISTINCT ?movie ?title ?description ?avgRating ?runtime ?releaseYear ?genre ?director ?starring ?tag
-    WHERE {
-        ?movie rdfs:label ?title .
-        OPTIONAL { ?movie dbo:description ?description . }
-        OPTIONAL { ?movie dbo:avgRating ?avgRating . }
-        OPTIONAL { ?movie dbo:runtime ?runtime . }
-        OPTIONAL { ?movie dbo:releaseYear ?releaseYear . }
-        OPTIONAL { ?movie dbo:genre ?genre . }
-        OPTIONAL { ?movie dbo:director ?director . }
-        OPTIONAL { ?movie dbo:starring ?starring . }
-        OPTIONAL { ?movie dbo:tag ?tag . }
-        }    
-    """
-
 def next_movie():
     st.session_state.movie_index = int(st.session_state.movie_index)+1
 
@@ -342,69 +317,7 @@ def prev_movie():
 @st.dialog("Successo!")
 def show_dialog():
     st.write("Speriamo il film consigliato ti piaccia! 😃​")
-
-if "movie_index" not in st.session_state:
-    st.session_state.movie_index = 0
-    initSystem()
-
-movieDictionary, targetMovieTitle = querySimilarities()
-chosen_movie_uris = pullKMovies(movieDictionary, 5)
-st.title("🎬 Movie Recommender")
-st.space("small")
-movie = movieDictionary[chosen_movie_uris[st.session_state.movie_index]]
-
-with st.container(border=True,horizontal_alignment="center"):
-    with st.container(border=True, horizontal_alignment="center"):
-        st.header(movie["title"],divider="grey")
-        st.markdown(f"<p style='margin-top:-10px; font-size:22px;'>{movie["description"]}</p>", unsafe_allow_html=True)
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            if (movie["releaseYear"]):
-                st.write("**📅 Anno di rilascio:**", movie["releaseYear"])
-
-            if (movie["runtime"]):
-                st.write(f"**⏱️​ Durata:** {int((movie["runtime"])/60)}min")
-
-            if (movie["avgRating"]):
-                st.write("**⭐ Rating:**", movie["avgRating"])
-
-            if (len(movie["genre"])!=0):
-                st.write("**🎭 Generi:**", ", ".join(movie["genre"]))
-
-
-        with col2:
-            if (len(movie["director"])!=0):
-                st.write("**🎬 Registi:**", ", ".join(movie["director"]))
-                
-            if (len(movie["starring"])!=0):
-                st.write("**👥 Cast:**", ", ".join(movie["starring"]))
-            
-            if (len(movie["tag"])!=0):
-                st.write("**🏷️ Tag:**", ", ".join(movie["tag"]))
-
-        st.divider()
-
-        st.markdown(f"<p style='margin-top:-15px;'><strong>💭​ Rispetto a {targetMovieTitle}, ti consigliamo questo film perché:</strong> {", ".join(movie["similarityExplanation"])}</p>", unsafe_allow_html=True)
-
-        st.markdown("<p style='margin-bottom:-5px;'><strong>🗯️​ Quanto te lo consigliamo?</strong> Più o meno... tanto così!</p>", unsafe_allow_html=True)
-        st.progress(movie["similarityToTarget"] / 50)
-
-    with st.container(horizontal=True, horizontal_alignment="distribute", vertical_alignment="center"):
-
-            st.button("⬅️ Precedente", disabled=st.session_state.movie_index == 0, on_click=prev_movie)
-
-            st.write(f"{st.session_state.movie_index + 1} / {len(chosen_movie_uris)}")
-
-            st.button("Successivo ➡️", disabled=st.session_state.movie_index == len(chosen_movie_uris)-1, on_click=next_movie)
-
-
-col1, col2, = st.columns([1,1])
-
-with col1:
-    if st.button('Questo film è proprio quello che cercavo!'):
-        show_dialog()
-
-with col2:
-    st.button('​Vorrei un film del genere, ma con qualche differenza...')
+    if st.button("Torna all'inizio"):
+        del st.session_state["movie_index"]
+        del st.session_state["movie_chosen"]
+        st.rerun()
