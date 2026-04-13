@@ -1,26 +1,28 @@
 from datetime import datetime
 
-def build_critique_query(base_query, selected_genres, selected_tags, recency_option):
+def build_critique_query(selected_movie_year, selected_genres, selected_tags, recency_option):
 
-    current_year = datetime.now().year
-    threshold = current_year - 5
-
-    query = base_query + "\n"
-
-    query += """
+    query = """
     PREFIX dbo: <http://dbpedia.org/ontology/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-    SELECT DISTINCT ?movie ?title ?year
+    SELECT DISTINCT ?movie ?title ?description ?avgRating ?runtime ?releaseYear ?genre ?director ?starring ?tag
     WHERE {
         ?movie rdfs:label ?title .
+        OPTIONAL { ?movie dbo:description ?description . }
+        OPTIONAL { ?movie dbo:avgRating ?avgRating . }
+        OPTIONAL { ?movie dbo:runtime ?runtime . }
+        OPTIONAL { ?movie dbo:releaseYear ?releaseYear . }
+        OPTIONAL { ?movie dbo:genre ?genre . }
+        OPTIONAL { ?movie dbo:director ?director . }
+        OPTIONAL { ?movie dbo:starring ?starring . }
+        OPTIONAL { ?movie dbo:tag ?tag . }
     """
 
     # GENRE FILTER
     if selected_genres:
         genre_filter = " || ".join([f"?genre = \"{g}\"" for g in selected_genres])
         query += f"""
-        OPTIONAL {{ ?movie dbo:genre ?genre . }}
         FILTER ({genre_filter})
         """
 
@@ -28,23 +30,17 @@ def build_critique_query(base_query, selected_genres, selected_tags, recency_opt
     if selected_tags:
         tag_filter = " || ".join([f"?tag = \"{t}\"" for t in selected_tags])
         query += f"""
-        OPTIONAL {{ ?movie dbo:tag ?tag . }}
         FILTER ({tag_filter})
         """
 
-    # RECENCY
-    query += """
-        OPTIONAL { ?movie dbo:releaseYear ?year . }
-    """
-
     if recency_option == "Più recente":
         query += f"""
-        FILTER (?year >= {threshold})
+        FILTER (?releaseYear >= {selected_movie_year})
         """
 
     elif recency_option == "Meno recente":
         query += f"""
-        FILTER (?year < {threshold})
+        FILTER (?releaseYear < {selected_movie_year})
         """
 
     query += "\n}"

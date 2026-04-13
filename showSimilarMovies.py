@@ -284,8 +284,9 @@ def querySimilarities(query, targetMovieUri, nerfedVersion):
 @st.cache_data
 def pullKMovies(movieDictionary, k):
     movie_uris = list(movieDictionary.keys())
+    print(len(movie_uris))
     weights = [movieDictionary[m]["armProbability"] for m in movie_uris]
-    chosen_movie_uris = sorted(np.random.choice(movie_uris, p=weights, size=k, replace=False), key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)
+    chosen_movie_uris = sorted(np.random.choice(movie_uris, p=weights, size=min(k, len(movie_uris)), replace=False), key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)
     print("Sono stati scelti in ordine: " + str([movieDictionary[m]["title"] for m in chosen_movie_uris]))
     return chosen_movie_uris
 
@@ -317,6 +318,14 @@ def prev_movie():
 @st.dialog("Successo!")
 def show_dialog():
     st.write("Speriamo il film consigliato ti piaccia! 😃​")
+    if st.button("Torna all'inizio"):
+        del st.session_state["movie_index"]
+        del st.session_state["movie_chosen"]
+        st.rerun()
+
+@st.dialog("Peccato!")
+def show_empty_query():
+    st.write("La tua ricerca era troppo specifica! 😢​​")
     if st.button("Torna all'inizio"):
         del st.session_state["movie_index"]
         del st.session_state["movie_chosen"]

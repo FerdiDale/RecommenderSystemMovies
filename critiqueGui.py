@@ -64,20 +64,14 @@ def critiqueGui():
 
         st.write("🟢 DEBUG: BUTTON PREMUTO")
 
-        base_query = st.session_state.get("movie_query", None)
-
-        if base_query is None:
-            st.error("❌ movie_query mancante")
-            return
-
-        st.write("🟢 DEBUG base_query OK")
-
         critique_query = build_critique_query(
-            base_query,
+            movie["releaseYear"],
             selected_genres,
             selected_tags,
             recency_option
         )
+
+        print(critique_query)
 
         st.write("🟢 DEBUG query creata")
         st.code(critique_query[:500], language="sparql")
@@ -86,10 +80,6 @@ def critiqueGui():
         st.session_state.movie_query = critique_query
 
         # IMPORTANTISSIMO: reset navigazione
-        st.session_state.critique_phase = False
-        st.session_state.movie_chosen = None
-        st.session_state.movie_index = 0
-
-        st.write("🟢 DEBUG stato aggiornato → ritorno risultati")
+        del st.session_state["critique_phase"]
 
         st.rerun()

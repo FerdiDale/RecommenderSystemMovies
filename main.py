@@ -2,6 +2,7 @@ import streamlit as st
 import searchMovies
 import cooccurrenceMatrix
 import showSimilarMovies
+import critiqueGui
 from rdflib import Graph, URIRef, Literal, Namespace, RDFS, XSD
 
 queryAllMovies = """
@@ -59,6 +60,8 @@ def showSimilarMoviesGui(query, targetUri, nerfedVersion):
         st.session_state.movie_index = 0
 
     movieDictionary, targetMovieTitle = showSimilarMovies.querySimilarities(query, targetUri, nerfedVersion)
+    if (len(movieDictionary) == 0):
+        showSimilarMovies.show_empty_query()
     chosen_movie_uris = showSimilarMovies.pullKMovies(movieDictionary, 5)
     st.title("🎬 Movie Recommender")
     st.space("small")
@@ -141,13 +144,14 @@ def main():
     else:
         # Se la variabile di stato critique_phase è assente mostriamo i risultati
         if "critique_phase" not in st.session_state:
-            showSimilarMoviesGui(st.session_state.movie_query, st.session_state.movie_chosen, True)
+            showSimilarMoviesGui(st.session_state.movie_query, st.session_state.movie_chosen, False)
         # Altrimenti mostriamo la schermata di critique
         else:
             # QUI VA CHIAMATA LA FUNZIONE DELLA GUI DELLA CRITIQUE
             # ALLA FINE DOVREBBE SETTARE LA VARIABILE DI STATO movie_query ALLA QUERY FORMATA DAI RISULTATI
             # I CONTENUTI IN BASE A CUI GENERARE LA SCHERMATA DI CRITIQUE SONO DENTRO QUESTO DICTIONARY CHE ORA STAMPO
-            print(st.session_state.movie_chosen_attrs)
+            critiqueGui.critiqueGui()
+            
 
 
 # Main
