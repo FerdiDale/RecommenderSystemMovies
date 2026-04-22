@@ -1,10 +1,16 @@
 from datetime import datetime
 
-def build_critique_query(selected_movie_year, selected_genres, selected_tags, recency_option):
+# Aggiunta XSD per cast del runtime a intero
+# Necessario per confrontare correttamente la durata dei film
+# (DBpedia spesso salva runtime come stringa)
+
+#in def build_critique_query() aggiungere selected_actors e runtime_option come parametri e togliere i commenti relativi al runtime
+def build_critique_query(selected_movie_year, selected_genres, selected_tags, recency_option, selected_directors, selected_actors):
 
     query = """
     PREFIX dbo: <http://dbpedia.org/ontology/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
     SELECT DISTINCT ?movie ?title ?description ?avgRating ?runtime ?releaseYear ?genre ?director ?starring ?tag
     WHERE {
@@ -33,6 +39,44 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
         FILTER ({tag_filter})
         """
 
+    # DIRECTOR FILTER
+    if selected_directors:
+        director_filter = " || ".join([
+            f'CONTAINS(STR(?director), "{d.replace(" ", "_")}")'
+            for d in selected_directors
+        ])
+
+        query += f"""
+        FILTER ({director_filter})
+        """
+
+    # ACTORS FILTER
+    if selected_actors:
+        actor_filter = " || ".join([
+            f'CONTAINS(STR(?starring), "{a.replace(" ", "_")}")'
+            for a in selected_actors
+        ])
+
+        query += f"""
+        FILTER ({actor_filter})
+        """
+    
+    # RUNTIME FILTER
+    # if runtime_option == "Più lungo":
+    #    query += f"""
+    #    FILTER (xsd:integer(?runtime) >= {selected_movie_runtime})
+    #    """
+
+    # elif runtime_option == "Più breve":
+    #    query += f"""
+    #    FILTER (xsd:integer(?runtime) < {selected_movie_runtime})
+    #    """
+    
+    # elif runtime_option == "Simile":
+    #    query += f"""
+    #    FILTER (ABS(xsd:integer(?runtime) - {selected_movie_runtime}) <= 10)
+    #    """
+    
     if recency_option == "Più recente":
         query += f"""
         FILTER (?releaseYear >= {selected_movie_year})
