@@ -59,9 +59,12 @@ def showSimilarMoviesGui(query, targetUri, nerfedVersion):
     if "movie_index" not in st.session_state:
         st.session_state.movie_index = 0
 
+    print("Prima della query")
     movieDictionary, targetMovieTitle = showSimilarMovies.querySimilarities(query, targetUri, nerfedVersion)
+    print("Dopo la query")
     if (len(movieDictionary) == 0):
         showSimilarMovies.show_empty_query()
+        return
     chosen_movie_uris = showSimilarMovies.pullKMovies(movieDictionary, 5)
     st.title("🎬 Movie Recommender")
     st.space("small")
@@ -102,8 +105,8 @@ def showSimilarMoviesGui(query, targetUri, nerfedVersion):
 
             st.markdown(f"<p style='margin-top:-15px;'><strong>💭​ Rispetto a {targetMovieTitle}, ti consigliamo questo film perché:</strong> {', '.join(movie['similarityExplanation'])}</p>", unsafe_allow_html=True)
 
-            st.markdown("<p style='margin-bottom:-5px;'><strong>🗯️​ Quanto te lo consigliamo?</strong> Più o meno... tanto così!</p>", unsafe_allow_html=True)
-            st.progress(movie["similarityToTarget"] / 60)
+            # st.markdown("<p style='margin-bottom:-5px;'><strong>🗯️​ Quanto te lo consigliamo?</strong> Più o meno... tanto così!</p>", unsafe_allow_html=True)
+            # st.progress(movie["similarityToTarget"] / 60)
 
         with st.container(horizontal=True, horizontal_alignment="distribute", vertical_alignment="center"):
 

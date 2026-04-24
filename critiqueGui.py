@@ -111,14 +111,14 @@ def critiqueGui():
     # -----------------------
     # RUNTIME
     # -----------------------
-    # runtime_option = st.radio(
-    #    "Durata del film",
-    #    ["Più lungo", "Più breve", "Simile"],
-    #    key="critique_runtime"
-    #)
+    runtime_option = st.radio(
+       "Durata del film",
+       ["Più lungo", "Più breve", "Simile"],
+       key="critique_runtime"
+    )
 
-    # if DEBUG2:
-    #    st.write("⏱ runtime option:", runtime_option)
+    if DEBUG2:
+       st.write("⏱ runtime option:", runtime_option)
 
     # =========================================================
     # FIX: BUTTON SENZA STATE PERSISTENTE
@@ -137,8 +137,8 @@ def critiqueGui():
             recency_option,
             selected_directors,
             selected_actors,
-            # runtime_option, servono per il filtro sulla durata dei film
-            # movie["runtime"]
+            runtime_option,
+            movie["runtime"]
         )
 
         print(critique_query)

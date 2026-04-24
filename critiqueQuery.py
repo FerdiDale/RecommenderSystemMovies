@@ -5,7 +5,7 @@ from datetime import datetime
 # (DBpedia spesso salva runtime come stringa)
 
 #in def build_critique_query() aggiungere selected_actors e runtime_option come parametri e togliere i commenti relativi al runtime
-def build_critique_query(selected_movie_year, selected_genres, selected_tags, recency_option, selected_directors, selected_actors):
+def build_critique_query(selected_movie_year, selected_genres, selected_tags, recency_option, selected_directors, selected_actors, runtime_option, selected_movie_runtime):
 
     query = """
     PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -62,20 +62,15 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
         """
     
     # RUNTIME FILTER
-    # if runtime_option == "Più lungo":
-    #    query += f"""
-    #    FILTER (xsd:integer(?runtime) >= {selected_movie_runtime})
-    #    """
+    if runtime_option == "Più lungo":
+       query += f"""
+       FILTER (xsd:integer(?runtime) >= {selected_movie_runtime})
+       """
 
-    # elif runtime_option == "Più breve":
-    #    query += f"""
-    #    FILTER (xsd:integer(?runtime) < {selected_movie_runtime})
-    #    """
-    
-    # elif runtime_option == "Simile":
-    #    query += f"""
-    #    FILTER (ABS(xsd:integer(?runtime) - {selected_movie_runtime}) <= 10)
-    #    """
+    elif runtime_option == "Più breve":
+       query += f"""
+       FILTER (xsd:integer(?runtime) <= {selected_movie_runtime})
+       """
     
     if recency_option == "Più recente":
         query += f"""
@@ -84,7 +79,7 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
 
     elif recency_option == "Meno recente":
         query += f"""
-        FILTER (?releaseYear < {selected_movie_year})
+        FILTER (?releaseYear <= {selected_movie_year})
         """
 
     query += "\n}"
