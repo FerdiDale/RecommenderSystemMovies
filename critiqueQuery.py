@@ -72,6 +72,9 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
        FILTER (xsd:integer(?runtime) <= {selected_movie_runtime})
        """
     
+    elif runtime_option == "Nessuna preferenza":
+        pass
+
     if recency_option == "Più recente":
         query += f"""
         FILTER (?releaseYear >= {selected_movie_year})
@@ -81,6 +84,8 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
         query += f"""
         FILTER (?releaseYear <= {selected_movie_year})
         """
+    elif recency_option == "Nessuna preferenza":
+        pass
 
     query += "\n}"
 

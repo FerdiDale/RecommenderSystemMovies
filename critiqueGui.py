@@ -32,10 +32,11 @@ def critiqueGui():
     # RECENCY
     # -----------------------
     recency_option = st.radio(
-        "Anno di uscita",
-        ["Più recente", "Meno recente"],
-        key="critique_recency"
-    )
+    "Anno di uscita",
+    ["Nessuna preferenza", "Più recente", "Meno recente"],
+    index=0,  # default su "nessuna preferenza"
+    key="critique_recency"
+)
 
     if DEBUG:
         st.write("🟡 DEBUG recency:", recency_option)
@@ -113,7 +114,7 @@ def critiqueGui():
     # -----------------------
     runtime_option = st.radio(
        "Durata del film",
-       ["Più lungo", "Più breve", "Simile"],
+       ["Nessuna Preferenza", "Più lungo", "Più breve"],
        key="critique_runtime"
     )
 
