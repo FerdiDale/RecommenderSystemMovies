@@ -56,16 +56,19 @@ def searchMoviesGui():
             st.warning("Nessun risultato trovato")
 
 def showSimilarMoviesGui(query, targetUri, nerfedVersion):
-    if "movie_index" not in st.session_state:
-        st.session_state.movie_index = 0
 
-    print("Prima della query")
     movieDictionary, targetMovieTitle = showSimilarMovies.querySimilarities(query, targetUri, nerfedVersion)
-    print("Dopo la query")
     if (len(movieDictionary) == 0):
         showSimilarMovies.show_empty_query()
         return
-    chosen_movie_uris = showSimilarMovies.pullKMovies(movieDictionary, 5)
+    
+    if "movie_index" not in st.session_state:
+        st.session_state.movie_index = 0
+        chosen_movie_uris = showSimilarMovies.pullKMovies(movieDictionary, 5)
+        st.session_state["chosen_uris"] = chosen_movie_uris
+    else:
+        chosen_movie_uris = st.session_state.chosen_uris
+
     st.title("🎬 Movie Recommender")
     st.space("small")
     movie = movieDictionary[chosen_movie_uris[st.session_state.movie_index]]

@@ -146,6 +146,27 @@ import streamlit as st
 
 # !!! - !!!
 
+SIMILARITY_WEIGHTS_SUM = 12
+
+def computeAverageSimilarityToTarget(movieDictionary, chosenMovieUris):
+    sum = 0
+    for uri in chosenMovieUris:
+        sum += movieDictionary[uri]["similarityToTargetWithoutRating"]/SIMILARITY_WEIGHTS_SUM
+    return sum/len(chosenMovieUris)
+
+def computeIntraListDiversity(movieDictionary, chosenMoviesUris):
+    sum = 0
+    n = len(chosenMoviesUris)
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                sum+=1-computeSimilarityToTarget(movieDictionary, chosenMoviesUris[i], chosenMoviesUris[j])/SIMILARITY_WEIGHTS_SUM
+    return sum/(n*(n-1))
+
+def computeSerendipity(chosenMovieUris, topUris):
+    diff = set(chosenMovieUris) - set(topUris)
+    return len(diff)/len(chosenMovieUris)
+
 def setEnvironment(graph, genreMatrix):
     global g
     global genreCooccurrenceMatrix
@@ -214,7 +235,7 @@ def computeSimilarityToTarget(movieDictionary, movieUri, targetMovieUri):
     for i in top3SimIndexes:
         if (similarityValues[i] != 0): # Anche se questo è uno dei 3 valori id similarità più alto, se è nullo non lo consideriamo
             myMovie["similarityExplanation"].append(getRecommendationExplanation(i, myMovie, targetMovie))
-    return np.dot(similarityWeights, similarityValues)*myMovie["avgRating"] # LASCIARE IL BILANCIAMENTO CON RATING?
+    return np.dot(similarityWeights, similarityValues)
 
 def retrieveAttributesOfMovie(row, retDict, targetMovieUri):
     
@@ -249,7 +270,9 @@ def retrieveAttributesOfMovie(row, retDict, targetMovieUri):
 
     # Anche se alla riga attuale i dati del film non sono ancora completi, la similarità sarà sovrascritta nelle prossime iterazioni
     # A fine addQueryContentToDictionary() la similarity risulterà calcolata correttamente
-    retDict[movieUriString]["similarityToTarget"] = computeSimilarityToTarget(retDict, movieUriString, targetMovieUri)
+    similarityToTarget = computeSimilarityToTarget(retDict, movieUriString, targetMovieUri)
+    retDict[movieUriString]["similarityToTargetWithoutRating"] = similarityToTarget
+    retDict[movieUriString]["similarityToTarget"] = similarityToTarget*retDict[movieUriString]["avgRating"]
 
 def addQueryContentToDictionary(queryString, graph, retDict, targetMovieUri):
     results = graph.query(queryString)
@@ -279,15 +302,21 @@ def querySimilarities(query, targetMovieUri, nerfedVersion):
     movieDictionary.pop(targetMovieUri)
     softmaxDenominator = computeSoftmaxDenominator(movieDictionary, alpha)
     fillArmProbability(movieDictionary, alpha, softmaxDenominator)
+    print("QUERY SIMILARITIES")
     return movieDictionary, targetMovieTitle
 
-@st.cache_data
+@st.cache_resource
 def pullKMovies(movieDictionary, k):
     movie_uris = list(movieDictionary.keys())
-    print(len(movie_uris))
     weights = [movieDictionary[m]["armProbability"] for m in movie_uris]
+    best_movie_uris = sorted(movie_uris, key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)[:k]
     chosen_movie_uris = sorted(np.random.choice(movie_uris, p=weights, size=min(k, len(movie_uris)), replace=False), key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)
     print("Sono stati scelti in ordine: " + str([movieDictionary[m]["title"] for m in chosen_movie_uris]))
+    print("I migliori sono in ordine: " + str([movieDictionary[m]["title"] for m in best_movie_uris]))
+
+    print ("ACCURACY: " + str(computeAverageSimilarityToTarget(movieDictionary, chosen_movie_uris)))
+    print("DIVERSITY: " + str(computeIntraListDiversity(movieDictionary, chosen_movie_uris)))
+    print("SERENDIPITY: " + str(computeSerendipity(chosen_movie_uris, best_movie_uris)))
     return chosen_movie_uris
 
 
