@@ -157,6 +157,8 @@ def computeAverageSimilarityToTarget(movieDictionary, chosenMovieUris):
 def computeIntraListDiversity(movieDictionary, chosenMoviesUris):
     sum = 0
     n = len(chosenMoviesUris)
+    if n == 1:
+        return 0
     for i in range(n):
         for j in range(n):
             if i != j:
@@ -280,14 +282,13 @@ def addQueryContentToDictionary(queryString, graph, retDict, targetMovieUri):
         retrieveAttributesOfMovie(row, retDict, targetMovieUri)
 
 @st.cache_resource
-def querySimilarities(query, targetMovieUri, nerfedVersion):
+def querySimilarities(query, targetMovieUri, nerfedVersion, alpha = 1):
     movieDictionary = {}
     myMovieUri1 = "http://dbpedia.org/resource/The_Dark_Knight_Rises"
     myMovieUri2 = "http://dbpedia.org/resource/A_Goofy_Movie"
     myMovieUri3 = "http://dbpedia.org/resource/Pocahontas_II:_Journey_to_a_New_World"
     myMovieUri4 = "http://dbpedia.org/resource/Point_Break"
     myMovieUri5 = "http://dbpedia.org/resource/Public_Enemies_(2009_film)"
-    alpha = 1
     # Dobbiamo riempire prima i dati riguardanti il target, in modo da poter calcolare man mano la similarità
     addQueryContentToDictionary(queryTargetMovie.format(targetUri = targetMovieUri), g, movieDictionary, targetMovieUri)
     if nerfedVersion:
@@ -302,11 +303,10 @@ def querySimilarities(query, targetMovieUri, nerfedVersion):
     movieDictionary.pop(targetMovieUri)
     softmaxDenominator = computeSoftmaxDenominator(movieDictionary, alpha)
     fillArmProbability(movieDictionary, alpha, softmaxDenominator)
-    print("QUERY SIMILARITIES")
     return movieDictionary, targetMovieTitle
 
 @st.cache_resource
-def pullKMovies(movieDictionary, k):
+def pullKMovies(movieDictionary, k, computeExtraData = False):
     movie_uris = list(movieDictionary.keys())
     weights = [movieDictionary[m]["armProbability"] for m in movie_uris]
     best_movie_uris = sorted(movie_uris, key=lambda uri:movieDictionary[uri]["similarityToTarget"], reverse=True)[:k]
@@ -314,11 +314,16 @@ def pullKMovies(movieDictionary, k):
     print("Sono stati scelti in ordine: " + str([movieDictionary[m]["title"] for m in chosen_movie_uris]))
     print("I migliori sono in ordine: " + str([movieDictionary[m]["title"] for m in best_movie_uris]))
 
-    print ("ACCURACY: " + str(computeAverageSimilarityToTarget(movieDictionary, chosen_movie_uris)))
-    print("DIVERSITY: " + str(computeIntraListDiversity(movieDictionary, chosen_movie_uris)))
-    print("SERENDIPITY: " + str(computeSerendipity(chosen_movie_uris, best_movie_uris)))
-    return chosen_movie_uris
-
+    if computeExtraData:
+        accuracy = computeAverageSimilarityToTarget(movieDictionary, chosen_movie_uris)
+        diversity = computeIntraListDiversity(movieDictionary, chosen_movie_uris)
+        serendipity = computeSerendipity(chosen_movie_uris, best_movie_uris)
+        # print ("ACCURACY: " + str(computeAverageSimilarityToTarget(movieDictionary, chosen_movie_uris)))
+        # print("DIVERSITY: " + str(computeIntraListDiversity(movieDictionary, chosen_movie_uris)))
+        # print("SERENDIPITY: " + str(computeSerendipity(chosen_movie_uris, best_movie_uris)))
+        return chosen_movie_uris, accuracy, diversity, serendipity, min(k, len(movie_uris))
+    else:
+        return chosen_movie_uris
 
 queryTargetMovie = """
     PREFIX dbo: <http://dbpedia.org/ontology/>

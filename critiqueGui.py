@@ -142,8 +142,6 @@ def critiqueGui():
             movie["runtime"]
         )
 
-        print(critique_query)
-
         
         if DEBUG:
             st.write("🟢 DEBUG query creata")

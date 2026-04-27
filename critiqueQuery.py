@@ -89,4 +89,6 @@ def build_critique_query(selected_movie_year, selected_genres, selected_tags, re
 
     query += "\n}"
 
+    print(query)
+
     return query
