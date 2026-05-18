@@ -164,8 +164,10 @@ try:
                 addToGraphNewProperty(currMovieURI, genre, DBO.genre, g) # generi se presenti
         for tag in tags[str(movieId)]:
             addToGraphNewProperty(currMovieURI, tag, DBO.tag, g) # tag se presenti
-        if (ratings[str(movieId)]):
-            avgRating = statistics.mean(ratings[str(movieId)])
+        ratingsMovieList = ratings[str(movieId)]
+        if (ratingsMovieList):
+            # Shrink term C = 1
+            avgRating = sum(ratingsMovieList)/(len(ratingsMovieList)+1)
             addToGraphNewProperty(currMovieURI, round(avgRating,2), DBO.avgRating, g) # rating medio se presenti ratings
 
         if (counter % 1000 == 0):

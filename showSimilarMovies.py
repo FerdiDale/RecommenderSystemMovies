@@ -228,7 +228,7 @@ def computeSimilarityToTarget(movieDictionary, movieUri, targetMovieUri):
     starringSim = simFuncs.jaccardSimilarity(myMovie["starring"], targetMovie["starring"], 0.5)
     directorSim = simFuncs.jaccardSimilarity(myMovie["director"], targetMovie["director"], 0.5)
     yearSim = simFuncs.exponentialDecaySimilarity(myMovie["releaseYear"], targetMovie["releaseYear"], 0.15)
-    runtimeSim = simFuncs.exponentialDecaySimilarity(myMovie["runtime"], targetMovie["runtime"], (1.0/1050.0))
+    runtimeSim = simFuncs.exponentialDecaySimilarity(myMovie["runtime"], targetMovie["runtime"], (1.0/1350.0))
     tagSim = simFuncs.jaccardSimilarity(myMovie["tag"], targetMovie["tag"], 0.5)
     similarityValues = [genreSim, directorSim, starringSim, yearSim, runtimeSim, tagSim]
 
